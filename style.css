@@ -18,10 +18,7 @@ html {
 h1, h2, h3, p, select, img {
     margin-top: 1rem;
 }
-img {
-    margin: 0 auto;
-    max-width: 80%;
-}
+
 .selecao h3 {
     margin-left: 1rem;
 }
@@ -98,6 +95,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+    img {
+        margin: 0 auto 2rem auto;
+        max-width: 80%;
+    }
 
 footer {
     background-color: white;

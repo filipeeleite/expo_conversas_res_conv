@@ -1,2 +1,2 @@
-# expo_conversas_res_conv
+# Exposição: Conversas - Resistência e Convergência
 Site para informação dos artistas: Conversas - Resistência e Convergência

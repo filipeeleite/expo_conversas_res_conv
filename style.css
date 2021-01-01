@@ -1,0 +1,93 @@
+
+
+/*Tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    -webkit-text-size-adjust: 100%; /* Escala se manter em mobiles */
+}
+:root {
+    --height-header: 480px;
+    --height-footer: 300px;
+    --color-primary-bright: white;
+}
+
+h1, h2, h3, p, select, img {
+    margin-top: 1rem;
+}
+.selecao h3 {
+    margin-left: 1rem;
+}
+/* Font-size */
+h3     { font-size: 1.8rem; font-weight: 300; }
+p      { font-size: 1.8rem; }
+select { font-size: 3.2rem; font-weight: 700; }
+
+
+h2 {
+    margin-top: 3rem;
+}
+
+/* Estilo Geral */
+* {
+    margin: 0;
+}
+body {
+    background-color:#3d7530;
+}
+    header {
+        display: flex; /*temp*/
+        justify-content: center; /*temp*/
+        align-items: center; /*temp*/
+
+        height: var(--height-header);
+        max-width: 480px;
+        margin: 0 auto;
+        background-color: beige;
+    }
+    .main {
+        min-height: calc(100vh - (var(--height-header) + var(--height-footer)));
+        background-color: white;
+        max-width: calc(480px - 2rem);
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+        .selecao {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            z-index: 1;
+            position: sticky;
+            top: 0px;
+            background-color: var(--color-primary-bright);
+        }
+            select {
+                width: 100%;
+            }
+
+.sections div { /* Cada div de cada artista */
+    display: none;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.sections div :last-child {
+    padding-bottom: 50px;
+}
+
+.sections :target {
+    display: block;
+}
+
+footer {
+    background-color: white;
+    outline: 1px dashed black;
+    max-width: 480px;
+    height: var(--height-footer);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

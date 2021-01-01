@@ -18,6 +18,10 @@ html {
 h1, h2, h3, p, select, img {
     margin-top: 1rem;
 }
+img {
+    margin: 0 auto;
+    max-width: 80%;
+}
 .selecao h3 {
     margin-left: 1rem;
 }
@@ -64,8 +68,21 @@ body {
             top: 0px;
             background-color: var(--color-primary-bright);
         }
+            
             select {
                 width: 100%;
+            }
+            .selecao h3 {
+                text-align: right;
+            }
+
+            #aviso_index h1 {
+
+            }
+            .barra-divisao {
+                margin-top: 2rem;
+                height: 2px;
+                background-color: black;
             }
 
 .sections div { /* Cada div de cada artista */
@@ -78,7 +95,8 @@ body {
 }
 
 .sections :target {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {

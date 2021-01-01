@@ -14,5 +14,15 @@ function trocaArtista() {
     console.log("Opção alterada!");
     artistaSelecionado = document.getElementById("selecao-artista").value;
     location.hash = artistaSelecionado;
+
+    /* ocultar div aviso se acessou pelo index e mudou opcao */
+    if (location.hash) {
+        document.getElementById("aviso_index").style.display = 'none';
+    }
 }
 
+/* ocultar div aviso se acessou pelo qr code de artista */
+if (location.hash) {
+    console.log("sumir!")
+    document.getElementById("aviso_index").style.display = 'none';
+}

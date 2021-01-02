@@ -1,55 +1,56 @@
 # Exposição: Conversas - Resistência e Convergência
 Site para informação dos artistas: Conversas - Resistência e Convergência
 
-| ID do artista | Nome do Artista | Fotografia |
-| --- | --- | --- |
-| Artista_01 | Artista Tal | |
-| Artista_02 | Artista Tal | |
-| Artista_03 | Artista Tal | |
-| Artista_04 | Artista Tal | |
-| Artista_05 | Artista Tal | |
-| Artista_06 | Artista Tal | |
-| Artista_07 | Artista Tal | |
-| Artista_08 | Artista Tal | |
-| Artista_09 | Artista Tal | |
-| Artista_10 | Artista Tal | |
-| Artista_11 | Artista Tal | |
-| Artista_12 | Artista Tal | |
-| Artista_13 | Artista Tal | |
-| Artista_14 | Artista Tal | |
-| Artista_15 | Artista Tal | |
-| Artista_16 | Artista Tal | |
-| Artista_17 | Artista Tal | |
-| Artista_18 | Artista Tal | |
-| Artista_19 | Artista Tal | |
-| Artista_20 | Artista Tal | |
-| Artista_21 | Artista Tal | |
-| Artista_22 | Artista Tal | |
-| Artista_23 | Artista Tal | |
-| Artista_24 | Artista Tal | |
-| Artista_25 | Artista Tal | |
-| Artista_26 | Artista Tal | |
-| Artista_27 | Artista Tal | |
-| Artista_28 | Artista Tal | |
-| Artista_29 | Artista Tal | |
-| Artista_30 | Artista Tal | |
-| Artista_31 | Artista Tal | |
-| Artista_32 | Artista Tal | |
-| Artista_33 | Artista Tal | |
-| Artista_34 | Artista Tal | |
-| Artista_35 | Artista Tal | |
-| Artista_36 | Artista Tal | |
-| Artista_37 | Artista Tal | |
-| Artista_38 | Artista Tal | |
-| Artista_39 | Artista Tal | |
-| Artista_40 | Artista Tal | |
-| Artista_41 | Artista Tal | |
-| Artista_42 | Artista Tal | |
-| Artista_43 | Artista Tal | |
-| Artista_44 | Artista Tal | |
-| Artista_45 | Artista Tal | |
-| Artista_46 | Artista Tal | |
-| Artista_47 | Artista Tal | |
-| Artista_48 | Artista Tal | |
-| Artista_49 | Artista Tal | |
-| Artista_50 | Artista Tal | |
+| ID d artista | Nome do Artista | Fotografia |
+| ------------ | --------------- | ---------- |
+| #artista_01" | Adir Sodré - MT |
+| #artista_02" | Adriana Vignolli - DF |
+| #artista_03" | André Santangelo - DF |
+| #artista_04" | Andrea Campos - DF |
+| #artista_05" | Anna Behatriz - GO |
+| #artista_06" | Antônio Obá - DF |
+| #artista_07" | Bené Fonteles - DF |
+| #artista_08" | Bia Medeiros - DF/RJ |
+| #artista_09" | Camila Soato - DF |
+| #artista_10" | Carlos Sena - GO |
+| #artista_11" | Dalton Paula - GO |
+| #artista_12" | Divino Sobral - GO |
+| #artista_13" | Edney Antunes - GO |
+| #artista_14" | Elder Rocha - DF |
+| #artista_15" | Eliane Chaud - GO |
+| #artista_16" | Elyeser Szturm - DF |
+| #artista_17" | Enauro de Castro - GO |
+| #artista_18" | Estevão Parreiras - GO |
+| #artista_19" | Fernanda Azou - DF |
+| #artista_20" | Fernando Costa Filho - GO |
+| #artista_21" | Flávia Fabiana - GO |
+| #artista_22" | Gê Orthog - DF |
+| #artista_23" | Gervane de Paula - MT |
+| #artista_24" | Grupo EmpreZa - GO/DF |
+| #artista_25" | Grupo Trespe - GO/DF |
+| #artista_26" | Humberto Espíndola - MS |
+| #artista_27" | João Angelini - DF |
+| #artista_28" | Joardo Filho - GO |
+| #artista_29" | Jonas Barros - MT |
+| #artista_30" | Leonam Fleyry - GO |
+| #artista_31" | Luciana Paiva - DF |
+| #artista_32" | Luiz Mauro - GO |
+| #artista_33" | Luiz Olivieri - DF |
+| #artista_34" | Marcelo Solá - GO |
+| #artista_35" | Matias Mesquita - DF |
+| #artista_36" | Miguel Penha - MT |
+| #artista_37" | Pedro Gandra - DF |
+| #artista_38" | Pitágoras - Lopes - GO |
+| #artista_39" | Ralph Gehre - DF |
+| #artista_40" | Raquel Nava - DF |
+| #artista_41" | Rei Souza - GO |
+| #artista_42" | Rodrigo Godá - GO |
+| #artista_43" | Selma Parreira - GO |
+| #artista_44" | Siron Franco - GO |
+| #artista_45" | Talles Lopes - GO |
+| #artista_46" | Usha Velasco - DF |
+| #artista_47" | Valdson Ramos |
+| #artista_48" | Valéria Pena Costa - DF |
+| #artista_49" | Wagner Barja - DF |
+| #artista_50" | Yara Pina - GO |
+| #artista_51" | zé César - GO |

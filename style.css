@@ -37,40 +37,43 @@ h2 {
     margin: 0;
 }
 body {
-    background-color:#3d7530;
+    background-color: rgb(64,92,51);
 }
     header {
-        display: flex; /*temp*/
-        justify-content: center; /*temp*/
-        align-items: center; /*temp*/
-
         height: var(--height-header);
         max-width: 480px;
         margin: 0 auto;
-        background-color: beige;
+        background-image: url(/images/identidade-temp.jpg);
+        background-position-x: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .main {
         min-height: calc(100vh - (var(--height-header) + var(--height-footer)));
-        background-color: white;
         max-width: calc(480px - 2rem);
         margin: 0 auto;
         padding: 0 1rem;
     }
 
         .selecao {
-            padding-top: 1rem;
-            padding-bottom: 1rem;
+            padding: 1rem;
             z-index: 1;
             position: sticky;
             top: 0px;
-            background-color: var(--color-primary-bright);
+            background-color: rgba(64,92,51,.90);
         }
             
             select {
                 width: 100%;
+                /*color: white;*/
+            }
+            #aviso_index h1 {
+                color: white;
+                text-align: center;
             }
             .selecao h3 {
-                text-align: right;
+                color: white;
+                text-align: center;
             }
 
             #aviso_index h1 {
@@ -79,13 +82,14 @@ body {
             .barra-divisao {
                 margin-top: 2rem;
                 height: 2px;
-                background-color: black;
+                background-color:white;
             }
 
 .sections div { /* Cada div de cada artista */
     display: none;
-    margin: 0 auto;
+    margin: 1rem;
     padding-top: 150px;
+    color: white;
 }
 .sections div :last-child {
     padding-bottom: 50px;
@@ -95,9 +99,10 @@ body {
     display: flex;
     flex-direction: column;
 }
-    img {
+    .sections img {
         margin: 0 auto 2rem auto;
         max-width: 80%;
+        box-shadow: 6px 6px 0px ;
     }
 
 footer {

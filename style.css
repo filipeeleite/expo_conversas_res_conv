@@ -27,9 +27,14 @@ h3     { font-size: 1.8rem; font-weight: 300; }
 p      { font-size: 1.8rem; }
 select { font-size: 2.3rem; font-weight: 700; }
 
-
+h1, h2, h3, p {
+    color: white;
+}
 h2 {
     margin-top: 3rem;
+}
+p {
+    line-height: 2.5rem;
 }
 
 /* Estilo Geral */
@@ -68,11 +73,9 @@ body {
                 /*color: white;*/
             }
             #aviso_index h1 {
-                color: white;
                 text-align: center;
             }
             .selecao h3 {
-                color: white;
                 text-align: center;
             }
 
@@ -89,7 +92,6 @@ body {
     display: none;
     margin: 1rem;
     padding-top: 150px;
-    color: white;
 }
 .sections div :last-child {
     padding-bottom: 50px;
@@ -102,8 +104,15 @@ body {
     .sections img {
         margin: 0 auto 2rem auto;
         max-width: 80%;
-        box-shadow: 6px 6px 0px ;
+        box-shadow: 6px 6px 0px var(--color-primary-bright);
     }
+
+.sobre-expo,
+.sobre-rodape {
+    margin: 0 auto;
+    max-width: 440px;
+    padding: 2rem;
+}
 
 footer {
     background-color: white;

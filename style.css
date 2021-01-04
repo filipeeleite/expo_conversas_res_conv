@@ -12,10 +12,11 @@ html {
 :root {
     --height-header: 480px;
     --height-footer: 300px;
+    --margin: 1rem;
     --color-primary-bright: white;
 }
 
-h1, h2, h3, p, select, img {
+h1, h2, h3, h6, p, select, img {
     margin-top: 1rem;
 }
 
@@ -26,6 +27,7 @@ h1, h2, h3, p, select, img {
 h3     { font-size: 1.8rem; font-weight: 300; }
 p      { font-size: 1.8rem; }
 select { font-size: 2.3rem; font-weight: 700; }
+h6     { font-size: 1.0rem; font-weight: 700; }
 
 h1, h2, h3, p {
     color: white;
@@ -42,7 +44,11 @@ p {
     margin: 0;
 }
 body {
-    background-color: rgb(64,92,51);
+    min-height: 100vh;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #405C32;
 }
     header {
         height: var(--height-header);
@@ -53,8 +59,9 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
     }
+
     .main {
-        min-height: calc(100vh - (var(--height-header) + var(--height-footer)));
+        /*min-height: calc(100vh - (var(--height-header) + var(--height-footer)));*/
         max-width: calc(480px - 2rem);
         margin: 0 auto;
         padding: 0 1rem;
@@ -115,12 +122,18 @@ body {
 }
 
 footer {
+    width: 100%;
     background-color: white;
+    padding-top: var(--margin);
+    padding-bottom: var(--margin);
     outline: 1px dashed black;
-    max-width: 480px;
-    height: var(--height-footer);
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
+    .footer-container {
+        margin-left: var(--margin);
+        margin-right: var(--margin);
+    }
+        .footer-container img {
+            height: 48px;
+            margin-right: 1rem;
+        }

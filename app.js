@@ -3,7 +3,7 @@ var artistaSelecionado = "";
 /* Transformando  window url:...#artista em variável string "artista" */
 var locationHashString = location.hash.substring(9);
 var selecao = document.getElementById(locationHashString);
-/* setando atribulo selected na option referente */
+/* setando atributo selected na option referente */
 var attSelected = document.createAttribute("selected");
 attSelected.value = "selected";
 selecao = selecao.setAttributeNode(attSelected)

@@ -104,7 +104,7 @@ body {
     .sections img {
         margin: 0 auto 2rem auto;
         max-width: 80%;
-        box-shadow: 6px 6px 0px var(--color-primary-bright);
+        box-shadow: 3px 3px 0px var(--color-primary-bright);
     }
 
 .sobre-expo,

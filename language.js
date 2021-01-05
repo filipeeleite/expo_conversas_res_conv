@@ -17,7 +17,7 @@ function trocarLingua () {
         // Setar para Inglês
         english = true;
         // Setar rótulo
-        document.getElementById("pSwitchLang").innerHTML = 'Português - PT';
+        document.getElementById("pSwitchLang").innerHTML = 'English - EN';
 
 
         // Setar todas as tipografias em PT para ocultar
@@ -38,7 +38,7 @@ function trocarLingua () {
         // Setar para Português
         english = false;
         // Setar rótulo
-        document.getElementById("pSwitchLang").innerHTML = 'English - EN';
+        document.getElementById("pSwitchLang").innerHTML = 'Português - PT';
 
         // Setar todas as tipografias em EN para ocultar
         for (let i = 0; i <= quantidadeElementosEN; i++) {

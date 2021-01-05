@@ -38,14 +38,8 @@ p {
 }
 
 /* Ocultar Versão Inglês */
-.pt {
-    display: block;
-}
-
-.en {
-    display: none;
-}
-
+.pt { display: block; }
+.en { display: none; }
 
 /* Estilo Geral */
 * {
@@ -70,6 +64,8 @@ body {
 
     .selectLang {
         display: flex;
+        position: sticky;
+        top: 0px;
         flex-direction: row-reverse;
         border-right: 3px solid white;
         /*outline: 1px solid blue;*/

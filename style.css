@@ -62,33 +62,6 @@ body {
         background-repeat: no-repeat;
     }
 
-    .selectLang {
-        display: flex;
-        position: sticky;
-        top: 0px;
-        flex-direction: row-reverse;
-        border-right: 3px solid white;
-        /*outline: 1px solid blue;*/
-    }
-    .selectLang p {
-        margin-top: 0;
-        display: inline-block;
-        padding: 1rem;
-        background-color: rgb(96, 156, 0);
-
-        animation-name: botaoLang;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }
-    @keyframes botaoLang {
-        0%   { background-color: rgb(96, 156, 0); }
-        90%  { background-color: rgb(82, 133, 0); }
-        100% { background-color: rgb(82, 133, 0); }
-    }
-
-
-
     .main {
         /*min-height: calc(100vh - (var(--height-header) + var(--height-footer)));*/
         max-width: calc(480px - 2rem);

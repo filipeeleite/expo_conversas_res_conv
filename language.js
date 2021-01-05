@@ -5,7 +5,9 @@ var quantidadeElementosEN = document.getElementsByClassName("en").length;
 
 var english = false;
 
-document.getElementById("pSwitchLang").addEventListener("click", trocarLingua);
+// Toggle
+document.getElementById("toggle-button").addEventListener("click", trocarLingua);
+
 function trocarLingua () {
     console.log("TrocarLíngua!");
 
@@ -14,11 +16,11 @@ function trocarLingua () {
         
         console.log("Ingles == false");
 
+        
         // Setar para Inglês
         english = true;
-        // Setar rótulo
-        document.getElementById("pSwitchLang").innerHTML = 'English - EN';
-
+        // Setar toggle
+        document.getElementById("toggle-button").style.transform = 'translateX(20px)';
 
         // Setar todas as tipografias em PT para ocultar
         for (let i = 0; i <= quantidadeElementosPT; i++) {
@@ -34,11 +36,10 @@ function trocarLingua () {
 
         console.log("Ingles == true");
 
-
         // Setar para Português
         english = false;
-        // Setar rótulo
-        document.getElementById("pSwitchLang").innerHTML = 'Português - PT';
+        // Setar toggle
+        document.getElementById("toggle-button").style.transform = 'translateX(0px)';
 
         // Setar todas as tipografias em EN para ocultar
         for (let i = 0; i <= quantidadeElementosEN; i++) {

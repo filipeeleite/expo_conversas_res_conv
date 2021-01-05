@@ -1,0 +1,41 @@
+.toggleLang * {
+    margin: 0;
+}
+.toggleLang p {
+    margin: 6px;
+    font-size: 1.2rem;
+}
+
+.toggleLang {
+    position: sticky;
+    top: 0px;
+    
+    margin-left: auto;
+    width: 250px;
+    background-color: rgb(81, 114, 65);
+    border-right: 3px solid white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleLang svg {
+    margin: 6px;
+    /* outline: 1px solid blue; */
+    width: 50px;
+    height: 32px;
+}
+
+.toggle-bg {
+    fill: #405c32;
+}
+#toggle-button {
+    fill: white;
+
+
+    transition: transform;
+    transition-duration: .6s;
+    transform: translateX(0px);
+}

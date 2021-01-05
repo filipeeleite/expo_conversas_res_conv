@@ -1,14 +1,25 @@
-var english = false;
+console.log("app.js Loaded!");
 
 var iD_artistaSelecionado;
+
 iD_artistaSelecionado = location.hash.substring(9);
 
-// Option do Artista que foi identificado na url
-optionArtistaSelecionado = document.getElementById(iD_artistaSelecionado);
+if (iD_artistaSelecionado != "") {
 
-// Setando atributo -> <option> respectiva
-optionArtistaSelecionado.setAttribute("selected", "selected");
+    console.log("url #artista_xx");
 
+    // Option do Artista que foi identificado na url
+    optionArtistaSelecionado = document.getElementById(iD_artistaSelecionado);
+
+    // Setando atributo -> <option> respectiva
+    optionArtistaSelecionado.setAttribute("selected", "selected");
+
+
+    // Ocultar aviso - acessou por QR CODE
+    console.log("Acesso por artista - aviso ocultado!")
+    document.getElementById("aviso_index").style.display = 'none';
+
+}
 
 /*conferirOptionArtista();
 function conferirOptionArtista() {
@@ -59,39 +70,4 @@ function trocaArtista() {
     }
 }
 
-// ocultar div aviso se acessou pelo qr code de artista */
-if (location.hash) {
-    console.log("Acesso por artista - aviso ocultado!")
-    document.getElementById("aviso_index").style.display = 'none';
-}
-
 // setInterval(conferirOptionArtista, 5000);
-
-
-// Trocar de Língua
-document.getElementById("pSwitchLang").addEventListener("click", trocarLingua);
-function trocarLingua () {
-    console.log("TrocarLíngua!");
-
-    if (english == false) {
-
-        // Setar para Inglês
-        english = true;
-        // Setar rótulo
-        document.getElementById("pSwitchLang").innerHTML = 'Português - PT';
-
-        // Setar todas as tipografias em PT para ocultar
-    
-    } else {
-
-
-        // Setar para Português
-        english = false;
-        // Setar rótulo
-        document.getElementById("pSwitchLang").innerHTML = 'English - EN';
-
-        // Setar todas as tipografias em EN para ocultar
-
-    }
-    
-}

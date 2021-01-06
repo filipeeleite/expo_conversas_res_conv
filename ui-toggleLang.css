@@ -1,18 +1,24 @@
 .toggleLang * {
     margin: 0;
 }
+
 .toggleLang p {
     margin: 6px;
     font-size: 1.2rem;
+
+    width: 100px;
+}
+.toggleLang p:first-of-type {
+    text-align: right;
 }
 
 .toggleLang {
     position: sticky;
-    top: 0px;
+    bottom: 0px;
     
     margin-left: auto;
-    width: 250px;
-    background-color: rgb(81, 114, 65);
+    background-color: var(--color-secondary);
+    border-left: 3px solid white;
     border-right: 3px solid white;
 
     display: flex;
@@ -23,18 +29,18 @@
 
 .toggleLang svg {
     margin: 6px;
-    /* outline: 1px solid blue; */
     width: 50px;
     height: 32px;
 }
 
+/* Estilo */
 .toggle-bg {
     fill: #405c32;
 }
 #toggle-button {
     fill: white;
 
-
+/* Animação */
     transition: transform;
     transition-duration: .6s;
     transform: translateX(0px);

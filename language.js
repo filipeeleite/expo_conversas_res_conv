@@ -13,25 +13,24 @@ function trocarLingua () {
 
 
     if (english == false) {
-        
+
         console.log("Ingles == false");
 
-        
         // Setar para Inglês
         english = true;
         // Setar toggle
         document.getElementById("toggle-button").style.transform = 'translateX(20px)';
 
-        // Setar todas as tipografias em PT para ocultar
-        for (let i = 0; i <= quantidadeElementosPT; i++) {
-
+        // Ocultando os elementos PT e exibindo os EN
+        for (let i = 0; i < quantidadeElementosPT; i++) {
             console.log("Ocultando PT");
-
             document.getElementsByClassName("pt")[i].style.display = 'none';
-            document.getElementsByClassName("en")[i].style.display = 'block';
-
         }
-    
+        for (let i = 0; i < quantidadeElementosEN; i++) {
+            console.log("Exibindo EN");
+            document.getElementsByClassName("en")[i].style.display = 'block';
+        }
+
     } else {
 
         console.log("Ingles == true");
@@ -41,12 +40,14 @@ function trocarLingua () {
         // Setar toggle
         document.getElementById("toggle-button").style.transform = 'translateX(0px)';
 
-        // Setar todas as tipografias em EN para ocultar
-        for (let i = 0; i <= quantidadeElementosEN; i++) {
-
+        // Ocultando os elementos EN e exibindo os PT
+        for (let i = 0; i < quantidadeElementosEN; i++) {
+            console.log("Ocultando EN");
             document.getElementsByClassName("en")[i].style.display = 'none';
+        }
+        for (let i = 0; i < quantidadeElementosPT; i++) {
+            console.log("Exibindo PT");
             document.getElementsByClassName("pt")[i].style.display = 'block';
-
         }
 
     }

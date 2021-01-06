@@ -19,47 +19,37 @@ if (iD_artistaSelecionado != "") {
     console.log("Acesso por artista - aviso ocultado!")
     document.getElementById("aviso_index").style.display = 'none';
 
+    // Carregar img do artista
+    setarSrcImg(iD_artistaSelecionado);
+
 }
-
-/*conferirOptionArtista();
-function conferirOptionArtista() {
-
-    // Varrer todos os option e de-selecionar eles
-    for (var i = 1; i < 52; i++) {
-        console.log("Atributo Removido!");
-        document.getElementById(i).removeAttribute("selected");
-    }
-    console.log("saiu do for");
-    
-    // Selecionar o da url
-    iD_artistaSelecionado = location.hash.substring(9);
-    document.getElementById(iD_artistaSelecionado).setAttribute("selected", "selected");
-    console.log("Atributo setado em: " + iD_artistaSelecionado);
-}*/
-
 
 // Trocar ao selecionar outro artista
 function trocaArtista() {
     console.log("Opção alterada para: " + document.getElementById("selecao-artista").value);
 
+    if (optionArtistaSelecionado != undefined) {
+    // Se a variável tiver definida, remover atributo do option
+    optionArtistaSelecionado.removeAttribute("selected");
+    }
+
     // Valor do option que foi selecionado
     valueOptionArtistaSel = document.getElementById("selecao-artista").value;
-
-    // Setando este valor na URL
+    
+    // Setando o valor do artista selecionado na URL
     location.hash = valueOptionArtistaSel;
-
+    
     // Setando id Selecionado
     iD_artistaSelecionado = location.hash.substring(9);
-
-
-    // Removendo atributo do option
-    optionArtistaSelecionado.removeAttribute("selected");
-
+    
     // Option do Artista que foi identificado na url
     optionArtistaSelecionado = document.getElementById(iD_artistaSelecionado);
 
+    if (optionArtistaSelecionado != null) {
     // Setando atributo -> option
-    optionArtistaSelecionado.setAttribute("selected", "selected")
+    optionArtistaSelecionado.setAttribute("selected", "selected");
+    }
+
 
 
 
@@ -68,6 +58,17 @@ function trocaArtista() {
         console.log("location.hash = true - aviso ocultado!")
         document.getElementById("aviso_index").style.display = 'none';
     }
+
+    // Carregar imagem do artista
+    setarSrcImg();
 }
 
-// setInterval(conferirOptionArtista, 5000);
+function setarSrcImg() {
+    if (iD_artistaSelecionado != "") {
+
+        srcImg = 'images/avatars/artista_' + iD_artistaSelecionado + '.jpg';
+        console.log("src Carregado: " + srcImg);
+    
+        document.getElementById("imgArtista_" + iD_artistaSelecionado).setAttribute("src", srcImg);
+    }
+}

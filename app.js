@@ -4,6 +4,10 @@ var iD_artistaSelecionado;
 
 iD_artistaSelecionado = location.hash.substring(9);
 
+// Inicializando com o número do artista, se index, = "";
+optionArtistaSelecionado = iD_artistaSelecionado;
+
+
 if (iD_artistaSelecionado != "") {
 
     console.log("url #artista_xx");
@@ -28,9 +32,10 @@ if (iD_artistaSelecionado != "") {
 function trocaArtista() {
     console.log("Opção alterada para: " + document.getElementById("selecao-artista").value);
 
-    if (optionArtistaSelecionado != undefined) {
-    // Se a variável tiver definida, remover atributo do option
-    optionArtistaSelecionado.removeAttribute("selected");
+
+    if (optionArtistaSelecionado != "") {
+        // Se a variável tiver id_artista, remover atributo do option
+        optionArtistaSelecionado.removeAttribute("selected");
     }
 
     // Valor do option que foi selecionado

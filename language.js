@@ -5,6 +5,13 @@ var quantidadeElementosEN = document.getElementsByClassName("en").length;
 
 var english = false;
 
+// Se acessou QR code diretamente em Inglês
+if (document.location.hash == "#en") {
+    console.log("Página em inglês!");
+    document.location.hash = "";
+    trocarLingua();
+}
+
 // Toggle
 document.getElementById("toggle-button").addEventListener("click", trocarLingua);
 

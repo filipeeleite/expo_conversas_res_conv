@@ -18,6 +18,11 @@ html {
     --color-primary-bright: white;
 }
 
+/* Construcao do site - Temp */
+header + a {
+    margin-left: 2rem;
+}
+
 h1, h2, h3, h6, p, select, img {
     margin-top: 1rem;
 }
@@ -106,7 +111,9 @@ body {
 
 .sections div { /* Cada div de cada artista */
     display: none;
-    margin: 1rem;
+    margin-top: var();
+    margin-left: calc(2 * var(--margin));
+    margin-right: calc(2 * var(--margin));
     padding-top: 150px;
 }
 .sections div :last-child {
@@ -139,10 +146,10 @@ footer {
 
 }
     .footer-container {
-        margin-left: var(--margin);
-        margin-right: var(--margin);
+        margin-left: calc(2 * var(--margin));
+        margin-right: calc(2 * var(--margin));
     }
         .footer-container img {
-            height: 48px;
+            height: 44px;
             margin-right: 1rem;
         }

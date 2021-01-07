@@ -3,8 +3,8 @@ Site para informação dos artistas: Conversas - Resistência e Convergência
 
 | ID d artista | Nome do Artista  | Foto | Texto PT | Texto EN |
 | ------------ | ---------------- | --- | --- | --- |
-| 01 | Adir Sodré - MT           | --- | --- | --- |
-| 02 | Adriana Vignolli - DF     | --- | --- | --- |
+| 01 | Adir Sodré - MT           | ✔️ | --- | --- |
+| 02 | Adriana Vignolli - DF     | ✔️ | --- | --- |
 | 03 | André Santangelo - DF     | ✔️ | --- | --- |
 | 04 | Andrea Campos - DF        | ✔️ | --- | --- |
 | 05 | Anna Behatriz - GO        | ✔️ | --- | --- |
@@ -12,9 +12,9 @@ Site para informação dos artistas: Conversas - Resistência e Convergência
 | 07 | Bené Fonteles - DF        | ✔️ | --- | --- |
 | 08 | Bia Medeiros - DF/RJ      | --- | --- | --- |
 | 09 | Camila Soato - DF         | ✔️ | --- | --- |
-| 10 | Carlos Sena - GO          | --- | --- | --- |
+| 10 | Carlos Sena - GO          | ✔️ | --- | --- |
 | 11 | Dalton Paula - GO         | ✔️ | --- | --- |
-| 12 | Divino Sobral - GO        | --- | --- | --- |
+| 12 | Divino Sobral - GO        | ✔️ | --- | --- |
 | 13 | Edney Antunes - GO        | ✔️ | --- | --- |
 | 14 | Elder Rocha - DF          | ✔️ | --- | --- |
 | 15 | Eliane Chaud - GO         | ✔️ | --- | --- |
@@ -51,6 +51,6 @@ Site para informação dos artistas: Conversas - Resistência e Convergência
 | 46 | Usha Velasco - DF         | ✔️ | --- | --- |
 | 47 | Valdson Ramos             | ✔️ | --- | --- |
 | 48 | Valéria Pena Costa - DF   | ✔️ | --- | --- |
-| 49 | Wagner Barja - DF         | --- | --- | --- |
+| 49 | Wagner Barja - DF         | ✔️ | --- | --- |
 | 50 | Yara Pina - GO            | ✔️ | --- | --- |
 | 51 | Zé César - GO             | ✔️ | --- | --- |

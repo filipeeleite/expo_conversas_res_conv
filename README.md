@@ -20,8 +20,8 @@ Site para informação dos artistas: Conversas - Resistência e Convergência
 | 15 | Eliane Chaud - GO         | ✔️ | --- | --- |
 | 16 | Elyeser Szturm - DF       | ✔️ | --- | --- |
 | 17 | Enauro de Castro - GO     | ✔️ | --- | --- |
-| 18 | Estevão Parreiras - GO    | --- | --- | --- |
-| 19 | Fernanda Azou - DF        | --- | --- | --- |
+| 18 | Estevão Parreiras - GO    | --- | --- | --- | <--
+| 19 | Fernanda Azou - DF        | --- | --- | --- | <--
 | 20 | Fernando Costa Filho - GO | ✔️ | --- | --- |
 | 21 | Flávia Fabiana - GO       | ✔️ | --- | --- |
 | 22 | Gê Orthog - DF            | ✔️ | --- | --- |
@@ -43,7 +43,7 @@ Site para informação dos artistas: Conversas - Resistência e Convergência
 | 38 | Pitágoras - Lopes - GO    | ✔️ | --- | --- |
 | 39 | Ralph Gehre - DF          | ✔️ | --- | --- |
 | 40 | Raquel Nava - DF          | ✔️ | --- | --- |
-| 41 | Rei Souza - GO            | --- | --- | --- |
+| 41 | Rei Souza - GO            | --- | --- | --- | <--
 | 42 | Rodrigo Godá - GO         | ✔️ | --- | --- |
 | 43 | Selma Parreira - GO       | ✔️ | --- | --- |
 | 44 | Siron Franco - GO         | --- | --- | --- |

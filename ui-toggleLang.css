@@ -13,8 +13,8 @@
 }
 
 .toggleLang {
-    position: sticky;
-    bottom: 0px;
+    /*position: sticky;
+    top: 0px;*/
     
     margin-left: auto;
     background-color: var(--color-secondary);

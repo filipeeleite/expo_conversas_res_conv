@@ -77,3 +77,59 @@ function setarSrcImg() {
         document.getElementById("imgArtista_" + iD_artistaSelecionado).setAttribute("src", srcImg);
     }
 }
+
+// UI
+
+setInterval(function () { indicadoresTexto();}, 1000);
+function indicadoresTexto() {
+
+    document.getElementsByClassName("indicator-top")[0].style.opacity
+
+    // Ler scroll do texto
+    // Bloco do texto
+    mainText = document.getElementsByClassName("main-texto")[0];
+
+    var scrollTextTotal_Y = mainText.scrollHeight;
+    var scrollText_Y      = mainText.scrollTop;
+
+    console.log("Total: " + scrollTextTotal_Y + "| Scroll: " + scrollText_Y);
+
+        function ocultarIndicador(i) {
+            if (i == true) {
+                value = "#405C32"; // cor do fundo
+            }
+            else {
+                value = "#fff"; // branco
+            }
+        }
+
+        ocultarIndicador(false);
+        document.getElementsByClassName("indicator-top")[0].style.stroke = value;
+
+        ocultarIndicador(false);
+        document.getElementsByClassName("indicator-bottom")[0].style.stroke = value;
+
+    // Se no topo
+    if (scrollText_Y < 20) {
+        //console.log("No topo");
+
+        ocultarIndicador(false);
+        document.getElementsByClassName("indicator-top")[0].style.stroke = value;
+
+        ocultarIndicador(true);
+        document.getElementsByClassName("indicator-bottom")[0].style.stroke = value;
+    }
+    //Se no final
+    sizeWindow = document.getElementsByClassName("main-texto")[0].clientHeight;
+
+    if (scrollText_Y + sizeWindow >= scrollTextTotal_Y - 20) {
+        //console.log("no final");
+
+        ocultarIndicador(true);
+        document.getElementsByClassName("indicator-top")[0].style.stroke = value;
+
+        ocultarIndicador(false);
+        document.getElementsByClassName("indicator-bottom")[0].style.stroke = value;
+    }
+
+}

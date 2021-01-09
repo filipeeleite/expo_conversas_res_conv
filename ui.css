@@ -1,0 +1,32 @@
+/* INDICADOR DO TEXTO */
+.ui.indicator {
+
+    fill: none;
+    display: block;
+
+    position: relative;
+    margin: 26px auto;
+    top: 0px;
+
+    /*outline: 1px solid blue;*/
+}
+
+    .indicator-top { top: 0; }
+    .indicator-bottom { bottom: 0; }
+
+.indicator-top,
+.indicator-bottom {
+    stroke: #405C32;
+    stroke-width: 2px;
+    fill: none;
+    transition: stroke .5s ease;
+    /*
+    animation: piscar 1s ease infinite;
+    animation-direction: alternate; */
+}
+/* @keyframes piscar {
+    0% {
+        stroke: #ffffff; ;
+    }
+    100% { stroke: #405C32; }
+} */

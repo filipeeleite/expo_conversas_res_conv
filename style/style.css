@@ -97,10 +97,14 @@ body {
     /*height: 100vh;*/
 }
 
-    /*.main {}*/
+    .main {
+        height: 300px;
+    }
+
 
         .selecao {
             padding-top: 1px;
+            height: 300px;
             z-index: 1;
             position: sticky;
             top: 0px;
@@ -110,6 +114,7 @@ body {
 
             display: flex;
             flex-direction: column;
+            justify-content: center;
         }
 
         .selecao h3 {
@@ -131,12 +136,58 @@ body {
                 text-align: center;
             }
 
+.todos_artistas img {
+    display: block;
+    margin: 0;
+    width: 25%;
+    height: 25%;
+    /*height: 100px;*/
+}
+
+.todos_artistas {
+    display: flex;
+    flex-wrap: wrap;
+
+    position: relative;
+    bottom: 0px;
+
+
+    animation: slideshowArtistas 60s linear alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes slideshowArtistas {
+    from { bottom: 0px; }
+    to { bottom: 1260px; }
+}
+
+
+.container-todos-artistas {
+    height: 300px;
+    overflow-y: hidden;
+    position: relative;
+    top:-300px;
+    margin-bottom: -300px;
+}
+.container-todos-artistas::before {
+    display: block;
+    content: " ";
+    /*margin-top: -100px;*/
+    /*background-image: url(/images/avatars/artista_1.jpg);*/
+    /*background-size: 100%;*/
+    /*outline: 1px solid red;*/
+
+}
+
+
 .sections div { /* Cada div de cada artista */
+    flex-direction: column;
     display: none;
     margin-top: 0;
     margin-left: calc(4 * var(--margin));
     margin-right: calc(4 * var(--margin));
-    padding-top: 150px;
+    /*padding-top: 150px;*/
+    
+    /*margin-top: 100px;*/
 }
 .sections div :last-child {
     padding-bottom: 50px;
@@ -144,7 +195,18 @@ body {
 
 .sections :target {  /* Section baseado na url # */
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+}
+
+/* PARTE DE CIMA */
+.sections div::before {
+    display: block;
+    content: " ";
+    /*background-image: url(/images/avatars/artista_1.jpg);*/
+    /*background-size: 100%;*/
+    height: 100px;
+    /*background-color: "";*/
+    /*outline: 1px solid red;*/
 }
     .sections img {
         margin: 0 auto 2rem auto;
@@ -160,28 +222,62 @@ body {
 }
 
 footer {
-    width: 100%;
     background-color: white;
-    padding-top: var(--margin);
-    padding-bottom: var(--margin);
-    outline: 1px dashed black;
-
+    padding: 1px;
 }
+
+footer h6 {
+    margin: 0;
+    text-align: center;
+}
+
     .footer-container {
-        margin-left: calc(4 * var(--margin));
-        margin-right: calc(4 * var(--margin));
+        margin: calc(4 * var(--margin));
     }
         .footer-container img {
-            height: 44px;
-            margin-right: 2rem;
+            height: 50px;
+            padding-left: var(--margin);
+            padding-right: var(--margin);
+            /*margin-right: 2rem;*/
+        }
+        /* Ajuste de tamanho de algumas logos */
+        .realizacao img:nth-child(4) { height: 30px; }
+        .realizacao img:nth-child(5) { height: 30px; }
+
+        /* MARGENS */
+        .apresentacao img:nth-child(1),
+        .realizacao img:nth-child(1),
+        .realizacao img:nth-child(4),
+        .patrocinio img:nth-child(1) {
+            margin-left: auto;
+        }
+        .apresentacao img:nth-child(2),
+        .realizacao img:nth-child(3),
+        .realizacao img:nth-child(5),
+        .patrocinio img:nth-child(1) {
+            margin-right: auto;
         }
 
-        /* Ajuste de tamanho de algumas logos */
-        .realizacao img:nth-child(5) { height: 30px; }
-        .realizacao img:nth-child(6) { height: 30px; }
+        .realizacao {
+            max-width: 320px;
+            margin: auto;
+        }
+
 
         /* Espacamento entre grupo de logos */
-.apresentacao,
-.realizacao {
-    margin-bottom: 2rem;
+        .apresentacao,
+        .realizacao,
+        .patrocinio {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        
+#projeto-contemplado {
+    margin: auto;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+
+    text-align: center;
+    font-size: 1.4rem;
 }

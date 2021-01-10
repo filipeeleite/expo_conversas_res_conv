@@ -9,6 +9,10 @@ iD_artistaSelecionado = location.hash.substring(9);
 // Inicializando com o número do artista, se index, = "";
 optionArtistaSelecionado = iD_artistaSelecionado;
 
+// "Selecionar artista..."
+var instrucao = document.getElementsByClassName("InstrucaoArtista")[0];
+var seInstrucao = true;
+
 
 if (iD_artistaSelecionado != "") {
 
@@ -20,20 +24,38 @@ if (iD_artistaSelecionado != "") {
     // Setando atributo -> <option> respectiva
     optionArtistaSelecionado.setAttribute("selected", "selected");
 
+    // Ocultar instrucao - acessou por QR CODE
+    document.getElementById("selecao-artista").removeChild(instrucao);
+    document.getElementsByClassName("container-todos-artistas")[0].remove();
+    seInstrucao = false;
 
-    // Ocultar aviso - acessou por QR CODE
-    console.log("Acesso por artista - aviso ocultado!")
-    document.getElementById("aviso_index").style.display = 'none';
+    // Setando altura dos elementos
+    document.getElementsByClassName("selecao")[0].style.height = "100px";
+    document.getElementsByClassName("main")[0].style.height = "100%";
 
     // Carregar img do artista
     setarSrcImg(iD_artistaSelecionado);
 
 }
 
+
 // Trocar ao selecionar outro artista
 function trocaArtista() {
     console.log("Opção alterada para: " + document.getElementById("selecao-artista").value);
 
+
+    // Setando altura dos elementos
+    document.getElementsByClassName("selecao")[0].style.height = "100px";
+    document.getElementsByClassName("main")[0].style.height = "100%";
+
+    // 1º vez - Se index, remover "Selecionar artista"
+    if (seInstrucao) {
+
+        document.getElementById("selecao-artista").removeChild(instrucao);
+        document.getElementsByClassName("container-todos-artistas")[0].remove();
+        seInstrucao = false;
+        console.log("Instrucao Removida!");
+    }
 
     if (optionArtistaSelecionado != "") {
         // Se a variável tiver id_artista, remover atributo do option
@@ -58,14 +80,6 @@ function trocaArtista() {
     }
 
 
-
-
-    // ocultar div aviso se acessou pelo index e mudou opcao
-    if (location.hash) {
-        console.log("location.hash = true - aviso ocultado!")
-        document.getElementById("aviso_index").style.display = 'none';
-    }
-
     // Carregar imagem do artista
     setarSrcImg();
 }
@@ -75,7 +89,7 @@ function setarSrcImg() {
 
         srcImg = 'images/avatars/artista_' + iD_artistaSelecionado + '.jpg';
         console.log("src Carregado: " + srcImg);
-    
+
         document.getElementById("imgArtista_" + iD_artistaSelecionado).setAttribute("src", srcImg);
     }
 }
@@ -85,8 +99,7 @@ if (logoPlayState == false) {
     var triggeringLogo = setInterval(function() { triggerLogo();}, 1000);
 }
 function triggerLogo() {
-    console.log("Aguardando topo... Posição: " + window.scrollY);
-
+    //console.log("Aguardando topo... Posição: " + window.scrollY);
 
     if (window.scrollY < 250) {
         console.log("Playing animation!")
@@ -98,7 +111,7 @@ function triggerLogo() {
 }
 
 
-
+// SETAS DO SCROLL TEXTO
 setInterval(function() { indicadoresTexto();}, 1000);
 function indicadoresTexto() {
 
@@ -111,7 +124,7 @@ function indicadoresTexto() {
     var scrollTextTotal_Y = mainText.scrollHeight;
     var scrollText_Y      = mainText.scrollTop;
 
-    console.log("Scroll texto :: " + scrollTextTotal_Y + "| Scroll: " + scrollText_Y);
+    //console.log("Scroll texto :: " + scrollTextTotal_Y + "| Scroll: " + scrollText_Y);
 
         function ocultarIndicador(i) {
             if (i == true) {
@@ -130,7 +143,7 @@ function indicadoresTexto() {
 
     // Se no topo
     if (scrollText_Y < 20) {
-        //console.log("No topo");
+        console.log("No topo :: texto");
 
         ocultarIndicador(false);
         document.getElementsByClassName("indicator-top")[0].style.stroke = value;
@@ -142,7 +155,7 @@ function indicadoresTexto() {
     sizeWindow = document.getElementsByClassName("main-texto")[0].clientHeight;
 
     if (scrollText_Y + sizeWindow >= scrollTextTotal_Y - 20) {
-        //console.log("no final");
+        console.log("No final :: texto");
 
         ocultarIndicador(true);
         document.getElementsByClassName("indicator-top")[0].style.stroke = value;
@@ -151,4 +164,19 @@ function indicadoresTexto() {
         document.getElementsByClassName("indicator-bottom")[0].style.stroke = value;
     }
 
+}
+
+
+// CARREGAR ICONS ARTISTAS INICIAL
+if(seInstrucao == true) {
+    for (let i = 1; i < 52; i++) {
+        iconArtista = '<img src=/images/avatars/artista_' + i + '.jpg style=width=100%>';
+
+        document.getElementsByClassName("todos_artistas")[0].innerHTML += iconArtista;
+    }
+    for (let i = 1; i < 20; i++) {
+        iconArtista = '<img src=/images/avatars/artista_' + i + '.jpg style=width=100%>';
+
+        document.getElementsByClassName("todos_artistas")[0].innerHTML += iconArtista;
+    }
 }

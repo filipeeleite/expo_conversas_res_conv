@@ -38,6 +38,13 @@ function trocarLingua () {
             document.getElementsByClassName("en")[i].style.display = 'block';
         }
 
+        // Instrucao
+        if (seInstrucao) {
+            // Se ainda estiver exibindo...
+            instrucao.innerHTML = "Select an artist..."
+        }
+
+
     } else {
 
         console.log("Ingles == true");
@@ -55,6 +62,13 @@ function trocarLingua () {
         for (let i = 0; i < quantidadeElementosPT; i++) {
             console.log("Exibindo PT");
             document.getElementsByClassName("pt")[i].style.display = 'block';
+        }
+
+
+        // Instrucao
+        if (seInstrucao) {
+            // Se ainda estiver exibindo...
+            instrucao.innerHTML = "Selecionar artista..."
         }
 
     }

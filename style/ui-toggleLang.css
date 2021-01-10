@@ -13,13 +13,13 @@
 }
 
 .toggleLang {
-    /*position: sticky;
-    top: 0px;*/
+    position: sticky;
+    bottom: 0px;
     
     margin-left: auto;
     background-color: var(--color-secondary);
-    border-left: 3px solid white;
-    border-right: 3px solid white;
+    /* border-left: 3px solid white;
+    border-right: 3px solid white; */
 
     display: flex;
     flex-direction: row;

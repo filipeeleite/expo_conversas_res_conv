@@ -53,11 +53,7 @@ p {
     margin: 0;
 }
 
-#aviso_idioma p {
-    text-align: right;
-    font-size: 14px;
-    margin-right: calc(4 * var(--margin));
-}
+
 .main-texto {
     overflow: hidden;
     overflow-y: scroll;
@@ -96,6 +92,11 @@ body {
         background-repeat: no-repeat;
     }
 
+
+.screen1 {
+    /*height: 100vh;*/
+}
+
     /*.main {}*/
 
         .selecao {
@@ -132,9 +133,9 @@ body {
 
 .sections div { /* Cada div de cada artista */
     display: none;
-    margin-top: var();
-    margin-left: calc(2 * var(--margin));
-    margin-right: calc(2 * var(--margin));
+    margin-top: 0;
+    margin-left: calc(4 * var(--margin));
+    margin-right: calc(4 * var(--margin));
     padding-top: 150px;
 }
 .sections div :last-child {
@@ -151,10 +152,11 @@ body {
         box-shadow: 3px 3px 0px var(--color-primary-bright);
     }
 
-.sobre-expo,
-.sobre-rodape {
+.sobre-expo {
     margin: var(--margin) calc(2 * var(--margin));
-    max-width: 440px;
+}
+.sobre-rodape {
+    margin: var(--margin) calc(4 * var(--margin));
 }
 
 footer {
@@ -166,8 +168,8 @@ footer {
 
 }
     .footer-container {
-        margin-left: calc(2 * var(--margin));
-        margin-right: calc(2 * var(--margin));
+        margin-left: calc(4 * var(--margin));
+        margin-right: calc(4 * var(--margin));
     }
         .footer-container img {
             height: 44px;

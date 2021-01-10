@@ -1,5 +1,7 @@
 console.log("app.js Loaded!");
 
+var logoPlayState = false;
+
 var iD_artistaSelecionado;
 
 iD_artistaSelecionado = location.hash.substring(9);
@@ -79,8 +81,25 @@ function setarSrcImg() {
 }
 
 // UI
+if (logoPlayState == false) {
+    var triggeringLogo = setInterval(function() { triggerLogo();}, 1000);
+}
+function triggerLogo() {
+    console.log("Aguardando topo... Posição: " + window.scrollY);
 
-setInterval(function () { indicadoresTexto();}, 1000);
+
+    if (window.scrollY < 250) {
+        console.log("Playing animation!")
+        animacao();
+        logoPlayState = true;
+        clearInterval(triggeringLogo);
+    }
+
+}
+
+
+
+setInterval(function() { indicadoresTexto();}, 1000);
 function indicadoresTexto() {
 
     document.getElementsByClassName("indicator-top")[0].style.opacity
@@ -92,7 +111,7 @@ function indicadoresTexto() {
     var scrollTextTotal_Y = mainText.scrollHeight;
     var scrollText_Y      = mainText.scrollTop;
 
-    console.log("Total: " + scrollTextTotal_Y + "| Scroll: " + scrollText_Y);
+    console.log("Scroll texto :: " + scrollTextTotal_Y + "| Scroll: " + scrollText_Y);
 
         function ocultarIndicador(i) {
             if (i == true) {

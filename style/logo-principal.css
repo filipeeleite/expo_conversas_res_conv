@@ -1,0 +1,76 @@
+.logo-principal {
+    width: 100%;
+}
+.logo-linha {
+    fill: none;
+    stroke: var(--color-linhas);
+    stroke-width: 30;
+}
+.conversas,
+.resistencia {
+    fill: white;
+    opacity: 0;
+    transition: opacity 1.3s ease-in;
+
+}
+
+.s1 { stroke-dasharray: 1732; stroke-dashoffset: 1732;}
+.s2 { stroke-dasharray: 1310; stroke-dashoffset: 1310;}
+.s3 { stroke-dasharray: 592; stroke-dashoffset: 592;}
+.s4 { stroke-dasharray: 2083; stroke-dashoffset: 2083;}
+.s5 { stroke-dasharray: 2900; stroke-dashoffset: 2900;}
+.s6 { stroke-dasharray: 4700; stroke-dashoffset: 4700;}
+.s7 { stroke-dasharray: 3700; stroke-dashoffset: 3700;}
+.s8 { stroke-dasharray: 820; stroke-dashoffset: 820;}
+.s9 { stroke-dasharray: 3050; stroke-dashoffset: 3050;}
+.s10 { stroke-dasharray: 6500; stroke-dashoffset: 6500;}
+.s11 { stroke-dasharray: 11150; stroke-dashoffset: 11150;}
+.s12 { stroke-dasharray: 3970; stroke-dashoffset: 3970;}
+.s13 { stroke-dasharray: 1300; stroke-dashoffset: 1300;}
+.s14 { stroke-dasharray: 3200; stroke-dashoffset: 3200;}
+.s15 { stroke-dasharray: 7800; stroke-dashoffset: 7800;}
+.s16 { stroke-dasharray: 5110; stroke-dashoffset: 5110;}
+.s17 { stroke-dasharray: 2000; stroke-dashoffset: 2000;}
+.s18 { stroke-dasharray: 1300; stroke-dashoffset: 1300;}
+.s19 { stroke-dasharray: 5300; stroke-dashoffset: 5300;}
+.s20 { stroke-dasharray: 5900; stroke-dashoffset: 5900;}
+.s21 { stroke-dasharray: 4000; stroke-dashoffset: 4000;}
+.s22 { stroke-dasharray: 5460; stroke-dashoffset: 5460;}
+.s23 { stroke-dasharray: 2080; stroke-dashoffset: 2080;}
+.s24 { stroke-dasharray: 1680; stroke-dashoffset: 1680;}
+.s25 { stroke-dasharray: 1660; stroke-dashoffset: 1660;}
+.s26 { stroke-dasharray: 5100; stroke-dashoffset: 5100;}
+.s27 { stroke-dasharray: 5800; stroke-dashoffset: 5800;}
+.s28 { stroke-dasharray: 5930; stroke-dashoffset: 5930;}
+.s29 { stroke-dasharray: 1860; stroke-dashoffset: 1860;}
+.s30 { stroke-dasharray: 2200; stroke-dashoffset: 2200;}
+.s31 { stroke-dasharray: 1580; stroke-dashoffset: 1580;}
+.s32 { stroke-dasharray: 200; stroke-dashoffset: 200;} /* Pequeno*/
+.s33 { stroke-dasharray: 800; stroke-dashoffset: 800;}
+.s34 { stroke-dasharray: 1630; stroke-dashoffset: 1630;}
+.s35 { stroke-dasharray: 1300; stroke-dashoffset: 1300;}
+.s36 { stroke-dasharray: 4500; stroke-dashoffset: 4500;}
+.s37 { stroke-dasharray: 3090; stroke-dashoffset: 3090;}
+.s38 { stroke-dasharray: 1060; stroke-dashoffset: 1060;}
+.s39 { stroke-dasharray: 2200; stroke-dashoffset: 2200;}
+.s40 { stroke-dasharray: 730; stroke-dashoffset: 730;}
+.s41 { stroke-dasharray: 750; stroke-dashoffset: 750;}
+.s42 { stroke-dasharray: 130; stroke-dashoffset: 130;}
+.s43 { stroke-dasharray: 100; stroke-dashoffset: 100;}
+.s44 { stroke-dasharray: 1200; stroke-dashoffset: 1200;}
+.s45 { stroke-dasharray: 8000; stroke-dashoffset: 8000;}
+.s46 { stroke-dasharray: 6260; stroke-dashoffset: 6260;}
+.s47 { stroke-dasharray: 6800; stroke-dashoffset: 6800;}
+.s48 { stroke-dasharray: 4700; stroke-dashoffset: 4700;}
+.s49 { stroke-dasharray: 6500; stroke-dashoffset: 6500;}
+.s50 { stroke-dasharray: 6110; stroke-dashoffset: 6110;}
+.s51 { stroke-dasharray: 1650; stroke-dashoffset: 1650;}
+.s52 { stroke-dasharray: 1720; stroke-dashoffset: 1720;}
+.s53 { stroke-dasharray: 1020; stroke-dashoffset: 1020;}
+.s54 { stroke-dasharray: 1250; stroke-dashoffset: 1250;}
+.s55 { stroke-dasharray: 4850; stroke-dashoffset: 4850;}
+.s56 { stroke-dasharray: 660; stroke-dashoffset: 660;}
+.s57 { stroke-dasharray: 1960; stroke-dashoffset: 1960;}
+.s58 { stroke-dasharray: 690; stroke-dashoffset: 690;}
+
+.logo-linha { transition: stroke-dashoffset 1s linear;}

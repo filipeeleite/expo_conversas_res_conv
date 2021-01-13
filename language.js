@@ -25,6 +25,7 @@ function trocarLingua () {
 
         // Setar para Inglês
         english = true;
+        linguaAtual = 'en';
         // Setar toggle
         document.getElementById("toggle-button").style.transform = 'translateX(20px)';
 
@@ -51,6 +52,7 @@ function trocarLingua () {
 
         // Setar para Português
         english = false;
+        linguaAtual = 'pt';
         // Setar toggle
         document.getElementById("toggle-button").style.transform = 'translateX(0px)';
 
@@ -72,5 +74,4 @@ function trocarLingua () {
         }
 
     }
-    
 }

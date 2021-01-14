@@ -1,19 +1,20 @@
-console.log("animation loaded!")
+console.log("animation loaded!");
 /* LOGO ANIMATION */
 
 function animacao() {
+    return;
 
     var linha = document.getElementsByClassName("logo-linha");
 
-    // ponte0
+    // [00,0s] Ponte 0
     linha[14].style.strokeDashoffset = 0;
     linha[15].style.strokeDashoffset = 0;
-    // ponte1
+    // [01,0s] Ponte 1
     setTimeout( function(){ ponte1();}, 1000);
     function ponte1(){
         linha[16].style.strokeDashoffset = 0;
     }
-    // ponte2
+    // [02,0s] Ponte 2
     setTimeout( function(){ ponte2();}, 2000);
     function ponte2(){
         linha[17].style.strokeDashoffset = 0;
@@ -22,7 +23,7 @@ function animacao() {
         linha[50].style.strokeDashoffset = 0;
         linha[47].style.strokeDashoffset = 0;
     }
-    // ponte3
+    // [03,0s] Ponte 3
     setTimeout( function(){ ponte3();}, 3000);
     function ponte3(){
         linha[32].style.strokeDashoffset = 0;
@@ -36,7 +37,12 @@ function animacao() {
         linha[0].style.strokeDashoffset = 0;
         linha[2].style.strokeDashoffset = 0;
     }
-    // ponte4
+    // [03,5s] Título 'CONVERSAS'
+    setTimeout( function(){ conversasTitle();}, 3500);
+    function conversasTitle(){
+        document.getElementsByClassName("conversas")[0].style.opacity = 1;
+    }
+    // [04,0s] Ponte 4
     setTimeout( function(){ ponte4();}, 4000);
     function ponte4(){
         linha[3].style.strokeDashoffset = 0;
@@ -67,7 +73,13 @@ function animacao() {
         linha[53].style.strokeDashoffset = 0;
         linha[55].style.strokeDashoffset = 0;
     }
-    // Ponte 5 - última
+    // [04,6s] 'resistência e convergência'
+    setTimeout( function(){ resistenciaTitle();}, 4600);
+    function resistenciaTitle(){
+
+        document.getElementsByClassName("resistencia")[0].style.opacity = 1;
+    }
+    // [05,0s] Ponte 5 - última
     setTimeout( function(){ ponte5();}, 5000);
     function ponte5(){
         linha[8].style.strokeDashoffset = 0;
@@ -84,14 +96,4 @@ function animacao() {
         linha[21].style.strokeDashoffset = 0;
         linha[46].style.strokeDashoffset = 0;
     }
-    setTimeout( function(){ conversasTitle();}, 3500);
-    function conversasTitle(){
-        document.getElementsByClassName("conversas")[0].style.opacity = 1;
-    }
-    setTimeout( function(){ resistenciaTitle();}, 4600);
-    function resistenciaTitle(){
-
-        document.getElementsByClassName("resistencia")[0].style.opacity = 1;
-    }
-
 }

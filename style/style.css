@@ -117,7 +117,8 @@ body {
             justify-content: center;
         }
 
-        .selecao h3 {
+        .selecao h3,
+        .bottom-bar h3 {
             margin-top: 1.5rem;
         }
             
@@ -179,7 +180,7 @@ body {
 }
 
 
-.sections div { /* Cada div de cada artista */
+.sections > div { /* Cada div de cada artista */
     flex-direction: column;
     display: none;
     margin-top: 0;
@@ -190,7 +191,7 @@ body {
     /*margin-top: 100px;*/
 }
 .sections div :last-child {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .sections :target {  /* Section baseado na url # */
@@ -199,7 +200,7 @@ body {
 }
 
 /* PARTE DE CIMA */
-.sections div::before {
+.sections > div::before {
     display: block;
     content: " ";
     /*background-image: url(/images/avatars/artista_1.jpg);*/
@@ -208,11 +209,31 @@ body {
     /*background-color: "";*/
     /*outline: 1px solid red;*/
 }
-    .sections img {
-        margin: 0 auto 2rem auto;
-        max-width: 80%;
-        box-shadow: 3px 3px 0px var(--color-primary-bright);
-    }
+.sections img {
+    margin: 0 auto 2rem auto;
+    max-width: 80%;
+    box-shadow: 3px 3px 0px var(--color-primary-bright);
+}
+
+
+
+#artista_43 .bottom-bar {
+    height: 130px;
+    background-color: rgba(64,92,51,.90);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: sticky;
+    bottom: 0px;
+}
+audio {
+    width: 100%;
+    margin-bottom: var(--margin);
+}
+
+
+
 
 .sobre-expo {
     margin: var(--margin) calc(2 * var(--margin));

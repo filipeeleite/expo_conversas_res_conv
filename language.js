@@ -8,6 +8,8 @@ var english = false;
 // Se acessou QR code diretamente em Inglês
 if (document.location.hash == "#en") {
     console.log("Página em inglês!");
+    
+    // Limpar url
     document.location.hash = "";
     trocarLingua();
 }
@@ -39,9 +41,9 @@ function trocarLingua () {
             document.getElementsByClassName("en")[i].style.display = 'block';
         }
 
-        // Instrucao
+        // Se instrução ainda estiver exibindo (Selecione um artista...)
         if (seInstrucao) {
-            // Se ainda estiver exibindo...
+            // setar para:
             instrucao.innerHTML = "Select an artist..."
         }
 
@@ -67,9 +69,9 @@ function trocarLingua () {
         }
 
 
-        // Instrucao
+        // // Se instrução ainda estiver exibindo (Select an artist...)
         if (seInstrucao) {
-            // Se ainda estiver exibindo...
+            // setar para:
             instrucao.innerHTML = "Selecionar artista..."
         }
 

@@ -1,13 +1,16 @@
 console.log("app.js Loaded!");
 
+// Inicializar variável; (se a animacao da logo foi reproduzida)
 var logoPlayState = false;
 
+// [1 a 51]
 var iD_artistaSelecionado;
 
-iD_artistaSelecionado = location.hash.substring(9);
+// #artista_-->[n]<--
+var iD_artistaSelecionado = location.hash.substring(9);
 
 // Inicializando com o número do artista, se index, = "";
-optionArtistaSelecionado = iD_artistaSelecionado;
+var optionArtistaSelecionado = iD_artistaSelecionado;
 
 // "Selecionar artista..."
 var instrucao = document.getElementsByClassName("InstrucaoArtista")[0];
@@ -84,18 +87,19 @@ function trocaArtista() {
     setarSrcImg();
 }
 
+//clonado em body.js
 function setarSrcImg() {
-    if (iD_artistaSelecionado != "") {
 
-        srcImg = 'images/avatars/artista_' + iD_artistaSelecionado + '.jpg';
-        console.log("src Carregado: " + srcImg);
+    srcImg = 'images/avatars/artista_' + iD_artistaSelecionado + '.jpg';
+    console.log("src Carregado: " + srcImg);
 
-        document.getElementById("imgArtista_" + iD_artistaSelecionado).setAttribute("src", srcImg);
-    }
+    document.getElementById("imgArtista_" + iD_artistaSelecionado).setAttribute("src", srcImg);
+
 }
 
 // UI
 if (logoPlayState == false) {
+    // Delay para reproduzir a Animação
     var triggeringLogo = setInterval(function() { triggerLogo();}, 1000);
 }
 function triggerLogo() {
@@ -103,8 +107,12 @@ function triggerLogo() {
 
     if (window.scrollY < 250) {
         console.log("Playing animation!")
-        animacao();
+
+        animacao(); // logo.js
+
         logoPlayState = true;
+        console.log('logoPlayState === true');
+
         clearInterval(triggeringLogo);
     }
 
@@ -167,16 +175,17 @@ function indicadoresTexto() {
 }
 
 
-// CARREGAR ICONS ARTISTAS INICIAL
+// CARREGAR ICONS ARTISTAS INICIAL (Selecionar Artista...)
 if(seInstrucao == true) {
     for (let i = 1; i < 52; i++) {
         iconArtista = '<img src=/images/avatars/artista_' + i + '.jpg style=width=100%>';
 
         document.getElementsByClassName("todos_artistas")[0].innerHTML += iconArtista;
     }
+    /*
     for (let i = 1; i < 20; i++) {
         iconArtista = '<img src=/images/avatars/artista_' + i + '.jpg style=width=100%>';
 
         document.getElementsByClassName("todos_artistas")[0].innerHTML += iconArtista;
-    }
+    }*/
 }

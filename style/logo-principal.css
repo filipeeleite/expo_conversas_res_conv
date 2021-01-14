@@ -13,7 +13,10 @@
     transition: opacity 1.3s ease-in;
 
 }
+/* Animação - Transições dash */
+.logo-linha { transition: stroke-dashoffset 1s linear;}
 
+/* Tamanho dos traços */
 .s1 { stroke-dasharray: 1732; stroke-dashoffset: 1732;}
 .s2 { stroke-dasharray: 1310; stroke-dashoffset: 1310;}
 .s3 { stroke-dasharray: 592; stroke-dashoffset: 592;}
@@ -72,5 +75,3 @@
 .s56 { stroke-dasharray: 660; stroke-dashoffset: 660;}
 .s57 { stroke-dasharray: 1960; stroke-dashoffset: 1960;}
 .s58 { stroke-dasharray: 690; stroke-dashoffset: 690;}
-
-.logo-linha { transition: stroke-dashoffset 1s linear;}

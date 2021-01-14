@@ -2,7 +2,6 @@ console.log("animation loaded!");
 /* LOGO ANIMATION */
 
 function animacao() {
-    return;
 
     var linha = document.getElementsByClassName("logo-linha");
 

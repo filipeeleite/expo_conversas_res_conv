@@ -1,13 +1,10 @@
 console.log("app.js Loaded!");
 
-// Inicializar variável; (se a animacao da logo foi reproduzida)
-var logoPlayState = false;
+var logoPlayState = false; // Inicializar variável; (se a animacao da logo foi reproduzida)
 
-// [1 a 51]
-var iD_artistaSelecionado;
+var iD_artistaSelecionado; // [vai ser carregado com '1' - '51']
 
-// #artista_-->[n]<--
-var iD_artistaSelecionado = location.hash.substring(9);
+var iD_artistaSelecionado = location.hash.substring(9); // #artista_-->[n]<--
 
 // Inicializando com o número do artista, se index, = "";
 var optionArtistaSelecionado = iD_artistaSelecionado;
@@ -46,10 +43,10 @@ if (iD_artistaSelecionado != "") {
 function trocaArtista() {
     console.log("Opção alterada para: " + document.getElementById("selecao-artista").value);
 
-
     // Setando altura dos elementos
     document.getElementsByClassName("selecao")[0].style.height = "100px";
     document.getElementsByClassName("main")[0].style.height = "100%";
+
 
     // 1º vez - Se index, remover "Selecionar artista"
     if (seInstrucao) {
@@ -60,21 +57,22 @@ function trocaArtista() {
         console.log("Instrucao Removida!");
     }
 
+    // Se tiver '1' - '51', remover atributo do option
     if (optionArtistaSelecionado != "") {
-        // Se a variável tiver id_artista, remover atributo do option
+
         optionArtistaSelecionado.removeAttribute("selected");
     }
 
-    // Valor do option que foi selecionado
+    // Setando valor do option que foi selecionado na variável
     valueOptionArtistaSel = document.getElementById("selecao-artista").value;
     
-    // Setando o valor do artista selecionado na URL
+    // Setando esse valor na URL
     location.hash = valueOptionArtistaSel;
     
-    // Setando id Selecionado
+    // Setando ID do artista selecionado
     iD_artistaSelecionado = location.hash.substring(9);
     
-    // Option do Artista que foi identificado na url
+    // Option do Artista que foi identificado na URL
     optionArtistaSelecionado = document.getElementById(iD_artistaSelecionado);
 
     if (optionArtistaSelecionado != null) {

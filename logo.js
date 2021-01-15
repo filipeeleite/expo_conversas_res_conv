@@ -2,7 +2,10 @@ console.log("animation loaded!");
 /* LOGO ANIMATION */
 
 function animacao() {
+<<<<<<< HEAD
 
+=======
+>>>>>>> a81d537d799843c690d48eb5d862ea34f49f0300
     var linha = document.getElementsByClassName("logo-linha");
 
     // [00,0s] Ponte 0

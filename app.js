@@ -13,6 +13,10 @@ var optionArtistaSelecionado = iD_artistaSelecionado;
 var instrucao = document.getElementsByClassName("InstrucaoArtista")[0];
 var seInstrucao = true;
 
+// Render
+// Construir <div> do artista
+construtorDivArtista();
+
 
 if (iD_artistaSelecionado != "") {
 
@@ -32,6 +36,7 @@ if (iD_artistaSelecionado != "") {
     // Setando altura dos elementos
     document.getElementsByClassName("selecao")[0].style.height = "100px";
     document.getElementsByClassName("main")[0].style.height = "100%";
+
 
     // Carregar img do artista
     setarSrcImg(iD_artistaSelecionado);
@@ -79,7 +84,6 @@ function trocaArtista() {
     // Setando atributo -> option
     optionArtistaSelecionado.setAttribute("selected", "selected");
     }
-
 
     // Carregar imagem do artista
     setarSrcImg();
@@ -176,7 +180,7 @@ function indicadoresTexto() {
 // CARREGAR ICONS ARTISTAS INICIAL (Selecionar Artista...)
 if(seInstrucao == true) {
     for (let i = 1; i < 52; i++) {
-        iconArtista = '<img src=/images/avatars/artista_' + i + '.jpg style=width=100%>';
+        iconArtista = '<img src=/images/avatars/lowres/artista_' + i + '.jpg style=width=100%>';
 
         document.getElementsByClassName("todos_artistas")[0].innerHTML += iconArtista;
     }

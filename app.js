@@ -46,11 +46,19 @@ if (iD_artistaSelecionado != "") {
 
 // Trocar ao selecionar outro artista
 function trocaArtista() {
+    clockAtual = new Date();
     console.log("Opção alterada para: " + document.getElementById("selecao-artista").value);
 
     // Setando altura dos elementos
     document.getElementsByClassName("selecao")[0].style.height = "100px";
     document.getElementsByClassName("main")[0].style.height = "100%";
+
+    // Ocultar seção inteira (Animação Carregando)
+    document.getElementsByClassName("sections")[0].style.opacity = 0;
+    // Carregando
+    document.getElementsByClassName("loading-animation")[0].style.display = 'block';
+    document.getElementsByClassName("loading-animation")[0].style.transform = 'rotate(720deg)';
+    
 
 
     // 1º vez - Se index, remover "Selecionar artista"
@@ -87,9 +95,17 @@ function trocaArtista() {
 
     // Carregar imagem do artista
     setarSrcImg();
+
+    // Exibir Sessão
+    setTimeout(function() { exibirSecao(); }, 1500);
+
+    function exibirSecao(){
+        document.getElementsByClassName("sections")[0].style.opacity = 1;
+        // Carregando
+        document.getElementsByClassName("loading-animation")[0].style.display = 'none';
+    }
 }
 
-//clonado em body.js
 function setarSrcImg() {
 
     srcImg = 'images/avatars/artista_' + iD_artistaSelecionado + '.jpg';

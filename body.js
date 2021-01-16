@@ -60,7 +60,7 @@ function construtorDivArtista() {
         }
         console.log("fim")
 
-        // 4) Se tiver algo a mais
+        // 4) Bloco Extra (Se tiver)
         if (id_artista == 43) { // Selma Parreira
             divBottom = document.createElement("div");
             divBottom.setAttribute("class", "bottom-bar");
@@ -75,6 +75,11 @@ function construtorDivArtista() {
             h3append.setAttribute("class", "en");
             h3append.innerHTML = "Listen to the audio of the work";
             divBottom.appendChild(h3append);
+
+            audioAppend = document.createElement("audio");
+            audioAppend.setAttribute("controls", "");
+            audioAppend.innerHTML = '<source src="content/Sleep Away.mp3" type="audio/mp3"><!--Versão .ogg--><source src="" type="audio/ogg"><!--Versão .ogg-->Seu navegador não suporta elemento de áudio. Compatível em Chrome 4.0, Explorer 9.0, Firefox 3.5, Safari 4.0, Opera 10.5;';
+            divBottom.appendChild(audioAppend);
 
         }
 

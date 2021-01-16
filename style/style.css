@@ -65,12 +65,6 @@ p {
     background-color: var(--color-primary);
 }
 
-.divisao-horizontal {
-    height: 2px;
-    width: 100%;
-    background-color: var(--color-linhas);
-}
-
 
 body {
     min-height: 100vh;
@@ -124,10 +118,7 @@ body {
             
             select {
                 width: 80%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 1.5rem;
-                margin-bottom: 2rem;
+                margin: auto;
                 /*color: white;*/
             }
             #aviso_index h1 {
@@ -136,6 +127,12 @@ body {
             .selecao h3 {
                 text-align: center;
             }
+
+        .divisao-horizontal {
+            margin: 0 calc(4 * var(--margin));
+            height: 2px;
+            background-color: white;
+        }
 
 .todos_artistas img {
     display: block;
@@ -212,7 +209,7 @@ body {
     /*outline: 1px solid red;*/
 }
 .sections img {
-    margin: 0 auto 2rem auto;
+    margin: 2rem auto 1rem auto;
     max-width: 80%;
     box-shadow: 3px 3px 0px var(--color-primary-bright);
 }
@@ -236,7 +233,7 @@ body {
 }
 audio {
     width: 100%;
-    margin-bottom: var(--margin);
+    margin-bottom: 1.5rem;
 }
 
 .loading-animation {

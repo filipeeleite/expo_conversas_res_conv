@@ -78,7 +78,7 @@ function construtorDivArtista() {
 
             audioAppend = document.createElement("audio");
             audioAppend.setAttribute("controls", "");
-            audioAppend.innerHTML = '<source src="content/Sleep Away.mp3" type="audio/mp3"><!--Versão .ogg--><source src="" type="audio/ogg"><!--Versão .ogg-->Seu navegador não suporta elemento de áudio. Compatível em Chrome 4.0, Explorer 9.0, Firefox 3.5, Safari 4.0, Opera 10.5;';
+            audioAppend.innerHTML = '<source src="/content/SelmaOBRAPROTEGIDAPORDIREITOSAUTORAIS.mp3"><source src="/content/SelmaOBRAPROTEGIDAPORDIREITOSAUTORAIS.ogg"><!--Versão .ogg-->Seu navegador não suporta elemento de áudio. Compatível em Chrome 4.0, Explorer 9.0, Firefox 3.5, Safari 4.0, Opera 10.5;';
             divBottom.appendChild(audioAppend);
 
         }

@@ -78,7 +78,7 @@ function construtorDivArtista() {
 
             audioAppend = document.createElement("audio");
             audioAppend.setAttribute("controls", "");
-            audioAppend.innerHTML = '<source src="/content/SelmaOBRAPROTEGIDAPORDIREITOSAUTORAIS.mp3"><source src="/content/SelmaOBRAPROTEGIDAPORDIREITOSAUTORAIS.ogg"><!--Versão .ogg-->Seu navegador não suporta elemento de áudio. Compatível em Chrome 4.0, Explorer 9.0, Firefox 3.5, Safari 4.0, Opera 10.5;';
+            audioAppend.innerHTML = '<source src="https://dl.dropbox.com/s/s2lm26y5kt3rv3u/SelmaOBRAPROTEGIDAPORDIREITOSAUTORAIS.mp3"><source src="https://dl.dropbox.com/s/kbllpzc6cdvaegv/SelmaOBRAPROTEGIDAPORDIREITOSAUTORAIS.ogg"><!--Versão .ogg-->Seu navegador não suporta elemento de áudio. Compatível em Chrome 4.0, Explorer 9.0, Firefox 3.5, Safari 4.0, Opera 10.5;';
             divBottom.appendChild(audioAppend);
 
         }

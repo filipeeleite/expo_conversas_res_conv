@@ -237,250 +237,414 @@ narrativa = {
     },
     artista_21 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Anápolis, GO, em 1972. Vive e trabalha em Anápolis e Goiânia, GO.",
+            "A arte contemporânea traz o desenho com um conceito bastante amplo. Assim como nas outras mídias, é perceptível sua renovação e sua consolidação no cenário das artes visuais. A série atual desenvolvida por Flavia Fabiana, coloca em discussão os desdobramentos do desenho enquanto linguagem plástica expandida. Mechas de cabelos doados por amigos e conhecidos, após um longo período de hidratação, são utilizados como matéria-prima para produção de desenhos repletos de gestos orgânicos e esculturais.",
+            "Ao usar o cabelo humano como matéria, a artista traz todos os elementos e associações referentes a esse material nobre, como sua carga genética por exemplo. A memória, o tempo, também inseridos neste material, permeiam sua pesquisa, e proporcionam a construção de narrativas poéticas em que se busca a relação com o corpo e seus afetos.",
+            "As subjetividades do dia a dia conduzem e transformam o corpo e suas ações. Algumas passam despercebidas pelo tempo. Parar e refletir sobre esse corpo, contemplar as coreografias diárias dos gestos não é só percebê-lo, é estar presente neste tempo, se autoperceber em um movimento silencioso e comum, é sentir, é existir."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Anápolis, GO, in 1972. Lives and works in Anápolis and Goiânia, GO.",
+            "Contemporary art brings design with a very broad concept. As in other media, its renewal and consolidation in the visual arts scene is noticeable. The current series developed by Flavia Fabiana, discusses the unfolding of drawing as an expanded plastic language. Strands of hair donated by friends and acquaintances, after a long period of hydration, are used as raw material to produce designs full of organic and sculptural gestures.",
+            "When using human hair as material, the artist brings all the elements and associations related to this noble material, such as its genetic load for example. Memory, time, also inserted in this material, permeate her research, and provide the construction of poetic narratives in which the relationship with the body and its affections is sought.",
+            "Day-to-day subjectivities drive and transform the body and its actions. Some go unnoticed by time. To stop and reflect on this body, to contemplate the daily choreography of gestures is not only to perceive it, it is to be present in this time, to self-perceive in a silent and common movement, it is to feel, it is to exist."
+        ],
     },
     artista_22 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Petrópolis, RJ, em 1959. Vive e trabalha em Brasília, DF.",
+            "Gê Orthof, natural de Petrópolis, Rio de janeiro, mudou-se para Brasília no início da primeira infância, onde vive até hoje. Gê é professor do Departamento de Artes Visuais da Universidade de Brasília, pós-doutor pela School of the Museum of Fine Arts, Boston, doutor e mestre em Artes Visuais pela Columbia University, Nova Iorque, e Fulbright Scholar na School of Visual Arts, Nova Iorque. Artista multimídia, transita livremente entre instalação, performance, desenho, fotografia e vídeo, muitas vezes realizando fusões entre essas modalidades. Sua produção é o resultado de manobras que operam conceitos contemporâneos, verdadeiros códigos abertos que permitem ao público ler seus trabalhos a partir de suas vivências pessoais. Atualmente é uma das principais referências para a jovem arte brasiliense.",
+            "Ao olhar para os desenhos de Orthof, o espectador tem a sensação de estar diante de uma pequena instalação, algo natural se tratando de um trabalho de Gê. Ao contrário de muitos artistas que lançam mão de suportes convencionais para produção de desenho, ele abusa dos desdobramentos conceituais do desenho expandido. A delicadeza dos suportes e dos materiais utilizados na produção dos trabalhos resulta em desenhos extremamente leves, frágeis, mas carregados de conceitos."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Gê Orthof, born in Petropolis, RJ, in 1959. Live and Works in Brasilia, DF.",
+            "Rio de Janeiro, moved to Brasilia in his early childhood, where he still lives. Ge is a professor in the Department of Visual Arts of the University of Brasilia, has a post-doctorate by the School of the Museum of Fine Arts of Boston, is a doctor and master in Visual Arts by the Columbia University of New York, and is a Fulbright Scholar at the School of Visual Arts of New York. Being a multimedia artist, moves freely between installation, performance, drawing, photography and video, often performing fusion between these modalities. His production is the result of maneuvers that operate contemporary concepts, real open codes that allow his public to read their work from their personal experiences. Currently, he is one of the main references for young art of Brasilia.",
+            "When looking at the Orthof's drawings, the viewer has the feeling of being in front of a small facility, something natural when it comes to a piece of work by Ge. Unlike many artists who make use of conventional supports for the production of drawing, he overuses the conceptual developments of the expanded drawing. The delicacy of the supports and materials used in his production of work turn the drawings into something extremely light and fragile, but extremely full of concepts."
+        ],
     },
     artista_23 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Cuibá, MT, em 1961. Vive e trabalha em Cuibá, MT.",
+            "A heterogeneidade das obras de Gervane de Paula é grande e por isso é extremamente contemporânea em dois sentidos amplos: o primeiro é em relação ao suporte. Não há mais limites para a sua forma de expressão artística, pois trabalha com… “qualquer coisa”. Podem ser troncos de madeira, placas de alumínio, anotações e recados escritos, restos de animais, borracha, plástico, jornais, papelão, ferro, ou qualquer outro produto industrializado que lhe desperte interesse para compor uma obra ou uma instalação. Em suas prospecções urbanas e rurais – quando recolhe o material para as suas obras - o imaginário do artista não tem limites.",
+            "Por outro lado, sua produção dialoga de forma satírica ou dramática e transita entre a crítica e a ironia, a ficção e o real, o possível e o impossível, sem o menor problema. Desnuda temas que estão em debate hoje, não só na sociedade brasileira, mas também mundial. Sua obra, em geral é autobiográfica – pois é muito antenado em seu tempo/momento histórico – e, dessa forma, consegue transformar em arte todo o seu sentimento ao viver cotidianamente neste “mundo animal”. Exatamente por isso, sua arte é provocativa, contundente, política, inovadora e propositiva. ",
+            "(Fonte – texto do Prof. Dr. Laudenir Antônio Gonçalves sobre o artista)"
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Cuiabá, MT, in 1961, where he lives and works in Cuiabá, MT.",
+            "The heterogeneity of Gervane de Paula's works is great and for this reason it is extremely contemporary in two broad senses: the first is in relation to the support. There are no more limits to his form of artistic expression, as he works with…“anything”. They can be wooden logs, aluminum plates, notes and written notes, animal remains, rubber, plastic, newspapers, cardboard, iron, or any other industrialized product that arouses interest in composing a work or installation. In his urban and rural prospects - when he collects the material for his works - the artist's imagination has no limits.",
+            "On the other hand, his production dialogues in a satirical or dramatic way and moves between criticism and irony, fiction and the real, the possible and the impossible, without the slightest problem. It exposes themes that are under debate today, not only in Brazilian society, but also worldwide. His work, in general, is autobiographical - because it is very much in tune in its historical time / moment - and in this way, it manages to transform all its feeling into art by living daily in this “animal world”. For this very reason, his art is provocative, forceful, political, innovative and purposeful.",
+            "(Source - text by Prof. Dr. Laudenir Antônio Gonçalves on the artist),"
+        ],
     },
     artista_24 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Fundado em 2001, inicialmente como grupo de estudo e pesquisa em <i>performance art</i>, o Grupo EmpreZa (GE) possui hoje um vasto repertório de ações performáticas, happenings e produções audiovisuais e fotográficas. Atualmente é formado pelos membros-integrantes Aishá Kanda, Babidu, Helô Sanvoy, Marcela Campos, Paul Setúbal, Paulo Veiga Jordão, Rava e Thiago Lemos, artistas de Goiás e Brasília.",
+            "Movido por intensa curiosidade em relação aos modos de produção de linguagem e de sensibilidade do corpo, o Grupo EmpreZa parte de seu corpo-coletivo – a conjunção dos muitos artistas que formaram e contribuíram para a história do grupo – para pensar a performance, a arte e os lugares simbólicos em amplas dimensões.",
+            'Na constituição desse corpo-coletivo, desde o início de sua trajetória, o grupo reúne um repertório absolutamente não trivial de corpos: não necessariamente oriundos do mundo das “artes do corpo” ou das “artes do movimento” – os empreZários e empreZárias enfatizam a diversidade dos corpos a cada gesto, cada som e cada movimento. Ativam, assim, concepções plurais de subjetividade e mundo, revelando, ainda, um aspecto crucial acerca da convivência no seio da multiplicidade subjetiva da vida: as relações de codependência.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Founded in 2001, initially as a study and research group in performance art, Grupo EmpreZa (GE) today has a vast repertoire of performance actions, happenings and audiovisual and photographic productions. Currently it is formed by member-members Aishá Kanda, Babidu, Helô Sanvoy, Marcela Campos, Paul Setúbal, Paulo Veiga Jordão, Rava and Thiago Lemos, artists from Goiás and Brasília.",
+            "Driven by intense curiosity in relation to the modes of language production and body sensitivity, the EmpreZa Group starts from its collective body - the conjunction of the many artists who formed and contributed to the group's history - to think about performance, art and symbolic places in wide dimensions.",
+            "In the constitution of this collective body, since the beginning of its trajectory, the group has assembled an absolutely non-trivial repertoire of bodies: not necessarily from the world of “body arts” or “movement arts” - the emprezarios emphasize the diversity of bodies with each gesture, each sound and each movement. They thus activate plural conceptions of subjectivity and the world, revealing, yet, a crucial aspect about coexistence within the subjective multiplicity of life: the co-dependency relationships."
+        ],
     },
     artista_25 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "O coletivo TresPe desenvolve uma pesquisa de aprofundamento das questões que envolvem o corpo em contraponto ao objeto, partindo da ação e da performance como experimentação. Formado por iniciativa de alunos da Faculdade de Artes Dulcina de Moraes, do Distrito Federal, o grupo começou suas atividades no segundo semestre de 2011. O coletivo atualmente agrega artistas de outros estados e com outras formações, ampliando sua variedade de soluções estéticas, provocações poéticas e conceituais."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "The collective TresPe develops a research to deepen the issues that involve the body in counterpoint to the object, starting from action and performance as experimentation. Formed on the initiative of students of the Faculty of Arts Dulcina de Moraes, of the Federal District, the group started its activities in the second semester of 2011. The collective currently brings together artists from other states and with other backgrounds, expanding its variety of aesthetic solutions, provocations poetic and conceptual."
+        ],
     },
     artista_26 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Campo Grande, MS, em 1943. Vive e trabalha em Campo Grande, MS.",
+            "Humberto Espíndola, com a poética da bovinocultura, foi o primeiro artista do Planalto Central a se destacar no cenário da arte contemporânea brasileira. Com quase 50 anos de carreira, se reinventou por diversas vezes, vivendo várias fases: a do boi que dialogava com questões sociais do índio, como a do boi enquanto símbolo da riqueza do estado de Mato Grosso do Sul - em alguns trabalhos retratados de forma sarcástica, como ícone de poder - a do boi naturalista, representado de forma realista, entre tantas outras. Humberto, certamente, será lembrado na História da Arte brasileira como o artista que, durante toda uma vida, se dedicou a retratar e discutir os diversos aspectos da bovinocultura. Nos trabalhos de Espíndola tem-se a impressão de estar diante de uma tentativa de humanização do boi."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Campo Grande, MS, in 1943. Lives and Works in Campo Grande, MS.",
+            "Humberto Espíndola, through the poetics concerned to the cattle raising, was the first artist of the Central Plateau to stand out in the scenario of the Brazilian contemporary art. With his background career, which is around fifty years old, he has reinvented himself for several times, living several phases: of the cattle, who dialogued about social issues of the Indians, of the cattle as a symbol of wealth in the State of Mato Grosso do Sul, in some works pictured sarcastically as the icon of power, of the naturalist cattle, represented realistically, among many others. Humberto will certainly be remembered in the history of Brazilian art as the artist who, during all his lifetime, painted cattle. In Espíndola’s work, one can have the impression of facing an attempt to humanizing the cattle."
+        ],
     },
     artista_27 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Planaltina, DF, 1980. Vive e trabalha em Brasília, DF.",
+            "João Angelini graduou-se em artes plásticas na Universidade de Brasília e realiza pesquisas que o levam a produzir fotografias, vídeos, animações, gravuras, performances e brinquedos. É ainda membro do Grupo EmpreZa (Goiânia) desde 2008 e cofundador do coletivo TresPe de Brasília, ambos com o foco em performance. Já expôs seu trabalho em diversas instituições e recebeu prêmios como o do festival Anima Mundi (Júri Popular/SP - 2009), da Bolsa Funarte de Produção (2010), da Arte Pará (2012).",
+            "João realiza seus vídeos a partir de uma sequência de imagens estáticas, como fotografias ou desenhos, chamada “stop-motion”. Assim, o artista não só controla melhor cada um dos “frames”, como também chama a atenção para o que os compõem. João se interessa pelo aspecto manual da composição, pelo desenhar, colorir, colar, chamando a atenção também para o quanto o universo digital está presente no cotidiano de todos, fazendo esquecer dos primórdios da animação de imagens."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Planaltina, DF, 1980. Lives and works in Brasília, DF.",
+            "João Angelini graduated in fine arts at the University of Brasília and conducts research that leads him to produce photographs, videos, animations, prints, performances and toys. He is also a member of the EmpreZa Group (Goiânia) since 2008 and co-founder of the collective TresPe from Brasília, both with a focus on performance. He has already exhibited his work in several institutions and received awards such as the Anima Mundi festival (Popular Jury / SP-2009), from Funarte Scholarship of Production (2010), from Arte Pará (2012).",
+            "João makes his videos from a sequence of static images, such as photographs or drawings, called “stop-motion”. Thus, the artist not only controls each of the “frames” better, but also draws attention to what composes them. João is interested in the manual aspect of composition, in drawing, coloring, pasting, also drawing attention to how much the digital universe is present in everyone's daily life, making us forget the beginnings of image animation."
+        ],
     },
     artista_28 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Anápolis, GO, em 1990. Vive e trabalha em Anápolis e Goiânia, GO.",
+            "Trabalhos resultantes de experimentações com fotografias analógicas tem sido a marca da jovem trajetória de Joardo Filho. Partindo de defeitos mecânicos, produzidos a partir do mau funcionamento dos filmes e até mesmo no ato da digitalização, realiza uma série de imagens urbanas apresentadas em formatos maiores do que habitualmente utiliza. O interesse por registro de lugares específicos, ambientes urbanos em geral e a figura humana que não aparece de forma concreta em seus panoramas metropolitanos, são recorrentes na produção do artista. ",
+            "Os trabalhos estão carregados de reflexões sobre as relações existentes entre as pessoas e os espaços em que elas vivem ou por onde por elas passam. Joardo utiliza os processos fotográficos não como fim, mas sim como meio. O artista atualmente desenvolve uma série de trabalhos que tratam do esvaziamento dos monumentos nas cidades."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Anápolis, GO, in 1990. Lives and works in Anápolis and Goiânia, GO.",
+            "Works resulting from experiments with analog photographs have been the hallmark of Joardo Filho's young trajectory. Starting from mechanical defects, produced from the malfunction of films and even in the act of digitization, he makes a series of urban images presented in larger formats than he usually uses. The interest in registering specific places, urban environments in general and the human figure that does not appear concretely in his metropolitan panoramas, are recurrent in the artist's production.",
+            "The works are loaded with reflections on the relationships between people and the spaces in which they live or where they pass through. Joardo uses photographic processes not as an end, but as a means. The artist currently develops a series of works that deal with the emptying of monuments in cities."
+        ],
     },
     artista_29 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Cuiabá, MT, em 1967.  Vive e trabalha na Fazendinha São José do Curralzinho, Nobres, MT.",
+            "A produção de Jonas Barros é marcada pela poética da bovinocultura. O boi, símbolo da riqueza do estado de Mato Grosso, é retratado em seus trabalhos muitas vezes de forma sarcástica, ora como ícone de poder, ora como os demais animais da cadeia alimentar, que tem suas vidas totalmente à mercê da vontade humana.",
+            "Uma produção marcada pelos elementos do seu cotidiano. Na infância construía seus próprios brinquedos, sempre morando em fazendas no interior de Mato Grosso. Nos mais de trinta anos de trajetória artística, realizou vários grupos de experimentos, utilizando-se de diversas técnicas, mídias e suportes. O artista procura manter viva essa cultura rural, para assegurar heranças de valores do passado e manter a dedicação no difícil equilíbrio agroambiental.",
+            "Elementos distintos ajustados em um mesmo campo de atuação, onde nada é previsível, na tentativa de colocá-los no lugar comum da arte. Atuando dessa maneira, o artista consegue valorizar seu processo de criação e significação, no real entendimento do que venha a ser contemporâneo."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Cuiabá, MT, in 1967. Lives and works at Fazendinha São José do Curralzinho, Nobres, MT.",
+            "The production of Jonas Barros is marked by the poetics of bovine culture. The ox, a symbol of the wealth of the state of Mato Grosso, is portrayed in his works often in a sarcastic way, now as an icon of power, now as the other animals in the food chain, whose lives are entirely at the mercy of human will.",
+            "A production marked by the elements of his daily life. As a child he built his own toys, always living on farms in the interior of Mato Grosso. In the more than thirty years of artistic trajectory, he carried out several groups of experiments, using different techniques, media and supports.",
+            "The artist seeks to keep this rural culture alive, to ensure heritage of values from the past and to maintain dedication to the difficult agro-environmental balance.",
+            "Different elements adjusted in the same field of action, where nothing is predictable, in an attempt to place them in the common place of art. Acting in this way, the artist manages to value his process of creation and meaning, in the real understanding of what may be contemporary."
+        ],
     },
     artista_30 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Goiânia, GO, em 1951. Vive e trabalha em Goiânia, GO.",
+            "Atuando artisticamente desde a década de 70, Leonam Fleury consolidou um percurso criativo de grande repercussão, tornando-se uma das referências entre os artistas de sua geração. Nas residências artísticas realizadas na Inglaterra nos anos 1995 e 1999, períodos de muitas experimentações, produziu gravuras com esmero técnico e temas de onde emergem situações, seres, sentimentos evocativos de sertões profundos, deslocados de suas geografias físicas para a interioridade do artista que retornam à superfície como relações de alteridades. Do ameaçador e do frágil, do obscuro e do resplendente, dos corpos naturais e suas forças, nos colocando diante dos isolamentos e das relações de poder como imantados por uma atualizada preocupação humanista.",
+            "As técnicas desenvolvidas na gravura o libertaram da tirania da pintura, informaram seus modos de pintar: instaurou processos híbridos, usou muito os sistemas de impressão e, do mesmo modo como criou pontes entre lugares e culturas em suas imagens, assim também o fez entre materiais, suportes e operações expressivas.",
+            '(Texto de Ciça Fittipaldi sobre o artista)'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Goiânia, GO, in 1951. Lives and works in Goiânia, GO.",
+            "Acting artistically since the 70s, Leonam Fleury consolidated a creative journey of great repercussion, becoming one of the references among the artists of his generation. In the artistic residences held in England in the years 1995 and 1999, periods of many experiments, he produced prints with technical care and themes from which situations, beings, evocative feelings emerge from deep hinterlands, displaced from their physical geographies to the interior of the artist who return to surface as relations of otherness. From threatening and fragile, from obscure and resplendent, from natural bodies and their forces, placing us in front of isolations and power relations as magnetized by an updated humanistic concern.",
+            "The techniques developed in the engraving freed him from the tyranny of painting, informed his ways of painting: he established hybrid processes, used printing systems a lot and, just as he created bridges between places and cultures in his images, so he also did between materials , supports and expressive operations.",
+            "(Text by Ciça Fittipaldi)"
+        ],
     },
     artista_31 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Brasília, em 1982. Vive e trabalha em Brasília, DF.",
+            "A artista investiga, em suas produções, as relações entre escrita e espaço a partir de mídias e materiais diversos, com principal interesse pelo uso dos elementos da escrita (livros, páginas e letras) como matéria. Suas obras lidam com a geometrização e o deslocamento do texto no espaço, onde a leitura torna-se um evento visual a ser experimentado em diferentes escalas e situações.",
+            "Luciana também se interessa pela noção de justaposição presente tanto na construção da linguagem quanto na configuração da paisagem urbana, partindo principalmente de sua paisagem local, a cidade de Brasília, para pensar nos desdobramentos das questões construtivas e no imaginário da utopia moderna."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Brasília, in 1982. Lives and works in Brasília, DF.",
+            "The artist investigates, in her productions, the relations between writing and space from different media and materials, with a primary interest in the use of writing elements (books, pages and letters) as material. Her works deal with geometrization and the displacement of text in space, where reading becomes a visual event to be experienced in different scales and situations.",
+            "Luciana is also interested in the notion of juxtaposition present both in the construction of language and in the configuration of the urban landscape, starting mainly from her local landscape, the city of Brasília, to think about the unfolding of construction issues and the imaginary of modern utopia."
+        ],
     },
     artista_32 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Goiânia, GO, em 1968. Vive e trabalha em Goiânia, GO.",
+            "Com carreira iniciada durante a década de 1980, Luiz Mauro estabeleceu-se como um expoente da pintura goiana. Artista pesquisador, após vários anos dedicados à pintura, Luiz começa, no início dos anos 2000, a fazer desenhos que retomavam a figura da cama - presente nas pinturas dos anos 80 –, associando-a a novos ícones impregnados de memórias de um mundo sombrio e, muitas vezes, de aspecto depressivo. O desenho sempre esteve presente nas anotações do processo de construção das pinturas, porém, só por volta do ano de 2007, passou a ser utilizado como a principal mídia trabalhada pelo artista. Em 2009, com dedicação exclusiva ao desenho, associa o uso do nanquim com a tinta óleo sobre papel. Os trabalhos mantêm aspectos muito próprios da pintura, como a densidade da matéria e da textura.",
+            "Recentemente, Luiz Mauro se dedica a série “Pinturas como Fotografias”. Iniciada em 2012, tem como tema o ateliê. São obras que representam os estúdios de produção de artistas importantes de vários períodos da História da Arte. Usando imagens de segunda geração, no caso, fotografias retiradas de sites, revistas, livros de arte e outras fontes, Luiz não busca fazer os trabalhos com a perspectiva documental, considerando que essa função já foi exercida pelas fotografias e gravuras que ele usou como referencial para produção das obras."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Goiania, GO, in 1968. Lives and works in Goiania, GO.",
+            "Having his career started during the 1980s, Luiz Mauro has settled as an exponent of painting in Goias. Researcher artist, after several years dedicated to painting, Luiz began in the early 2000s doing drawings that took back the figure of the bed – present in the paintings of the 80s –, associating it with new icons impregnated with memories of a shady world and many times having a depressive aspect. The drawing has always been present in the notes of the construction process of the painting. However, only around the year 2007, he started using it as the main media worked by the artist. In 2009, exclusively dedicated to the drawing, he started combining the use of ink with the oil paint on paper. His works continue having very distinctive aspects of his painting, such as the density of the matter and texture.",
+            "Nowadays, Luiz Mauro is dedicating to the series “Paintings like Photos”, started in 2012, whose theme is the studio. These works represent the production studios of important artists of various periods of Art History. Using second generation images, here, photographs taken from websites, magazines, art books and other sources, Luiz does not seek doing works with the documentary perspective, once that function has been exercised by the photographs and prints that he used as a reference to the production of his works."
+        ],
     },
     artista_33 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu em Brasília, DF, em 1980. Vive e trabalha Brasília, DF.',
+            'Trabalha com arte sonora, videoarte e escultura. Em 2017, realizou a exposição individual “Espaço Ressonante”, na Alfinete Galeria, em Brasília. Seus trabalhos se baseiam no princípio do som que envolve todo o espaço e se expande materialmente para criar novas paisagens sonoras e novas possibilidades de percepção do espaço-tempo. O propósito dessas obras é que o público possa ter uma experiência imersiva e sensorial do som, uma “experiência de um "choque" indiferenciado, instantâneo e pontual. (MERLEAU-PONTY).',
+            'No trabalho apresentado na mostra, o artista levanta questões sobre as relações entre o indivíduo e o Estado, propondo o antimonumento Antena de Altitudes. A obra faz parte de sua investigação acerca da escuta como uma possibilidade de invenção. Durante dias, Oliveiri ocupou a área do Monumento à Bandeira, localizado atrás do Congresso Nacional, em Brasília. Realizou registros em áudio, vídeo e foto. Esse material deu origem ao vídeo Antena de Altitudes. A obra apresenta uma versão pessoal e sensorial do monumento, construído durante a ditadura militar, ressaltando aspectos da sua estrutura.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Born in Brasília, DF, in 1980. Lives and works in Brasília, DF.',
+            'Works with sound art, video art and sculpture. In 2017, he held the solo exhibition “Espaço Ressonante”, at Alfinete Gallery, in Brasília. His works are based on the principle of sound that involves the entire space and expands materially to create new soundscapes and new possibilities for the perception of space-time. The purpose of these works is that the public can have an immersive and sensory experience of the sound, an “experience of an undifferentiated, instantaneous and punctual shock ". (MERLEAU-PONTY).',
+            'In the work presented at the exhibition, the artist raises questions about the relationship between the individual and the State, proposing the anti-monument Antenna of Heights. The work is part of his investigation of listening as a possibility of invention. For days, Oliveiri occupied the area of the             Monument to the Flag, located behind the National Congress, in Brasilia. He performed audio, video and photo records. This material gave rise to the video Antenna of Heights. The work presents a personal and sensorial version of the monument, built during the military dictatorship, highlighting aspects of its structure.'
+        ],
     },
     artista_34 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu em Goiânia, GO, em 1971. Vive e trabalha em Goiânia, GO.',
+            'Marcelo Solá é o artista goiano da geração emergente do final dos anos 80 e início da década de 1990 cuja produção obteve maior projeção no cenário nacional. Com trabalhos intimistas, que utilizam a escrita como processo de construção dos desenhos, Solá foi rapidamente absorvido pelo circuito institucional, pela crítica especializada e, consequentemente, pelo mercado comercial. Participou de exposições em importantes instituições e conquistou vários prêmios. Entre eles se destacam a Bolsa de Apoio à Pesquisa e Criação Artística, da Secretaria de Cultura do Rio de Janeiro e, por duas vezes consecutivas, o Prêmio Projéteis de Arte Contemporânea da Funarte.',
+            'Em 2002, Marcelo participa da 25ª Bienal de São Paulo, fato que marca, definitivamente, sua ascensão ao patamar dos principais artistas contemporâneos do Brasil. Sua instalação, composta por um imenso avião, construído com carrinhos de metal e utilizado para realizar o transporte de caixões em cemitérios, e pelos painéis em preto e branco, cria um ambiente, carregado, sombrio e cheio de inquietações conceituais.',
+            'Elementos como palavras, frases, manchas, ora opacas, ora transparentes, que sempre estiveram nos trabalhos do artista, continuam presentes, porém agora grafadas com uma gama pictórica extensa. As cores, muitas delas fluorescentes, se contrapõem ou se alinham ao preto, abundantemente usado por Solá. Os trabalhos feitos com lápis, pastéis macios e tinta acrílica, criam narrativas poéticas entre ícones e alegorias que abordam questões sobre política, sexualidade, comportamento, arquitetura e história da arte.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Born in Goiania, GO, in 1971. Lives and works in Goiania, GO.',
+            'Marcelo Solá is the artist of Goias from the emerging generation of late ‘80s and early 90s whose production had a higher projection in the Brazilian scenario. Born in 1971, in Goiania, where he lives and works presently. With many intimate works, which used writing as a process of the creation of the drawings, Solá was easily absorbed into the institutional circuit by the specialized critics and consequently by the commercial marketplace. He took part in several exhibitions in reputable institutions and obtained many awards. Among them, we can highlight the Scholarship for Supporting Research and Artistic Creation, by the Secretaria de Cultura do Rio de Janeiro (Culture Department of Rio de Janeiro) and, twice in a row, the Projeteis de Arte Contemporanea (Contemporary Art Projectiles), by FUNARTE (a Brazilian governmental foundation of arts).',
+            'In 2002, Marcelo took part in the 25th Biennial of Sao Paulo, a fact that took him, definitely, to the mainstream of the leading contemporary artists of Brazil. His installation consisted of a huge plane, built with metal carts originally used to carry coffins to cemeteries. Its black and white panels created a laden, dismal environment, full of conceptual inquietudes.',
+            'The works displayed in the exhibition show that elements such as words, phrases and spots – sometimes opaque, sometimes transparent – which were always present in the past on his works, continue there, although they are now marked with an extensive pictorial range The colors, many of them fluorescent, oppose to or align with the black color, abundantly used by Solá. The works done in pencils, soft pastels and acrylic paint create poetic narratives between icons and allegories that refer to issues of politics, sexuality, behavior, architecture and art history.'
+        ],
     },
     artista_35 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu no Rio de Janeiro, RJ, 1976. Vive e trabalha em Brasília, DF.',
+            'Matias Mesquita desenvolve trabalhos híbridos nos quais a pintura encontra a escultura. Para o suporte pictórico, busca uma arquitetura que combine materiais brutos como concreto, barro e escombros de ruínas urbanas. Para a pintura, o artista busca, a partir de seu interesse pelo tempo, o instante em que o olhar apreende a contemplação do cotidiano. A imagem fugidia serve de referência para minuciosa pintura a óleo que cobre uma porção do suporte moldado.',
+            'A materialidade da obra é explorada de forma que subverta convenções plásticas comuns, num processo em que a força escultórica e a tradição pictórica se encontram. Enquanto o suporte expõe a fragilidade e a precariedade do material, evocando uma condição social e urbana inerente a uma sociedade em constante transformação, a pintura tenta eternizar o instante para posteridade.',
+            'Toda essa construção, somada à delicadeza das pinceladas da pintura realista, dá abertura à subjetividade do observador e ativa a possibilidade de sua imersão dentro de um novo processo contemplativo.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Born in Rio de Janeiro, RJ, 1976. Lives and works in Brasília, DF.',
+            'Matias Mesquita develops hybrid works in which painting meets sculpture. For the pictorial support, he seeks an architecture that combines raw materials such as concrete, clay and rubble from urban ruins. For painting, the artist seeks, based on his interest in time, the moment when the gaze grasps the contemplation of everyday life. The elusive image serves as a reference for a detailed oil painting that covers a portion of the molded support.',
+            'The materiality of the work is explored in a way that subverts common plastic conventions, in a process in which the sculptural strength and the pictorial tradition meet. While the support exposes the fragility and precariousness of the material, evoking a social and urban condition inherent in a society in constant transformation, the painting tries to eternalize the moment for posterity.',
+            'All this construction, added to the delicacy of the brushstrokes of realistic painting, opens up the subjectivity of the observer and activates the possibility of his immersion within a new contemplative process.'
+        ],
     },
     artista_36 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nascido em Cuiabá, MT, em 1961, vive e trabalha em Chapada dos Guimarães, MT.',
+            'Suas pinturas, quase sempre em grandes formatos, retratam o cerrado do Centro-Oeste brasileiro e a floresta amazônica com o objetivo de manter preservada sua forte carga mítica, com um sentido de profundidade evanescente, construído, algumas vezes, com névoas que apontam para a transitoriedade da paisagem representada.',
+            'Com uma vivência direta com a paisagem, desenvolveu um gosto pelo naturalismo e, tal quais os viajantes que por aqui passaram no Século XVIII, como a expedição Langsdorff, procurou representar a paisagem, aprimorando os conhecimentos e tentando suprir a necessidade imanente do aprisionamento das formas da natureza o que irá incidir em um surpreendente e inesgotável fazer artístico e estético. (Texto de Serafim Bertoloto)'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Born in Cuiabá, MT, in 1961, he lives and works in Chapada dos Guimarães, MT.',
+            'His paintings, almost always in large formats, portray the savannah of the Brazilian Midwest and the Amazon rainforest with the aim of maintaining its strong mythical charge, with an evanescent sense of depth, sometimes built with mists that point towards the transience of the represented landscape.',
+            'With a direct experience with the landscape he developed a taste for naturalism and, like the travelers who passed through here in the 18th century, like the Langsdorff expedition, he tried to represent the landscape, improving his knowledge and trying to supply the immanent need to imprison the forms of nature which will focus on a surprising and inexhaustible artistic and aesthetic make. ',
+            '(Text by Serafim Bertoloto)'
+        ],
     },
     artista_37 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu no Rio de Janeiro, RJ, em 1994. Vive e trabalha em Brasília, DF.',
+            'Pedro Gandra lança mão da pintura para dialogar com o mundo. Em meio a manchas, que contêm áreas de cor (cor pura), palavras, espaços vazios, traços e curvas sutis que recortam a pintura, Gandra cria suas narrativas poéticas. Em sua série mais recente, os trabalhos são compostos por formas simples de figuras humanas com traços indefinidos, que, por vezes, são apagadas ou parecem desaparecer na intensidade cromática. ',
+            'A representação figural do ser humano é apresentada na forma de memória redefinida, reinterpretada, transposta como indicação, de um decurso, de uma lacuna. As várias camadas de tinta sobrepostas ocultam ideias deixadas na tela que são refeitas inúmeras vezes. Não são desmanchadas, permanecem ali encobertas na pintura, como vestígios, indícios visíveis.',
+            'Segundo o artista, pensa questões narrativas como acontecimentos não lineares, que possam estimular um exercício sobre a presença do tempo em torno da composição ali disposta na pintura. Um exercício, onde um acontecimento narrativo, uma cena “estática” evoque para além do que está no tempo presente da composição, e também sugestione o que poderia ter acontecido antes e o que pode vir a acontecer, propondo uma tensão narrativa.  Ele apresenta uma narrativa aberta, ambígua e fragmentada, propondo sugestões e possiblidades de leituras.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Born in Rio de Janeiro, RJ, in 1995. Lives and works in Brasília, DF.',
+            'Pedro Gandra uses painting to dialogue with the world. Amid stains, which contain areas of color (pure color), words, empty spaces, subtle lines and curves that cut out the painting, Gandra creates his poetic narratives. In his most recent series, the works consist of simple forms of human figures with undefined features, which are sometimes erased or appear to disappear in chromatic intensity.',
+            'The figural representation of the human being is presented in the form of a redefined memory, reinterpreted, transposed as an indication, of a course, of a gap. The overlapping layers of paint hide ideas left on the canvas that are redone over and over again. They are not dismantled, they remain hidden in the painting, as traces, visible signs.',
+            'According to Pedro, he thinks of narrative issues as non-linear events, which can stimulate an exercise on the presence of time around the composition displayed there in the painting. An exercise, where a narrative event, a “static” scene evokes beyond what is in the present time of the composition, and also suggests what could have happened before and what could happen, proposing a narrative tension. It presents an open, ambiguous and fragmented narrative, proposing suggestions and possibilities for reading.'
+        ],
     },
     artista_38: {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu em Goiânia, GO, em 1964. Vive e trabalha em Goiânia, GO.',
+            'Um dos artistas mais emblemáticos de Goiás, Pitágoras Lopes desenvolveu uma trajetória sólida e comprometida com o ideário neoexpressionista e romântico. Artista emergente do final da década de 1980 e início dos anos 90, participou de importantes exposições no Brasil e no exterior. Foi premiado em vários salões e participou da 29ª e 34ª edição do Panorama de Arte Brasileira, no Museu de Arte Moderna de São Paulo – MAM, um dos eventos mais representativos do circuito institucional do país.',
+            'Pitágoras é movido por uma força externa que o impulsiona a produzir de forma compulsiva e incessante. Sua produção é influenciada por todos os tipos de mídia: TV, gibis, revistas, jornais, cinema, qualquer tipo de informação advinda do mundo contemporâneo. Seu processo criativo pautado na relação de tensão existente entre seu corpo e o material utilizado como suporte para produção das obras, telas, papelão, pedaços de madeira e encartes do mundo da moda, resultam em pinturas que trazem narrativas poéticas de um mundo visto de forma quase surreal, onde personagens em meio a um universo caótico dialogam com cenas banais do dia a dia.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Born in Goiania, GO, in 1964. Lives and works in Goiania, GO.',
+            'One of the most emblematic artists of Goias, Pitagoras Lopes has developed a strong record of accomplishment, committed to the neoexpressionist and romantic ideals. Emerging artist of the late 80s and early 90s, took part in important exhibitions in Brazil and abroad. He got awards in various salons and took part in the 29th and 34th editions of the Panorama of the Brazilian Art, the Museum of Modern Art of Sao Paulo – MAM, Sao Paulo, SP, one of the most representative events of the institutional circuit in Brazil.',
+            'Pitagoras is moved by an external force that drives him to produce works compulsively and incessantly. His production is influenced by all kinds of media, TV, comic books, magazines, newspapers, movies, any information coming from the contemporary world. His creative process is guided by the tension relationship between his body and the material being used as support for the production of works: canvas, cardboard, wood pieces and inserts of the fashion world turn into paintings that bring poetic narratives of a world seen in an almost surreal way, where characters from a chaotic universe dialogue in/with banal scenes of a day-to-day life.'
+        ],
     },
     artista_39 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu em Três Lagoas, MS, em 1952. Vive e trabalha em Brasília, DF.',
+            'Ralph Gehre desenvolve seu trabalho a partir de diversas mídias gráficas, além da pintura e da fotografia, mas considera o desenho a base de seu trabalho. Trata de questões relativas à construção do processo de leitura, situando sua pesquisa na relação entre a imagem e a palavra.',
+            'As ideias que servem de guia para o trabalho do artista, são encontradas na prática da pintura, com ela, ao mesmo tempo. Pintar o faz pensar a pintura. A pintura é uma invenção que se concretiza por meios próprios, ultrapassa as intenções iniciais, conduz a bons pensamentos, embora seja um processo difícil. ',
+            'Na concepção do artista, o desejo de pintar implica pensamentos lógicos e incoerentes e ambos são importantes. A pintura é regida por decisões, escolhas e achados, para escapar dos critérios de harmonia e equilíbrio, pois não se define na ocupação do suporte. Pintar é como formular uma pergunta sem palavras e daí construir uma máquina.',
+            'A pintura é um corpo, ainda que bidimensional. O que se forma é um corpo de pintura, sempre prestes a avançar para mais uma dimensão. Nessa situação ela pode ganhar dois componentes: a sombra, como variação da cor, e um lado do avesso visível, variante do espaço negativo. A cor deve ser fosca e contínua, muito limpa.',
+            'Ralph Gehre persegue a possibilidade de uma pintura em que não haja nenhum subterfúgio e nenhuma narrativa. Nenhum, nenhuma.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Três Lagoas, MS, in 1952. Lives and works in Brasília, DF.",
+            "Ralph Gehre develops his work using various graphic media, in addition to painting and photography, but considers the basic drawing as his work. He deals with issues related to the construction of the reading process, placing his research in the relationship between the image and the word.",
+            "The ideas that serve as a guide for the artist's work are found in the practice of painting, with it, at the same time. Painting makes you think about painting. Painting is an invention that takes shape by its own means, goes beyond initial intentions, leads to good thoughts, although it is a difficult process.",
+            "In the artist's conception, the desire to paint implies logical and incoherent thoughts and both are important. Painting is governed by decisions, choices and findings, to escape the criteria of harmony and balance, as it is not defined in the occupation of the support. Painting is like asking a wordless question and then building a machine.",
+            "Painting is a body, albeit two-dimensional. What is formed is a body of painting, always about to advance to another dimension. In this situation it can gain two components: the shadow, as a color variation, and one side of the visible inside out, variant of the negative space. The color must be matte and continuous, very clean.",
+            "Ralph Gehre pursues the possibility of a painting in which there is no subterfuge and no narrative. None, none."
+        ],
     },
     artista_40 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Brasília, DF, em 1981. Vive e trabalha em Brasília, DF.",
+            "Raquel Nava investiga o ciclo da matéria orgânica e inorgânica em relação aos desejos e hábitos culturais, usando taxidermia e restos biológicos de animais justapostos à materiais industrializados em suas instalações, objetos e fotografias. A variação cromática com a qual trabalha nos objetos e fotografias, se aproxima da paleta utilizada na sua produção de pintura. A diversidade de sua produção está nos experimentos com técnicas e materiais, mas sempre surge uma referência aos órgãos ou aos organismos.",
+            "Nas imagens de Raquel Nava a figura humana está ausente. Ainda assim ela parece rondar aquele entorno de alguma forma. Qualquer aparente liberdade dos seres em cena revela-se, aos poucos, improvável, improcedente – uma dissimulação. Há agentes ocultos controlando essas imagens. Mais ainda, há indústrias por trás delas; sistemas de economia concentrada que regem os corpos e suas sobrevivências.",
+            "Entre animais taxidermizados, ossadas, embutidos, embrulhos, fôrmas e apresuntados, os cenários de Nava denunciam ímpetos de industrialização e processos de estetização do que é selvagem. A artista dedica-se a uma variedade tipológica de linguagens em seus trabalhos e propõe um diálogo entre o gênero histórico da natureza morta com a conjunção contemporânea. (Fonte - texto da curadora Paola Fabres sobre a artista)."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Brasília, DF, in 1981. Lives and works in Brasília, DF.",
+            "Raquel Nava investigates the cycle of organic and inorganic matter in relation to cultural desires and habits, using taxidermy and biological remains of animals juxtaposed to industrialized materials in her installations, objects and photographs. The chromatic variation with which she works on objects and photographs, comes close to the palette used in her painting production. Her diversity of production is in experiments with techniques and materials, but there is always a reference to organs or organisms.",
+            "In Raquel Nava's images the human figure is absent. Still, it seems to be prowling around that environment in some way. Any apparent freedom of beings on the scene is gradually unlikely, unfounded - a dissimulation. There are hidden agents controlling these images. Furthermore, there are industries behind them; concentrated economy systems that govern bodies and their survival.",
+            "Among taxidermized animals, bones, sausages, wraps, shapes and cured meat, Nava's scenarios denounce impulses of industrialization and aesthetic processes of what is wild. The artist dedicates herself to a typological variety of languages in her works and proposes a dialogue between the historical genre of still life with the contemporary conjunction.",
+            "(Source - text by Paola Fabres on the artist)"
+        ],
     },
     artista_41 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Bragança Paulista, SP, em 1980. Vive e trabalha em Anápolis, GO.",
+            "Rei Souza é escritor, artista visual e cineasta autodidata e a fotografia é seu principal suporte de trabalho; na produção audiovisual, o documentário é o gênero ao qual mais se dedica, com filmes premiados em festivais realizados no Centro-Oeste e exibidos em diversos eventos pelo Brasil, países da América Latina e Europa. ",
+            "Enquanto artista visual, participou de mostras coletivas e foi premiado no 23º Salão Anapolino de Arte. Como praticante da mobgrafia ou fotografia mobile, produz, desde o surgimento dos primeiros smartphones, e vem experimentando, no decorrer do tempo, diversos processos de produção e manipulação digital possibilitadas por essa tecnologia. ",
+            "Recentemente, o artista vem desenvolvendo a série “Labirinto dos dias”, que resulta de uma extensa pesquisa realizada por meio de suas andanças pelas ruas do bairro onde mora, na periferia da região norte de Anápolis. As lentes de Reinaldo captam cenas banais, casuais do dia a dia, em que o conjunto de imagens constroi uma espécie de inventário imagético."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Bragança Paulista, SP in 1980. Lives and works in Anapolis, GO.",
+            "Rei Souza is a writer, visual artist and self-taught moviemaker and photography is his main support of work; in the audio visual production the documentary is the genre that predominates in his research with awarded films in festivals in the Midwest and exhibited in several events of the audio visual field carried out throughout the country.",
+            "As a visual artist he participated in group exhibitions and in the last two editions of the Salon of Art of Anápolis. Since the emergence of the first smart phones he has been practicing the mobgraphy or mobile photography and has been experimenting with, in the course of time, several processes of production and digital manipulation, made possible by this technology."
+        ],
     },
     artista_42 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Goiânia, GO, em 1980. Vive trabalha em Pirenópolis e Goiânia - GO.",
+            "Rodrigo Godá iniciou sua trajetória em meados da década de 1990, trabalhando com manobras e códigos oriundos da pintura oitentista. Já nos anos 2000, Godá insere em sua pesquisa pictórica linhas que, sistematizadas por uma sequência repetitiva, delimitam formas como templos, aquedutos e pontes. Paralelamente às experiências pictóricas, inicia uma série de desenhos, onde as superfícies dos papéis são tomadas por formas surreais, com aspectos lúdicos.",
+            "Influenciado na infância e na juventude pelas histórias em quadrinhos, desenhos animados, grafite e, mais recentemente, pela cultura popular, explora ao limite a representação e apresentação iconográfica em seus trabalhos. Observa-se em seus trabalhos, a recorrente pesquisa sobre a relação de um mundo fantasioso com um mundo humano, real, cheio de imperfeições. Com traços delicados e precisos, Godá apresenta uma pintura que, à primeira vista, nos leva por alguns instantes a voltar a nosso tempo de infância, reativando em nossas memórias o cheiro, o gosto e o som de nossas histórias mais tenras. Porém, ao colocar em meio à fauna e a flora engenhocas futuristas, marinettianas, cria uma relação que vai além da acomodação estética, instigando o observador a perceber questões críticas e políticas em suas obras. "
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Goiania, GO, in 1980. Lives and works in Pirenopolis and Goiania, GO.",
+            "Rodrigo Goda began his career in the mid-1990s, working with maneuvers and codes coming from the 80s painting. Now in the 2000s, Goda inserts in his search pictorial lines that, systematized by a repetitive sequence, delimit forms as temples, aqueducts and bridges. Alongside the pictorial experiences, he initiates a series of drawings where the surfaces of the papers take surreal shapes with playful aspects.",
+            "Influenced in childhood and boyhood by comics, cartoons, graffiti and, afterwards, by the pop culture, he explores the iconographic representation and presentation to the limit in his works.",
+            "We can observe in the works of the series “Untitled”, showed at the exhibition, the recurrent research of the artist concerning the relationship of a fantastic world with a human real world, full of imperfections. With delicate and precise strokes, Goda shows a painting that, at first glance, takes us back for a while to our childhood, reactivating in our memories the smell, taste and sound of our more tender histories. However, when he puts puppeteer futuristic gadgetry in the middle of the fauna and flora, he creates a relationship that goes beyond the aesthetic accommodation, prompting the viewer to perceive criticism and political issues in his works."
+        ],
     },
     artista_43 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Buriti Alegre (GO), 1955. Vive e trabalha em Goiânia, GO.",
+            "Artista visual que trabalha com instalação, pintura, fotografia e vídeo, ao longo de sua carreira realizou exposições individuais e tem participado de coletivas em Goiânia, Brasília, São Paulo, Rio de Janeiro, Paris, Tókio, entre outras localidades, apresentando trabalhos em acrílico sobre tela, desenhos, gravuras em metal e serigrafias. ",
+            "Em Selma, o pensar e o fazer se complementam, dialogam na construção de seu trabalho da mesma maneira que as instalações, a apropriação de elementos do cotidiano de sua família, as pinturas e os desenhos compõem um universo de intensa carga poética que a artista elabora com a precisão de uma costureira e a sabedoria de uma cirurgiã. Selma registra, fotograficamente e também em obras pintadas, todo esse processo de translado e transmutação do material para o imaterial de sua memória afetiva, como se pelo processo criativo ocorresse uma cura do apego a toda uma longa história familiar que alimentou seu imaginário por décadas. ",
+            "A condição feminina é compreendida de maneira substantiva, como elemento motriz da ação. Do silêncio das costureiras, das vozes cantadas das lavadeiras, do trabalho cotidiano exercido pelas mulheres por séculos de domínio masculino, a artista recolhe os instrumentos de sua ação artística e com eles elabora seu repertório plástico, sua poesia."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Buriti Alegre, GO, in 1955. Lives and works in Goiania, GO.",
+            "Visual artista that works with installation, painting, photography and video, in long of your career has participated in collectives in Goiânia, Brasília, São Paulo, Rio de Janeiro, Paris, Tokyo, among other locations, techniques in acrylic on canvas, drawings, metal engravings and serigraphs.",
+            "In Selma's work,' thinking' and 'doing' complement each other, dialogue in the construction of her work in the same way as the installations, the appropriation of elements of her family's daily life, such as paintings and drawings, compose a universe of intense poetic charge that the artist elaborates with the precision of a seamstress and the wisdom of a surgeon. Selma shoot, photographically and also in painted works, this whole process of transferring and transmuting the material to the immaterial of her affective memory, as if through the creative process there was a cure for the attachment to a long family history that had fueled her imagination for decades.",
+            "The woman condition is understood in a substantive way, as a driving element of the action. From silence of the seamstresses, the voices sung by the washerwomen, to do everyday work performed by women for centuries in the male domain, the artist collects the instruments of her artistic action and with it elaborates your plastic repertoire, your poetry."
+        ],
     },
     artista_44 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu na Cidade de Goiás, GO, em 1947. Vive e trabalha em Aparecida de Goiânia, GO.',
+            'Segundo Aline Figueiredo, o pintor, desenhista, escultor e ilustrador Siron Franco “é dono de um ótimo e particular domínio técnico, seu colorido de tons baixos, cinza e marrons acrescenta uma atmosfera dramática aos seus enredos. Preferindo falar amplamente do homem e sua ferocidade, Siron desenvolveu muitas séries, tendo sempre em mira esse personagem como um animal perigoso. Na cabeça - o olhar perverso e o ranger de dentes - está o ponto principal de referência dessas implicações.',
+            'A pintura de Siron Franco tem sido associada por alguns críticos à produção do artista inglês Francis Bacon (1909-1992), por ser povoada por seres monstruosos ou por revelar uma dimensão aterrorizadora. Emprega freqüentemente o plano de fundo escuro em seus quadros, utilizando uma gama cromática na qual predominam marrom e vermelho. Como nota a crítica inglesa, na série <i>Peles</i> (1984) o artista cria superfícies de grande sensualidade, que envolvem também uma ambigüidade: escondem a violência e a crueldade necessárias para sua produção.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Born in the city of Goiás, GO, in 1947. Lives and works in Aparecida de Goiânia, GO.',
+            'According to Aline Figueiredo, the painter, draftsman, sculptor and illustrator Siron Franco “owns a great and particular technical domain, his low tones, gray and brown colors add a dramatic atmosphere to his plots.',            'Preferring to speak widely of man and his ferocity, Siron developed many series, always aiming at this character as a dangerous animal. In the head - the perverse look and the gnashing of teeth - is the main point of reference of these implications.',
+            "Siron Franco's painting has been associated by some critics to the production of the English artist Francis Bacon (1909-1992), because it is populated by monstrous beings or because it reveals a terrifying dimension. He frequently uses the dark background in his paintings, using a chromatic range in which brown and red predominate. As the English critic notes, in the series Peles (1984) the artist creates surfaces of great sensuality, which also involve an ambiguity: they hide the violence and cruelty necessary for his production.",
+            'In works from the late 1990s, the artist moves from a more evident figuration to the use of large chromatic planes, in almost abstract works, in which he uses several techniques: collages, drawings and graphics. As Dawn Ades points out, his production stands out for its formal innovation, for its commitment to the satirist, who lives in an unusual way with "serious" painting, and for the reference to important political and social issues.'
+        ],
     },
     artista_45 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Guarujá, SP, em 1997. Vive e trabalha em Anápolis, GO.",
+            "Talles Lopes é um dos artistas mais promissores da nova geração da arte contemporânea goiana. Sua pesquisa poética tem como foco a produção cartográfica. São desenhos e pinturas de mapas que não têm a intenção de fazer apenas meras reproduções, com caráter instrumental, da representação gráfica e plana de um bairro, cidade, país ou continente. ",
+            "Os trabalhos de Talles propõem refletir sobre uma cartografia que vai além de suas funções clássicas, a dos mapas, estão repletos de questões de ordem social e cultural implícitas, oferecendo ao fruidor elementos discursivos para pensar as condições do homem contemporâneo no espaço em que ele habita. Gráficos com dados estatísticos sobre assentamentos rurais, ocupações, renda domiciliar, características étnico-raciais da população brasileira, alinhavam a narrativa poética do artista.",
+            "O artista se dedica, em seus trabalhos mais recentes, a construir uma narrativa poética em torno de temas como a polarização entre centro e periferia, cenário no qual cabe a esta última o papel de sujeito passivo, sem autonomia e sem voz. Para isto, tem se debruçado sobre mapas do Brasil Colônia e da América Portuguesa, relacionando-os com mapas produzidos às épocas dos governos de Getúlio Vargas e Juscelino Kubitschek. Em todos eles o que se percebe é a regionalização do Brasil no eixo Leste/Oste, onde o primeiro é o Ocidente desenvolvido e o segundo representa o espaço a ser conquistado, domesticado, salvo de seu atraso sócio-cultural-econômico.",
+            "Refletir sobre as consequências dessa herança colonial no circuito das artes, no Brasil, e sobre as possibilidades de resistência para reverter esse discurso é o que motiva o artista a construir sua narrativa poética."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Guarujá, SP, in 1997. Lives and works in Anápolis, GO.",
+            "Talles Lopes is one of the most promising artists of the new generation of contemporary art in Goiás. His poetic research focuses on cartographic production. They are drawings and paintings of maps that are not intended to make mere reproductions, with an instrumental character, of the graphic and flat representation of a neighborhood, city, country or continent.",
+            "Talles' works propose to reflect on a cartography that goes beyond its classic functions, that of maps, are full of implicit social and cultural issues, offering the audience discursive elements to think about the conditions of contemporary man in the space where he lives . Graphs with statistical data on rural settlements, occupations, household income, ethnic-racial characteristics of the Brazilian population, aligned the artist's poetic narrative.",
+            "The artist dedicates himself, in his most recent works, to building a poetic narrative around themes such as the polarization between center and periphery, a scenario in which the latter has the role of passive subject, without autonomy and without voice. To this end, he has pored over maps of Colonial Brazil and Portuguese America, relating them to maps produced at the time of the governments of Getúlio Vargas and Juscelino Kubitschek. In all of them, what is perceived is the regionalization of Brazil in the East / Oste axis, where the first is the developed West and the second represents the space to be conquered, domesticated, except for its socio-cultural-economic backwardness.",
+            "Reflecting on the consequences of this colonial heritage in the arts circuit in Brazil, and on the possibilities of resistance to reverse this discourse is what motivates the artist to build his poetic narrative."
+        ],
     },
     artista_46 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Juiz de Fora, MG, em 1967. Vive e trabalha em Brasília, DF.",
+            "Em sua obra, Usha Velasco utiliza a fotografia de diversas formas. Propõe reflexões, intervenções urbanas e contribui para enriquecer o repertório visual e criativo do público, promovendo o cenário cultural do Distrito Federal – onde se desenvolveu toda a produção da artista. Seus trabalhos propõem ao espectador caminhar pelas trilhas do tempo e da imaginação e exploram as possibilidades de resgate do inconsciente. Como a criança que brinca descalça no quintal dos avós em Ceres e Rialma, no interior de Goiás, e sobe na janela da casa para encontrar, do outro lado, as sombras, árvores e bancos de rua do Plano Piloto, em Brasília. ",
+            "Usha percorre esses caminhos e sabe que o trânsito pelo espaço-tempo é a própria matéria-prima com a qual a fotografia se desenvolve e apresenta suas possibilidades. Liberdade, ousadia e convicção é o que artista busca em sua produção artística, é o que baliza seus trabalhos e lhes dá coerência. Por meio de tramas e entrelaçamentos, sua intuição faz com que cada série se atualize a partir do que já foi realizado e aponte novas reflexões. ",
+            "No limite, seria possível pensar que estas trazem, de alguma forma, as mesmas proposições e se apresentam não como verdades e sim, a partir de um olhar libertário, como perguntas, muitas perguntas. A liberdade é uma possibilidade? É possível a felicidade nas coisas simples, em momentos banais do cotidiano? Em um mundo tão desigual, ser feliz é, ao menos, uma possibilidade que deveria estar como potência em todos (as) nós.",
+            "(Fonte - texto de André Vilaron sobre a artista)"
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Juiz de Fora, MG, in 1967. Lives and works in Brasília, DF.",
+            "In his work, Usha Velasco uses photography in several ways. She proposes reflections, urban interventions and contributes to enrich the visual and creative repertoire of the public, promoting the cultural scene of the Federal District - where the artist's entire production was developed. Her works propose the viewer to walk the paths of time and imagination and explore the possibilities of rescuing the unconscious. Like the child who plays barefoot in the grandparents' backyard in Ceres and Rialma, in the interior of Goiás, and climbs on the window of the house to find, on the other side, the shadows, trees and street benches of the Plano Piloto, in Brasília.",
+            "Usha travels these paths and knows that transit through space-time is the very raw material with which photography develops and presents its possibilities. Freedom, boldness and conviction is what an artist seeks in her artistic production, it is what guides her works and gives them coherence. Through plots and entanglements, her intuition makes each series updated based on what has already been accomplished and points out new reflections.",
+            "At the limit, it would be possible to think that they bring, in some way, the same propositions and present themselves not as truths, but rather, from a libertarian look, as questions, many questions. Is freedom a possibility? Is happiness possible in simple things, in banal moments of everyday life? In such an unequal world, being happy is, at least, a possibility that should be a power in all of us.",
+            "(Source - text by André Vilaron on the artist)"
+        ],
     },
     artista_47 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Formoso, GO, em 1972. Vive e trabalha em Anápolis, GO.",
+            "Valdson Ramos dedicou-se a várias atividades até descobrir que a arte contemporânea oferecia as possibilidades que ele buscava para expressar suas ideias e mediar seu diálogo com o mundo. É um dos artistas emergentes no cenário das artes visuais de Anápolis e de Goiás. Questões advindas da religião, da política sustentável, do mercado e do cotidiano estão presentes na produção de Valdson Ramos. ",
+            "O artista, que habitualmente trabalha com instalações, desenvolve atualmente uma série de desenhos em que objetos utilizados nos rituais católicos e elementos do capitalismo são cobertos por um manustérgio, toalha usada para enxugar as mãos do sacerdote durante a missa. Ao cobrir tais objetos, Ramos instiga o fruidor a refletir sobre a crise subjetiva da aquisição de bens materiais e valores espirituais. Os trabalhos são feitos com vinho canônico, água benta e aquarela."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Formoso, GO, in 1972. Lives and works in Anápolis, GO.",
+            "Valdson Ramos dedicated himself to various activities until he discovered that contemporary art offered the possibilities he sought to express his ideas and mediate his dialogue with the world. He is one of the emerging artists in the visual arts scene of Anápolis and Goiás. Issues arising from religion, sustainable politics, the market and daily life are present in the production of Valdson Ramos.",
+            "The artist, who usually works with installations, currently develops a series of drawings in which objects used in Catholic rituals and elements of capitalism are covered by a <i>manustérgio</i>, a towel used to dry the hands of the priest during the mass. In covering such objects, Ramos urges the viewer to reflect on the subjective crisis of the acquisition of material goods and spiritual values. The works are made with canonical wine, holy water and watercolor."
+        ],
     },
     artista_48 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Monte Carmelo, MG, em 1964. Vive e trabalha em Brasília, DF.",
+            "O trabalho de Valéria Pena Costa é, e/ou contém uma interrogação. Em que ponto imperceptível da vida deixa-se a inocência para tornar-se possível predador? Um longo e lento processo? Um aprendizado de “ninho”? Quando despertam os elementos de caráter a que chamamos “natureza” de cada um? Um filhote de lobo não nos desperta medo, mas sabemos o que ele será.",
+            "Já com a espécie humana, diante da fragilidade e inocência de uma criança, não podemos prever o que se tornará. Este trabalho se refere a índoles traiçoeiras. A cruel, a perversa.",
+            "A artista fala de memórias. Daquelas experiências vivenciadas, daquelas sonhadas e mesmo das que foram criadas em fantasias, vindo a se fundir em lembranças embaçadas e incertas. Revisita infâncias e suas estórias. Recria fábulas e abre caminho a cada vertente possível de temas como o medo, o tempo, a ausência.",
+            "Neste trabalho, Valéria atem-se à vertente do medo. Tempos obscuros remetem a lembranças sombrias. Vive-se um momento político/social que inspira medo: pandemia, mortes, descaso. Nesse ambiente está sendo plantada (ou cultivada) a semente do caráter do adulto que se formará.",
+            "Quem é o lobo?"
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Monte Carmelo, MG, in 1964. Lives and works in Brasília, DF.",
+            "Valéria Pena Costa's work is, and / or contains a question mark. At what imperceptible point in life does one leave innocence to become a possible predator? A long and slow process? A “nest” learning? When do the elements of character that we call “nature” of each one awaken? A wolf cub doesn't make us afraid, but we know what it will be.",
+            "With the human species, in the face of a child's fragility and innocence, we cannot predict what it will become. This work refers to treacherous natures. The cruel, the wicked.",
+            "The artist talks about memories. From those experiences, those dreamed and even those that were created in fantasies, merging into blurred and uncertain memories. She revisits childhoods and their stories. It recreates fables and paves the way for every possible aspect of themes such as fear, time, absence.",
+            "In this work, Valéria focus on fear. Dark times lead to dark memories. We are experiencing a political / social moment that inspires fear: pandemic, deaths, neglect. In this environment, the seed of the adult character that will be formed is being planted (or cultivated).",
+            "Who is the wolf?"
+        ],
     },
     artista_49 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu no Rio de Janeiro, RJ, em 1947. Vive e trabalha em Brasília.',
+            'A "animaverbivocovisualidade" é um fenômeno de linguagem que estrutura e dá contorno aos trabalhos de Wagner Barja. A comunhão entre palavra e imagem resultam em sonoridade, outro elemento partícipe na concepção de suas obras.',
+            'Sempre envolvido com investigação e pesquisa da arte, Barja busca desconstruir, com humor e ironia, o linear e o estabelecido. Seu lema é ousar nas poéticas visuais.'
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu no Rio de Janeiro, RJ, em 1947. Vive e trabalha em Brasília.",
+            'The "animaverbivocovisuality" is a phenomenon of language that structures and shapes the works of Wagner Barja. The communion between word and image results in sonority, another element that participates in the conception of his works.',
+            "Always involved in research and art research, Barja seeks to deconstruct, with humor and irony, the linear and the established. His motto is to dare in visual poetics."
+        ],
     },
     artista_50 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            'Nasceu em Goiânia, GO, em 1979. Vive e trabalha em Goiânia, GO.',
+            'Yara Pina dialoga em seus trabalhos com a performatividade partindo de ações que buscam deixar índices de um corpo que agiu “aqui”. Em seus trabalhos, a ação está depositada nos objetos por ela escolhidos, organizados e reorganizados no espaço – a cadeira, o espelho, a vassoura, o balde, a moldura – buscando estabelecer relações de proximidade entre esses objetos e outros importantes materiais recorrentes em seu processo, o carvão e o papel.',
+            'Se por um lado, seus trabalhos podem ser considerados desenhos, por outro, eles fogem da linearidade, uma vez que a linha desenhada não está presente. O que se presencia em suas obras é o resultado final do esforço físico do corpo inscrito com a matéria. Suas inscrições são temporalidades sobrepostas, ação sobrepondo ação, tempo sobrepondo tempo. A gestualidade, em sua dimensão performativa, explorada pelo próprio corpo da artista tem como consequência transformar os “corpos” de outros objetos. '
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Born in Goiânia, GO, in 1979. Lives and works in Goiânia – GO",
+            'Yara Pina dialogues in her works with the performativity starting from actions that try to leave indexes of a body that acted "here". In her works, the action is deposited in the objects she chooses, organized and reorganized in the space - the chair, the mirror, the broom, the bucket, the frame - seeking to establish close relationships between these objects and other important recurring materials in her process, coal and paper.',
+            "If, on the one hand, his works can be considered drawings, on the other, they are out of linearity, since the drawn line is not present. What is seen in his works is the final result of the physical effort of the body inscribed with the matter. Their inscriptions are overlapping temporalities, action overlapping action, time overlapping time. Gesturality, in its performative dimension, explored by the artist's own body has the consequence of transforming the “bodies” of other objects."
+        ],
     },
     artista_51 : {
         pt : [
-            "Texto PT Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi."],
+            "Nasceu em Volta Redonda, RJ, em 1950. Vive e trabalha em Goiânia, GO.",
+            "Há alguns anos Zé César vem trabalhado com papelões de caixas de embalagens, cortando, recortando, colando, fazendo incisões. Ele representa o aglomerado das cidades, a sobreposição de edifícios, o caos urbano. As metrópoles têm sido o principal elemento de suas pesquisas artísticas recentes e seus trabalhos demonstram sua preocupação com as consequências dessa ocupação desordenada do espaço na qualidade de vida do cidadão. ",
+            "O que a cidade descarta – o papelão – o artista transforma em sua representação. É um trabalho muito aproximado dos processos de gravura, no momento em que estão muito presentes os cortes e incisões no papelão, proveniente de sua extensa prática e raciocínio de gravador. ",
+            "Professor de Gravura da Faculdade de Artes Visuais (FAV) da Universidade Federal de Goiás (FAV/UFG) desde 1980, o artista é reconhecido como um mestre gravador entre outros artistas e pesquisadores da área. Mais recentemente o artista tem se dedicado à produção de litografias a seco, processo alternativo de litografia com chapas de offset e silicone que Zé César aprendeu no período em que esteve no México, em 2014."
+        ],
         en : [
-            "Texto EN Paragrafo 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi.",
-            "Paragrafo 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor, dicta saepe quaerat reiciendis accusamus illum repellendus dolores ratione sequi"]
+            "Born in Volta Redonda, RJ, in 1950. Lives and works in Goiânia, GO.",
+            "For some years, Zé César has been working with cardboard boxes, cutting, cutting, pasting, making incisions. It represents the agglomeration of cities, the overlapping of buildings, the urban chaos. The metropolises have been the main element of his recent artistic research and his works show his concern with the consequences of this disorderly occupation of space on the quality of life of the citizen.",
+            "What the city discards - the cardboard - the artist transforms into his representation. It is a work very close to the engraving processes, at the moment when the cuts and incisions in the cardboard are very present, coming from its extensive practice and reasoning as an engraver.",
+            "Professor of engraving at the Faculty of Visual Arts (FAV) at the Federal University of Goiás (FAV / UFG) since 1980, the artist is recognized as a master engraver among other artists and researchers in the field. More recently, the artist has dedicated himself to the production of dry lithographs, an alternative lithography process with offset plates and silicone that Zé César learned during his period in Mexico, in 2014."
+        ],
     }
 }

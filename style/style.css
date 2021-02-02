@@ -1,273 +1,357 @@
-/*Tipografia */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
-
-html {
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    -webkit-text-size-adjust: 100%; /* Escala se manter em mobiles */
-}
+/* 0.1) Variáveis */
 :root {
     --color-primary: #405C32;
-    --color-secondary: #557546;
+    --color-primary-bright: #557546;
+    --color-primary-dark: #2f4624;
     --color-linhas: #d48a00;
 
-
-    --height-header: 480px;
-    --height-footer: 300px;
     --margin: 1rem;
-    --color-primary-bright: white;
+    --bright-ref: #ffffff;
+}
+/* 0.2) Unidades */
+html {
+    font-size: 10px;
+    -webkit-text-size-adjust: 100%; /* Escala se manter em mobiles */
 }
 
-/* Construcao do site - Temp */
-header + a {
-    margin-left: 2rem;
+/* 1) Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
-h1, h2, h3, h6, p, select, img {
-    margin-top: 1rem;
-}
+/* 1.1) Font-Size */
 
-/* Font-size */
-h3     { font-size: 1.8rem; font-weight: 300; }
-p      { font-size: 1.8rem; }
-select { font-size: 2.3rem; font-weight: 700; }
-h6     { font-size: 1.2rem; font-weight: 700; }
+    h2     { font-size: 2.4rem; font-weight: 400; }
 
-h1, h2, h3, p {
-    color: white;
-}
-h2 {
-    margin-top: 3rem;
-}
-p {
-    line-height: 2.5rem;
-}
+    h3     { font-size: 1.8rem; font-weight: 300; }
 
-/* Ocultar Versão Inglês */
-.pt { display: block; }
-.en { display: none; }
+    .info { font-size: 1.4rem; margin-top: 0 }
 
-/* Estilo Geral */
-* {
-    margin: 0;
-}
+    .menu-option p { font-size: 2rem; font-weight: 500; }
+    .menu-option p { text-align: center; }
+    select       { font-size: 2.3rem; font-weight: 700; }
 
+    p      { font-size: 1.8rem; }
+    h6     { font-size: 1.2rem; font-weight: 700; }
 
-.main-texto {
-    overflow: hidden;
-    overflow-y: scroll;
-    
-    height: 60vh;
-    /* width: 100%; */
+/*  1.2) Font Layout and Design */
 
-    margin: 0 calc(4 * var(--margin));
-    background-color: var(--color-primary);
-}
-
-
-body {
-    min-height: 100vh;
-    max-width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: var(--color-primary);
-    outline: 16px solid var(--color-secondary);
-
-}
-    header {
-        height: var(--height-header);
-        max-width: 480px;
-        margin: 0 auto;
-        background-image: url(/images/identidade-temp.jpg);
-        background-position-x: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+    .menu-option {
+        list-style-type: none;
+    }
+    .menu-option p {
+        /* Boundary */
+        margin: -9px 0px -4px 0px;
     }
 
-
-.screen1 {
-    /*height: 100vh;*/
-}
-
-    .main {
-        height: 300px;
+    h1, h2, h3, p {
+        color: white;
+    }
+    h2 {
+        margin-top: 3rem;
+    }
+    p {
+        line-height: 2.5rem;
     }
 
+/*  1.3) Hide .en elements - Setting default language */
+    .pt { display: block; }
+    .en { display: none; }
 
-        .selecao {
-            padding-top: 1px;
-            height: 300px;
-            z-index: 1;
-            position: sticky;
-            top: 0px;
-            background-color: rgba(64,92,51,.90);
-            /*border-left: 3px solid white;*/
-            /*border-right: 3px solid white;*/
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .selecao h3,
-        .bottom-bar h3 {
-            margin-top: 1.5rem;
-        }
-            
-            select {
-                width: 80%;
-                margin: auto;
-                /*color: white;*/
-            }
-            #aviso_index h1 {
-                text-align: center;
-            }
-            .selecao h3 {
-                text-align: center;
-            }
-
-        .divisao-horizontal {
-            margin: 0 calc(4 * var(--margin));
-            height: 2px;
-            background-color: white;
-        }
-
-.todos_artistas img {
-    display: block;
-    margin: 0;
-    width: 25%;
-    height: 25%;
-    /*height: 100px;*/
-}
-
-.todos_artistas {
-    display: flex;
-    flex-wrap: wrap;
-
-    position: relative;
-    bottom: 0px;
-
-
-    animation: slideshowArtistas 60s linear alternate;
-    animation-iteration-count: infinite;
-}
-@keyframes slideshowArtistas {
-    from { bottom: 0px; }
-    to { bottom: 1260px; }
-}
-
-
-.container-todos-artistas {
-    height: 300px;
-    overflow-y: hidden;
-    position: relative;
-    top:-300px;
-    margin-bottom: -300px;
-}
-.container-todos-artistas::before {
-    display: block;
-    content: " ";
-    /*margin-top: -100px;*/
-    /*background-image: url(/images/avatars/artista_1.jpg);*/
-    /*background-size: 100%;*/
-    /*outline: 1px solid red;*/
-
-}
-
-
-.sections > div { /* Cada div de cada artista */
-    flex-direction: column;
-    display: none;
-    transition: display 1s linear;
-
-    margin-top: 0;
-    margin-left: calc(4 * var(--margin));
-    margin-right: calc(4 * var(--margin));
-    /*padding-top: 150px;*/
-    
-    /*margin-top: 100px;*/
-}
-.sections div :last-child {
-    /* padding-bottom: 50px; */
-}
-
-.sections :target {  /* Section baseado na url # */
-    display: flex;
-    /*flex-direction: column;*/
-}
-
-/* PARTE DE CIMA */
-.sections > div::before {
-    display: block;
-    content: " ";
-    /*background-image: url(/images/avatars/artista_1.jpg);*/
-    /*background-size: 100%;*/
-    height: 100px;
-    /*background-color: "";*/
-    /*outline: 1px solid red;*/
-}
-.sections img {
-    margin: 2rem auto 1rem auto;
-    max-width: 80%;
-    box-shadow: 3px 3px 0px var(--color-primary-bright);
-}
-
-
-
-#artista_43 .bottom-bar {
-    margin-top: 1rem;
-    position: sticky;
-    bottom: 0px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    border-top: 2px solid white;
-    background-color: rgba(64,92,51,.90);
-}
-#artista_43 .bottom-bar h3 {
-    margin-bottom: 1.5rem;
-}
-audio {
-    width: 100%;
-    margin-bottom: 1.5rem;
-}
-
+/*   1.4) Loading block */
 .loading-animation {
-position: fixed;
-transform-origin: center;
-top: 50vh;
-left: calc(50vw - 16px);
 
-height: 32px;
-width: 32px;
-border-radius: 20px;
-border: 2px solid white;
-border-left-color: rgba(0,0,0,0);
+    position: fixed;
+    z-index: 10;
+    transform-origin: center;
+    top: 50vh;
+    left: calc(50vw - 16px);
 
-animation-name: rotacaoLoading;
-animation: rotacaoLoading 1.5s linear infinite;
+    height: 32px;
+    width: 32px;
+    border-radius: 20px;
+    border: 2px solid white;
+    border-left-color: rgba(0,0,0,0);
 
-display: none;
+    display: none;
+
+    transform: rotate(360deg);
+    animation: rotacaoLoading 1.5s linear infinite;
 }
-
 @keyframes rotacaoLoading {
     from { transform: rotate(0deg);   };
     to   { transform: rotate(360deg); };
 }
 
+/*  2) Layout Structure */
 
+    * {
+        margin: 0;
+    }
 
-.sobre-expo {
-    margin: var(--margin) calc(2 * var(--margin));
+    h1, h2, h3, h6, p, select, img {
+        margin-top: 1rem;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+
+        background-color: var(--color-primary);
+    }
+    #appMenu {
+        width: 100%;
+        max-width: 480px; /* Can be adjusted... */
+        height: 100%;
+        margin: 0 auto;
+
+        overflow: hidden;
+    }
+
+/* 2.1) Presentation and Menu Part */
+.main {
+    position: relative;
+    top: 0;
+    left: 0%;
+    z-index: 0;
+
+    opacity: 1;
+    transition: opacity .5s ease;
 }
-.sobre-rodape {
-    margin: var(--margin) calc(4 * var(--margin));
+.menu-option {
+    /* height: 64px; */
+}
+.menu-option div {
+    height: 55px;
+    border-top: 2px solid var(--color-primary-bright);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.option-disabled p {
+    color: var(--color-primary-bright);
 }
 
+
+ol {
+    padding: 0;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* 2.2) Content Part */
+    .main {
+    }
+    #appContent {
+        display: none;
+        transition: display .5s ease;
+
+
+        max-width: 640px;
+        width: 100%;
+    }
+
+    /* Adress bar issue iPhone */
+    .texto-mostra,
+    .artistas,
+    .curador {
+        margin-top: 75px;
+    }
+
+
+    #selecaoDiv #selecaoDivInnerHTML {
+        margin-left: calc(4 * var(--margin));
+    }
+
+
+    .divOptionArtist img {
+        height: 44px;
+        width: 44px;
+        border-radius: 46px;
+        border: 1.5px solid white;
+        opacity: .7;
+
+        margin-left: calc(4 * var(--margin));
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .bottom-bar {
+        position: fixed;
+        bottom: 0px;
+        background-color: var(--color-primary-bright);
+        width: 100%;
+        height: 100px;
+        margin-left: calc(-4 * var(--margin));
+
+
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .bottom-bar * {
+        margin-left: calc(4 * var(--margin));
+        margin-right: calc(4 * var(--margin));
+    }
+    .bottom-bar h3 {
+        margin-top: 0;
+        margin-bottom: -20px;
+    }
+
+    .back-to-menu {
+        padding-bottom: 100px;
+    }
+    .back-to-menu div {
+        border-top: none;
+        /* border-bottom: 2px solid white; */
+        height: 80px;
+    }
+
+
+    /* INSTITUICAO */
+    a:link {
+        color: white;
+    }
+    .instituicao img {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: -30px;
+    }
+
+    .instituicao *:not(img) {
+        margin-left: calc(4 * var(--margin));
+        margin-right: calc(4 * var(--margin));
+    }
+    .instituicao h2 {
+        margin-bottom: 1rem;
+    }
+
+    .block {
+        display: none;
+    }
+    #selecaoDiv {
+        height: 55px;
+        overflow-y: hidden;
+        
+        transition: height .5s ease;
+
+        /* padding: 0 calc(4 * var(--margin)); */
+        background-color: var(--color-primary-dark);
+    }
+    #selecaoDiv div {
+        display: flex;
+        flex-direction: row;
+        height: 55px;
+    }
+    #selecaoDiv p {
+        margin: auto;
+        margin-left: 1rem;
+    }
+
+    #selecaoDiv div:hover {
+        background-color: var(--color-primary-bright);
+    }
+    .selecaoDiv.selected {
+        margin-bottom: -100px
+    }
+    #selecao-artista {
+        margin: auto;
+    }
+    .todos_artistas img {
+        display: block;
+        margin: 0;
+        width: 25%;
+        height: 25%;
+        /*height: 100px;*/
+    }
+    
+    .todos_artistas {
+        display: flex;
+        flex-wrap: wrap;
+    
+        position: relative;
+        bottom: 0px;
+    
+    
+        animation: slideshowArtistas 60s linear alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slideshowArtistas {
+        from { bottom: 0px; }
+        to { bottom: 1260px; }
+    }
+    .container-todos-artistas {
+        z-index: -1;
+        height: 300px;
+        overflow-y: hidden;
+        position: relative;
+        top: -300px;
+        margin-bottom: -300px;
+    }
+    .container-todos-artistas::before {
+        display: block;
+        content: " ";
+    }
+
+    .sections {
+        position: relative;
+        z-index: 0;
+    }
+
+    .sections div {
+        display: none;
+    }
+
+    .sections :target {  /* Section baseado na url # */
+        display: flex;
+    }
+
+
+    .nameArtist,
+    .nameCurator {
+        flex-direction: row;
+    }
+    .nameArtist p,
+    .nameCurator p {
+        font-size: 2.2rem;
+        margin: auto auto auto 0;
+    }
+
+    .sections > div { /* Cada div de cada artista */
+        flex-direction: column;
+        display: none;
+        transition: display 1s linear;
+    
+        /* padding-top: 100px; */
+        
+        padding-top: calc(4 * var(--margin));
+        margin-left: calc(4 * var(--margin));
+        margin-right: calc(4 * var(--margin));
+        /* padding-bottom: calc(4* var(--margin)); */
+    }
+    .texto-mostra,
+    .curador {
+        padding-top: calc(4 * var(--margin));
+        margin-left: calc(4 * var(--margin));
+        margin-right: calc(4 * var(--margin));
+        padding-bottom: calc(4* var(--margin));
+    }
+
+    .sections img,
+    .curador img  {
+        margin: 2rem auto 2rem 0;
+        max-width: 80%;
+        /* box-shadow: 3px 3px 0px white; */
+        border-left: 3px solid var(--color-linhas);
+        padding-left: 7px;
+        margin-left: -10px;
+    }
+
+/* 2.2.1) Footer */
 footer {
     background-color: white;
     padding: 1px;
@@ -282,7 +366,7 @@ footer h6 {
         margin: calc(4 * var(--margin));
     }
         .footer-container img {
-            height: 50px;
+            height: 48px;
             padding-left: var(--margin);
             padding-right: var(--margin);
             /*margin-right: 2rem;*/
@@ -292,7 +376,7 @@ footer h6 {
         .realizacao img:nth-child(5) { height: 30px; }
 
         /* MARGENS */
-        .apresentacao img:nth-child(1),
+        /* .apresentacao img:nth-child(1),
         .realizacao img:nth-child(1),
         .realizacao img:nth-child(4),
         .patrocinio img:nth-child(1) {
@@ -303,6 +387,13 @@ footer h6 {
         .realizacao img:nth-child(5),
         .patrocinio img:nth-child(1) {
             margin-right: auto;
+        } */
+
+        .apresentacao img,
+        .realizacao img,
+        .patrocinio img {
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .realizacao {
@@ -310,14 +401,13 @@ footer h6 {
             margin: auto;
         }
 
-
         /* Espacamento entre grupo de logos */
         .apresentacao,
         .realizacao,
         .patrocinio {
             display: flex;
             flex-wrap: wrap;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
         }
         
 #projeto-contemplado {

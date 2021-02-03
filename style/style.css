@@ -5,7 +5,10 @@
     --color-primary-dark: #2f4624;
     --color-linhas: #d48a00;
 
+    --menuItemHeight: 55px;
+
     --margin: 1rem;
+    --large-margin: calc(4 * var(--margin));
     --bright-ref: #ffffff;
 }
 /* 0.2) Unidades */
@@ -48,7 +51,7 @@ html {
     }
 
     h1, h2, h3, p {
-        color: white;
+        color: var(--bright-ref);
     }
     h2 {
         margin-top: 3rem;
@@ -73,7 +76,7 @@ html {
     height: 32px;
     width: 32px;
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--bright-ref);
     border-left-color: rgba(0,0,0,0);
 
     display: none;
@@ -102,7 +105,7 @@ html {
 
         background-color: var(--color-primary);
     }
-    #appMenu {
+    #app {
         width: 100%;
         max-width: 480px; /* Can be adjusted... */
         height: 100%;
@@ -121,11 +124,8 @@ html {
     opacity: 1;
     transition: opacity .5s ease;
 }
-.menu-option {
-    /* height: 64px; */
-}
 .menu-option div {
-    height: 55px;
+    height: var(--menuItemHeight);
     border-top: 2px solid var(--color-primary-bright);
 
     display: flex;
@@ -145,271 +145,206 @@ ol {
 }
 
 /* 2.2) Content Part */
-    .main {
-    }
-    #appContent {
-        display: none;
-        transition: display .5s ease;
+#appContent {
+    display: none;
+    transition: display .5s ease;
 
+    max-width: 640px;
+    width: 100%;
+}
 
-        max-width: 640px;
-        width: 100%;
-    }
+/* Adress bar issue iPhone */
+.texto-mostra,
+.artistas,
+.curador {
+    margin-top: 75px;
+}
 
-    /* Adress bar issue iPhone */
-    .texto-mostra,
-    .artistas,
-    .curador {
-        margin-top: 75px;
-    }
+#selecaoDiv #selecaoDivInnerHTML {
+    margin-left: var(--large-margin);
+}
 
+.divOptionArtist img {
+    height: 44px;
+    width: 44px;
+    border-radius: 46px;
+    border: 1.5px solid var(--bright-ref);
+    opacity: .7;
 
-    #selecaoDiv #selecaoDivInnerHTML {
-        margin-left: calc(4 * var(--margin));
-    }
+    margin-left: var(--large-margin);
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
+.bottom-bar {
+    position: fixed;
+    bottom: 0px;
+    background-color: var(--color-primary-bright);
+    width: 100%;
+    height: 100px;
+    margin-left: calc(-4 * var(--margin));
 
-    .divOptionArtist img {
-        height: 44px;
-        width: 44px;
-        border-radius: 46px;
-        border: 1.5px solid white;
-        opacity: .7;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bottom-bar * {
+    margin-left: var(--large-margin);
+    margin-right: var(--large-margin);
+}
+.bottom-bar h3 {
+    margin-top: 0;
+    margin-bottom: -20px;
+}
 
-        margin-left: calc(4 * var(--margin));
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+.back-to-menu {
+    padding-bottom: 100px;
+}
+.back-to-menu div {
+    border-top: none;
+    height: 80px;
+}
 
-    .bottom-bar {
-        position: fixed;
-        bottom: 0px;
-        background-color: var(--color-primary-bright);
-        width: 100%;
-        height: 100px;
-        margin-left: calc(-4 * var(--margin));
+/* INSTITUICAO */
+a:link {
+    color: var(--bright-ref);
+}
+.instituicao img {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: -30px;
+}
 
+.instituicao *:not(img) {
+    margin-left: var(--large-margin);
+    margin-right: var(--large-margin);
+}
+.instituicao h2 {
+    margin-bottom: 1rem;
+}
 
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .bottom-bar * {
-        margin-left: calc(4 * var(--margin));
-        margin-right: calc(4 * var(--margin));
-    }
-    .bottom-bar h3 {
-        margin-top: 0;
-        margin-bottom: -20px;
-    }
+.block {
+    display: none;
+}
+#selecaoDiv {
+    height: var(--menuItemHeight);
+    overflow-y: hidden;
 
-    .back-to-menu {
-        padding-bottom: 100px;
-    }
-    .back-to-menu div {
-        border-top: none;
-        /* border-bottom: 2px solid white; */
-        height: 80px;
-    }
+    transition: height .5s ease;
 
+    background-color: var(--color-primary-dark);
+}
+#selecaoDiv div {
+    display: flex;
+    flex-direction: row;
+    height: var(--menuItemHeight);
+}
+#selecaoDiv p {
+    margin: auto;
+    margin-left: 1rem;
+}
+#selecaoDiv div:hover {
+    background-color: var(--color-primary-bright);
+}
+.selecaoDiv.selected {
+    margin-bottom: -100px
+}
+#selecao-artista {
+    margin: auto;
+}
 
-    /* INSTITUICAO */
-    a:link {
-        color: white;
-    }
-    .instituicao img {
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: -30px;
-    }
+.sections {
+    position: relative;
+    z-index: 0;
+}
+.sections div {
+    display: none;
+}
+.sections :target {  /* Section baseado na url # */
+    display: flex;
+}
 
-    .instituicao *:not(img) {
-        margin-left: calc(4 * var(--margin));
-        margin-right: calc(4 * var(--margin));
-    }
-    .instituicao h2 {
-        margin-bottom: 1rem;
-    }
+.nameArtist,
+.nameCurator {
+    flex-direction: row;
+}
+.nameArtist p,
+.nameCurator p {
+    font-size: 2.2rem;
+    margin: auto auto auto 0;
+}
 
-    .block {
-        display: none;
-    }
-    #selecaoDiv {
-        height: 55px;
-        overflow-y: hidden;
-        
-        transition: height .5s ease;
+.sections > div { /* Cada div de cada artista */
+    flex-direction: column;
+    display: none;
+    transition: display 1s linear;
 
-        /* padding: 0 calc(4 * var(--margin)); */
-        background-color: var(--color-primary-dark);
-    }
-    #selecaoDiv div {
-        display: flex;
-        flex-direction: row;
-        height: 55px;
-    }
-    #selecaoDiv p {
-        margin: auto;
-        margin-left: 1rem;
-    }
-
-    #selecaoDiv div:hover {
-        background-color: var(--color-primary-bright);
-    }
-    .selecaoDiv.selected {
-        margin-bottom: -100px
-    }
-    #selecao-artista {
-        margin: auto;
-    }
-    .todos_artistas img {
-        display: block;
-        margin: 0;
-        width: 25%;
-        height: 25%;
-        /*height: 100px;*/
-    }
+    /* padding-top: 100px; */
     
-    .todos_artistas {
-        display: flex;
-        flex-wrap: wrap;
-    
-        position: relative;
-        bottom: 0px;
-    
-    
-        animation: slideshowArtistas 60s linear alternate;
-        animation-iteration-count: infinite;
-    }
-    @keyframes slideshowArtistas {
-        from { bottom: 0px; }
-        to { bottom: 1260px; }
-    }
-    .container-todos-artistas {
-        z-index: -1;
-        height: 300px;
-        overflow-y: hidden;
-        position: relative;
-        top: -300px;
-        margin-bottom: -300px;
-    }
-    .container-todos-artistas::before {
-        display: block;
-        content: " ";
-    }
+    padding-top: var(--large-margin);
+    margin-left: var(--large-margin);
+    margin-right: var(--large-margin);
+    /* padding-bottom: calc(4* var(--margin)); */
+}
+.texto-mostra,
+.curador {
+    padding-top: var(--large-margin);
+    margin-left: var(--large-margin);
+    margin-right: var(--large-margin);
+    padding-bottom: calc(4* var(--margin));
+}
 
-    .sections {
-        position: relative;
-        z-index: 0;
-    }
-
-    .sections div {
-        display: none;
-    }
-
-    .sections :target {  /* Section baseado na url # */
-        display: flex;
-    }
-
-
-    .nameArtist,
-    .nameCurator {
-        flex-direction: row;
-    }
-    .nameArtist p,
-    .nameCurator p {
-        font-size: 2.2rem;
-        margin: auto auto auto 0;
-    }
-
-    .sections > div { /* Cada div de cada artista */
-        flex-direction: column;
-        display: none;
-        transition: display 1s linear;
-    
-        /* padding-top: 100px; */
-        
-        padding-top: calc(4 * var(--margin));
-        margin-left: calc(4 * var(--margin));
-        margin-right: calc(4 * var(--margin));
-        /* padding-bottom: calc(4* var(--margin)); */
-    }
-    .texto-mostra,
-    .curador {
-        padding-top: calc(4 * var(--margin));
-        margin-left: calc(4 * var(--margin));
-        margin-right: calc(4 * var(--margin));
-        padding-bottom: calc(4* var(--margin));
-    }
-
-    .sections img,
-    .curador img  {
-        margin: 2rem auto 2rem 0;
-        max-width: 80%;
-        /* box-shadow: 3px 3px 0px white; */
-        border-left: 3px solid var(--color-linhas);
-        padding-left: 7px;
-        margin-left: -10px;
-    }
+.sections img,
+.curador img  {
+    margin: 2rem auto 2rem 0;
+    max-width: 80%;
+    border-left: 3px solid var(--color-linhas);
+    padding-left: 7px;
+    margin-left: -10px;
+}
 
 /* 2.2.1) Footer */
 footer {
-    background-color: white;
+    background-color: var(--bright-ref);
     padding: 1px;
 }
-
 footer h6 {
     margin: 0;
     text-align: center;
 }
+.footer-container {
+    margin: var(--large-margin);
+}
+.footer-container img {
+    height: 48px;
+    padding-left: var(--margin);
+    padding-right: var(--margin);
+    /*margin-right: 2rem;*/
+}
+/* Ajuste das logos Secult e Gov Pará muito altas*/
+.realizacao img:nth-child(4) { height: 30px; }
+.realizacao img:nth-child(5) { height: 30px; }
 
-    .footer-container {
-        margin: calc(4 * var(--margin));
-    }
-        .footer-container img {
-            height: 48px;
-            padding-left: var(--margin);
-            padding-right: var(--margin);
-            /*margin-right: 2rem;*/
-        }
-        /* Ajuste de tamanho de algumas logos */
-        .realizacao img:nth-child(4) { height: 30px; }
-        .realizacao img:nth-child(5) { height: 30px; }
+.apresentacao img,
+.realizacao img,
+.patrocinio img {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        /* MARGENS */
-        /* .apresentacao img:nth-child(1),
-        .realizacao img:nth-child(1),
-        .realizacao img:nth-child(4),
-        .patrocinio img:nth-child(1) {
-            margin-left: auto;
-        }
-        .apresentacao img:nth-child(2),
-        .realizacao img:nth-child(3),
-        .realizacao img:nth-child(5),
-        .patrocinio img:nth-child(1) {
-            margin-right: auto;
-        } */
+.realizacao {
+    max-width: 320px;
+    margin: auto;
+}
 
-        .apresentacao img,
-        .realizacao img,
-        .patrocinio img {
-            margin-left: auto;
-            margin-right: auto;
-        }
+/* Espacamento entre grupo de logos */
+.apresentacao,
+.realizacao,
+.patrocinio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
 
-        .realizacao {
-            max-width: 320px;
-            margin: auto;
-        }
-
-        /* Espacamento entre grupo de logos */
-        .apresentacao,
-        .realizacao,
-        .patrocinio {
-            display: flex;
-            flex-wrap: wrap;
-            margin-bottom: 3rem;
-        }
-        
 #projeto-contemplado {
     margin: auto;
     margin-top: var(--margin);
@@ -417,4 +352,85 @@ footer h6 {
 
     text-align: center;
     font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .back-to-menu {
+        display: none;
+    }
+
+    .loading-animation {
+        left: calc(50% - 16px);
+        top: 200px;
+    }
+
+    #app {
+        min-width: 1024px;
+        display: grid;
+        grid-template-areas:
+        "menuHeader menuHeader"
+        "mainLogo   contentArea"
+        "logos      contentArea";
+        grid-template-columns: 365px 1fr;
+        grid-template-rows: var(--menuItemHeight) 365px 560px; /* 980px height total */
+        grid-column-gap: calc(var(--large-margin) / 2);
+    }
+    .footer-container img {
+        height: 40px;
+    }
+    .mainLogo {
+        grid-area: mainLogo;
+    }
+    .mainMenu {
+        grid-area: menuHeader;
+    }
+    footer {
+        grid-area: logos;
+    }
+    #appContent {
+        grid-area: contentArea;
+    }
+
+    #appContent {
+        max-height: calc(980px - var(--menuItemHeight));
+        overflow-y: scroll;
+        background-color: var(--color-primary);
+    }
+
+    .mainMenu {
+        background-color: var(--bright-ref);
+        background-color: var(--color-primary);
+        border-bottom: 2px solid var(--bright-ref);
+    }
+    .mainMenu p {
+        color: var(--bright-ref);
+    }
+    .option-disabled p {
+        color: var(--color-primary-bright);
+    }
+    .mainMenu ol{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .mainMenu div {
+        border-top: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .texto-mostra,
+    .artistas,
+    .curador {
+        margin-top: calc(var(--large-margin)/ 2);
+    }
+
+    .sections img,
+    .curador img {
+        max-width: 240px;
+    }
 }

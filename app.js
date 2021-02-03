@@ -864,7 +864,7 @@ function animacaoLogo() {
     }
     document.getElementsByClassName("texto-mostra")[0].appendChild(divTextoEN);
 
-}) ();
+}());
 
 (function constructorSelecaoDivArtistas() {
     for (let i = 1; i < 52; i++) {
@@ -889,7 +889,7 @@ function animacaoLogo() {
         divOptionArtist.appendChild(artistNameOption);
         document.getElementById("selecaoDiv").appendChild(divOptionArtist);
     }
-}) ();
+}());
 
 (function constructorDivArtista() {
 
@@ -995,12 +995,19 @@ function animacaoLogo() {
 
     }
 
-}) ();
+}());
 
 // 1) Initializing Variables ::::::::::::::::::::::::::::::
 var pageLoaded = false;
 var logoPlayState = false;
 var menuArtistsIsOpen = false;
+
+// Loading variable if the app will works for desktop
+if (window.innerWidth > 1024) {
+    var clientDesktop = true;
+} else {
+    var clientDesktop = false;
+}
 
 if (localStorage.changeToEnglish === undefined) {
     console.log("Setting changeToEnglish == true :: ->LocalStorage");
@@ -1058,7 +1065,7 @@ function changeLang() {
         }
 
 
-        (function changeBackButton() {
+        (function changeLabelButtons() {
             if (pt == 'block') {
                 menuItemA = 'Change to English';
                 menuItemB = 'Texto curatorial';
@@ -1066,7 +1073,7 @@ function changeLang() {
                 menuItemD = 'Curador';
                 menuItemE = 'Serviço';
                 menuItemF = 'Catálogo';
-                back = 'Menu principal';
+                backButton = 'Menu principal';
                 selecaoDivInnerHTML = 'Selecionar Artista...';
             } else {
                 menuItemA = 'Mudar para Português';
@@ -1075,7 +1082,7 @@ function changeLang() {
                 menuItemD = 'Curator';
                 menuItemE = 'Service';
                 menuItemF = 'Catalogue';
-                back = 'Main menu';
+                backButton = 'Main menu';
                 selecaoDivInnerHTML = 'Select an Artist...';
             }
             document.body.querySelector(".menu-option:nth-child(1) p").innerHTML = menuItemA;
@@ -1085,9 +1092,9 @@ function changeLang() {
             document.body.querySelector(".menu-option:nth-child(5) p").innerHTML = menuItemE;
             document.body.querySelector(".menu-option:nth-child(6) p").innerHTML = menuItemF;
 
-            document.getElementById("backButton").innerHTML = back;
+            document.getElementById("backButton").innerHTML = backButton;
             document.getElementById("selecaoDivInnerHTML").innerHTML = selecaoDivInnerHTML;
-        }) ();
+        }());
 
     }
 
@@ -1109,7 +1116,7 @@ if (location.hash.slice(0,9) === "#artista_") {
     console.log(':: Loading artists block...');
     // Goes to page ->artist
 
-    document.getElementById("")
+    //document.getElementById("")
 
     changeToPage('artistas');
     changeToArtist(location.hash.substring(1));
@@ -1120,7 +1127,7 @@ function menuArtists() {
         document.getElementById("selecaoDiv").style.overflowY = 'scroll';
         menuArtistsIsOpen = true;
     } else {
-        document.getElementById("selecaoDiv").style.height = '55px';
+        document.getElementById("selecaoDiv").style.height = 'var(--menuItemHeight)';
         document.getElementById("selecaoDiv").style.overflowY = 'hidden';
         selecaoDiv.scrollTop = 0;
         menuArtistsIsOpen = false;
@@ -1194,16 +1201,11 @@ function changeToArtist(artistSelected) {
 
 }
 
-
-
-
 // APP ::::::::::::::::::::::::::::::::::::::::::::::::::::
-// BackingToIndex -> (false, true)
+// BackingToIndex -> (false) || Specific Page -> ('PageName')
 function changeToPage(page) {
 
     console.log(':: changing to page ->' + page);
-
-
 
     // If clicking on Back Button
     if (!page) {
@@ -1220,24 +1222,44 @@ function changeToPage(page) {
             logoPlayState = true;
         }
 
-        document.getElementsByClassName("main")[0].style.display = 'block';
+        document.getElementsByClassName("mainMenu")[0].style.display = 'block';
+        document.getElementsByClassName("mainLogo")[0].style.display = 'block';
+        document.getElementsByTagName("footer")[0].style.display = 'block';
         document.getElementsByClassName("loading-animation")[0].style.display = 'none';
 
-
         location.hash = '';
-
         // END IF back(ing)ToIndex
 
     } else {
 
-        // Loading Animation
-        document.getElementsByClassName("loading-animation")[0].style.display = 'block';
+        if (clientDesktop) {
 
+            // Hiding the content container
+            document.getElementById("appContent").style.display = 'none';
+            // Hiding all the page blocks
+            document.getElementsByClassName('block')[0].style.display = 'none';
+            document.getElementsByClassName('block')[1].style.display = 'none';
+            document.getElementsByClassName('block')[2].style.display = 'none';
+            document.getElementsByClassName('block')[3].style.display = 'none';
 
-        document.getElementsByClassName("main")[0].style.display = 'none';
+            // Loading Animation
+            document.getElementsByClassName("loading-animation")[0].style.display = 'block';
 
-        // Delay to hide animation and show the block
-        setTimeout(function(){ displayThePage(page);}, 2000);
+            // Delay to hide animation and show the block
+            setTimeout(function(){ displayThePage(page);}, 2000);
+
+        } else {
+            // Hiding the menu, logo and footer items
+            document.getElementsByClassName("mainMenu")[0].style.display = 'none';
+            document.getElementsByClassName("mainLogo")[0].style.display = 'none';
+            document.getElementsByTagName("footer")[0].style.display = 'none';
+
+            // Loading Animation
+            document.getElementsByClassName("loading-animation")[0].style.display = 'block';
+
+            // Delay to hide animation and show the block
+            setTimeout(function(){ displayThePage(page);}, 2000);
+        }
 
         function displayThePage(page) {
             document.getElementsByClassName("loading-animation")[0].style.display = 'none';
@@ -1245,8 +1267,6 @@ function changeToPage(page) {
             document.getElementById("appContent").style.display = 'block';
             // Displaying the page block
             document.getElementsByClassName('block ' + page)[0].style.display = 'block';
-            // Seting opacity
-            //document.getElementsByClassName('block ' + page)[0].style.opacity = 1;
         }
 
     }
@@ -1255,8 +1275,15 @@ function changeToPage(page) {
 
 // Final Loading ::::::::::::::::::::::::::::::::::::::::::
 // Checking animation logo and PageLoaded variable
-if (location.hash === '') {
+if (clientDesktop || location.hash === '') {
     animacaoLogo();
     logoPlayState = true;
 }
+
 pageLoaded = true;
+
+// If in Desktop, load the text of the exposition
+if (clientDesktop && location.hash === '') {
+    console.log("loading texto - desktop");
+    changeToPage('texto-mostra');
+}

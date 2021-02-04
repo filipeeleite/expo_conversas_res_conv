@@ -1072,7 +1072,8 @@ function changeLang() {
                 menuItemC = 'Artistas';
                 menuItemD = 'Curador';
                 menuItemE = 'Serviço';
-                menuItemF = 'Catálogo';
+                menuItemF = 'Ficha técnica';
+                menuItemG = 'Catálogo';
                 backButton = 'Menu principal';
                 selecaoDivInnerHTML = 'Selecionar Artista...';
             } else {
@@ -1081,7 +1082,8 @@ function changeLang() {
                 menuItemC = 'Artists';
                 menuItemD = 'Curator';
                 menuItemE = 'Service';
-                menuItemF = 'Catalogue';
+                menuItemF = 'Technical Info';
+                menuItemG = 'Catalogue';
                 backButton = 'Main menu';
                 selecaoDivInnerHTML = 'Select an Artist...';
             }
@@ -1091,6 +1093,7 @@ function changeLang() {
             document.body.querySelector(".menu-option:nth-child(4) p").innerHTML = menuItemD;
             document.body.querySelector(".menu-option:nth-child(5) p").innerHTML = menuItemE;
             document.body.querySelector(".menu-option:nth-child(6) p").innerHTML = menuItemF;
+            document.body.querySelector(".menu-option:nth-child(7) p").innerHTML = menuItemG;
 
             document.getElementById("backButton").innerHTML = backButton;
             document.getElementById("selecaoDivInnerHTML").innerHTML = selecaoDivInnerHTML;
@@ -1293,29 +1296,25 @@ var modeChangedAlerted = false;
 
 // Checking if Window Width Changes
 // To Reload the page and set the right variables to the screen size
-setInterval(function(){ checkBrowserChangesToAlert();}, 5000);
+setInterval(function(){ checkBrowserChangesToAlert();}, 10000);
 function checkBrowserChangesToAlert() {
 
     if (!modeChangedAlerted) {
 
         if (!clientDesktop && window.innerWidth > 1024) {
-            if (modeChangedAlerted) {
-                return; // User Already Alerted
-            } else if (localStorage.changeToEnglish == 'true') {
+            if (localStorage.changeToEnglish == 'true') {
                 alert('Este webApp estava funcionando no modo mobile. Você precisa recarregar a página para visualizar normalmente o modo desktop!');
             } else {
                 alert('This webApp was in mobile mode. You need to reload the browser to things works better here!');
             }
         }
         if (clientDesktop && window.innerWidth < 1024) {
-            if(modeChangedAlerted) {
-                return; // User Already Alerted
-            } else if (localStorage.changeToEnglish == 'true') {
+            if (localStorage.changeToEnglish == 'true') {
                 alert('Este webApp estava funcionando no modo desktop. Você precisa recarregar a página para visualizar normalmente o modo mobile!');
             } else {
                 alert('This webApp was in desktop mode. You need to reload the browser to things works better here!');
             }
         }
-        modeChangedAlerted = true;
+        clearInterval();
     }
 }

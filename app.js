@@ -1110,7 +1110,7 @@ if (location.hash === '#en') {
     changeLang();
 } else {
     changeLang();
-    // local.Storage.changeToEnglish continues true;
+    // localStorage.changeToEnglish continues true;
 }
 if (location.hash.slice(0,9) === "#artista_") {
     console.log(':: Loading artists block...');
@@ -1249,6 +1249,7 @@ function changeToPage(page) {
             setTimeout(function(){ displayThePage(page);}, 2000);
 
         } else {
+
             // Hiding the menu, logo and footer items
             document.getElementsByClassName("mainMenu")[0].style.display = 'none';
             document.getElementsByClassName("mainLogo")[0].style.display = 'none';
@@ -1286,4 +1287,35 @@ pageLoaded = true;
 if (clientDesktop && location.hash === '') {
     console.log("loading texto - desktop");
     changeToPage('texto-mostra');
+}
+modeChangedAlerted = false;
+
+
+// Checking if Window Width Changes
+// To Reload the page and set the right variables to the screen size
+setInterval(function(){ checkBrowserChangesToAlert();}, 5000);
+function checkBrowserChangesToAlert() {
+
+    if (!modeChangedAlerted) {
+
+        if (!clientDesktop && window.innerWidth > 1024) {
+            if (modeChangedAlerted) {
+                return; // User Already Alerted
+            } else if (localStorage.changeToEnglish == 'true') {
+                alert('Este webApp estava funcionando no modo mobile. Você precisa recarregar a página para visualizar normalmente o modo desktop!');
+            } else {
+                alert('This webApp was in mobile mode. You need to reload the browser to things works better here!');
+            }
+        }
+        if (clientDesktop && window.innerWidth < 1024) {
+            if(modeChangedAlerted) {
+                return; // User Already Alerted
+            } else if (localStorage.changeToEnglish == 'true') {
+                alert('Este webApp estava funcionando no modo desktop. Você precisa recarregar a página para visualizar normalmente o modo mobile!');
+            } else {
+                alert('This webApp was in desktop mode. You need to reload the browser to things works better here!');
+            }
+        }
+        modeChangedAlerted = true;
+    }
 }

@@ -1244,6 +1244,7 @@ function changeToPage(page) {
             document.getElementsByClassName('block')[1].style.display = 'none';
             document.getElementsByClassName('block')[2].style.display = 'none';
             document.getElementsByClassName('block')[3].style.display = 'none';
+            document.getElementsByClassName('block')[4].style.display = 'none';
 
             // Loading Animation
             document.getElementsByClassName("loading-animation")[0].style.display = 'block';

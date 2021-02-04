@@ -1,3 +1,5 @@
+// Development: Filipe Leite :: Date: Feb 2021
+
 // 0) Base Data - Structuring App :::::::::::::::::::::::::
 artistas = {
     1 : 'Adir Sodré - MT',
@@ -1010,7 +1012,7 @@ if (window.innerWidth > 1024) {
 }
 
 if (localStorage.changeToEnglish === undefined) {
-    console.log("Setting changeToEnglish == true :: ->LocalStorage");
+    //console.log("Setting changeToEnglish == true :: ->LocalStorage");
     localStorage.changeToEnglish = 'true';
 }
 
@@ -1021,7 +1023,7 @@ var iD_artistaSelecionado = location.hash.substring(9);
 
 function changeLang() {
 
-    console.log(":: changeLang(); :: localStorage.changeToEnglish was " + localStorage.changeToEnglish);
+    //console.log(":: changeLang(); :: localStorage.changeToEnglish was " + localStorage.changeToEnglish);
     qtdeTagsPT = document.getElementsByClassName("pt").length;
     qtdeTagsEN = document.getElementsByClassName("en").length;
 
@@ -1043,13 +1045,13 @@ function changeLang() {
             // set page to english and the set the next value
             change('none', 'block');
             localStorage.changeToEnglish = 'false';
-            console.log(":: localStorage.changeToEnglish = false");
+            //console.log(":: localStorage.changeToEnglish = false");
 
         } else {
             // set page to portuguese and set the next value
             change('block', 'none');
             localStorage.changeToEnglish = 'true';
-            console.log(":: localStorage.changeToEnglish = true");
+            //console.log(":: localStorage.changeToEnglish = true");
         }
     }
 
@@ -1109,21 +1111,21 @@ if (location.hash === '#en') {
     // Change to English Language (via QR CODE)
     localStorage.changeToEnglish = 'false';
     document.location.hash = '';
-    console.log('Cleaning hash :: #en --> #')
+    //console.log('Cleaning hash :: #en --> #')
     changeLang();
 } else {
     changeLang();
     // localStorage.changeToEnglish continues true;
 }
 if (location.hash.slice(0,9) === "#artista_") {
-    console.log(':: Loading artists block...');
+    //console.log(':: Loading artists block...');
     // Goes to page ->artist
-
-    //document.getElementById("")
 
     changeToPage('artistas');
     changeToArtist(location.hash.substring(1));
 }
+
+// 3) Functions to Manipulate the DOM on Artists Block
 function menuArtists() {
     if (!menuArtistsIsOpen) {
         document.getElementById("selecaoDiv").style.height = '384px';
@@ -1137,10 +1139,9 @@ function menuArtists() {
     }
     
 }
-
 function changeToArtist(artistSelected) {
 
-    console.log("url #artista_xx");
+    //console.log("url #artista_xx");
 
     // Display loading
     document.getElementsByClassName("loading-animation")[0].style.display = 'block';
@@ -1152,7 +1153,7 @@ function changeToArtist(artistSelected) {
 
     document.getElementsByClassName("sections")[0].style.opacity = .2;
 
-    setTimeout(function() { change()}, 1000);
+    setTimeout(function() { change() }, 1000);
 
     function change() {
 
@@ -1166,29 +1167,21 @@ function changeToArtist(artistSelected) {
             // Setting this value to the iD_artistSelected
             iD_artistaSelecionado = location.hash.substring(9);
             setarSrcImg();
-            // Selecting the Option of the artist by the url number
-    
-            
+
         } else {
-            console.log("pag não carregada ainda");
-    
+            //console.log("pag não carregada ainda");
+
             setarSrcImg();
-    
-            // Setting option of the name of the artist
-    
-    
-            // Setando atributo -> <option> respectiva
-    
-    
+
         }
-    
+
         function setarSrcImg() {
-    
+
             srcImg = 'images/avatars/artista_' + iD_artistaSelecionado + '.jpg';
-            console.log("src Carregado: " + srcImg);
-        
+            //console.log("src Carregado: " + srcImg);
+
             document.getElementById("imgArtista_" + iD_artistaSelecionado).setAttribute("src", srcImg);
-        
+
         };
     }
 
@@ -1204,11 +1197,11 @@ function changeToArtist(artistSelected) {
 
 }
 
-// APP ::::::::::::::::::::::::::::::::::::::::::::::::::::
+// 4) MAIN PART - When Clicking on any button to change the state of the application
 // BackingToIndex -> (false) || Specific Page -> ('PageName')
 function changeToPage(page) {
 
-    console.log(':: changing to page ->' + page);
+    //console.log(':: changing to page ->' + page);
 
     // If clicking on Back Button
     if (!page) {
@@ -1278,7 +1271,7 @@ function changeToPage(page) {
 
 }
 
-// Final Loading ::::::::::::::::::::::::::::::::::::::::::
+// 5) Final Loading and Checkings :::::::::::::::::::::::::
 // Checking animation logo and PageLoaded variable
 if (clientDesktop || location.hash === '') {
     animacaoLogo();
@@ -1289,11 +1282,10 @@ pageLoaded = true;
 
 // If in Desktop, load the text of the exposition
 if (clientDesktop && location.hash === '') {
-    console.log("loading texto - desktop");
+    //console.log("loading texto - desktop");
     changeToPage('texto-mostra');
 }
 var modeChangedAlerted = false;
-
 
 // Checking if Window Width Changes
 // To Reload the page and set the right variables to the screen size
@@ -1302,7 +1294,10 @@ function checkBrowserChangesToAlert() {
 
     if (!modeChangedAlerted) {
 
+
         if (!clientDesktop && window.innerWidth > 1024) {
+            clearInterval();
+            
             if (localStorage.changeToEnglish == 'true') {
                 alert('Este webApp estava funcionando no modo mobile. Você precisa recarregar a página para visualizar normalmente o modo desktop!');
             } else {
@@ -1310,12 +1305,16 @@ function checkBrowserChangesToAlert() {
             }
         }
         if (clientDesktop && window.innerWidth < 1024) {
+            clearInterval();
+
             if (localStorage.changeToEnglish == 'true') {
                 alert('Este webApp estava funcionando no modo desktop. Você precisa recarregar a página para visualizar normalmente o modo mobile!');
             } else {
                 alert('This webApp was in desktop mode. You need to reload the browser to things works better here!');
             }
+
         }
-        clearInterval();
+
     }
+
 }

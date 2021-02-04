@@ -1005,7 +1005,7 @@ var logoPlayState = false;
 var menuArtistsIsOpen = false;
 
 // Loading variable if the app will works for desktop
-if (window.innerWidth > 1024) {
+if (window.innerWidth > 1023) {
     var clientDesktop = true;
 } else {
     var clientDesktop = false;
@@ -1295,9 +1295,9 @@ function checkBrowserChangesToAlert() {
     if (!modeChangedAlerted) {
 
 
-        if (!clientDesktop && window.innerWidth > 1024) {
+        if (!clientDesktop && window.innerWidth > 1023) {
             clearInterval();
-            
+
             if (localStorage.changeToEnglish == 'true') {
                 alert('Este webApp estava funcionando no modo mobile. Você precisa recarregar a página para visualizar normalmente o modo desktop!');
             } else {

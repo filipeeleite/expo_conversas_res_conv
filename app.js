@@ -1288,7 +1288,7 @@ if (clientDesktop && location.hash === '') {
     console.log("loading texto - desktop");
     changeToPage('texto-mostra');
 }
-modeChangedAlerted = false;
+var modeChangedAlerted = false;
 
 
 // Checking if Window Width Changes

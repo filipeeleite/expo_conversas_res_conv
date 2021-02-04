@@ -372,9 +372,9 @@ footer h6 {
         "menuHeader menuHeader"
         "mainLogo   contentArea"
         "logos      contentArea";
-        grid-template-columns: 365px 1fr;
-        grid-template-rows: var(--menuItemHeight) 365px 560px; /* 980px height total */
-        grid-column-gap: calc(var(--large-margin) / 2);
+        grid-template-columns: 384px 1fr;
+        grid-template-rows: var(--menuItemHeight) 384px 541px; /* 980px height total */
+        /* grid-column-gap: calc(var(--large-margin) / 2); */
     }
     .footer-container img {
         height: 40px;
@@ -405,6 +405,7 @@ footer h6 {
     }
     .mainMenu p {
         color: var(--bright-ref);
+        font-size: 1.1rem;
     }
     .option-disabled p {
         color: var(--color-primary-bright);
@@ -427,6 +428,7 @@ footer h6 {
     .artistas,
     .curador {
         margin-top: calc(var(--large-margin)/ 2);
+        margin-top: 0;
     }
 
     .sections img,

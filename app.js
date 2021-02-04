@@ -1123,7 +1123,7 @@ if (location.hash.slice(0,9) === "#artista_") {
 }
 function menuArtists() {
     if (!menuArtistsIsOpen) {
-        document.getElementById("selecaoDiv").style.height = '400px';
+        document.getElementById("selecaoDiv").style.height = '384px';
         document.getElementById("selecaoDiv").style.overflowY = 'scroll';
         menuArtistsIsOpen = true;
     } else {

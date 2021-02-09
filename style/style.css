@@ -214,6 +214,38 @@ ol {
     border-radius: 10px;
 }
 
+/* TEXTO MOSTRA */
+.panoramicas {
+    width: 100%;
+    /* height: 384px; */
+}
+.panoramicas img {
+    width: 100%;
+    display: block;
+    /* height: 384px; */
+    margin-bottom: 0;
+
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.panoramicas img:nth-child(1) {
+    margin-top: 0;
+}
+
+.texto-mostra {
+    padding-bottom: calc(4* var(--margin));
+}
+
+.sobre-expo {
+    margin-left: var(--large-margin);
+    margin-right: var(--large-margin);
+}
+
+.sobre-expo :first-child {
+    margin-top: var(--large-margin);
+}
+
 /* INSTITUICAO */
 a:link {
     color: var(--bright-ref);
@@ -301,7 +333,6 @@ a:link {
     margin-right: var(--large-margin);
     /* padding-bottom: calc(4* var(--margin)); */
 }
-.texto-mostra,
 .curador {
     padding-top: var(--large-margin);
     margin-left: var(--large-margin);

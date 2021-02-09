@@ -23,7 +23,7 @@ artistas = {
     19 : 'Fernanda Azou - DF',
     20 : 'Fernando Costa Filho - GO',
     21 : 'Flávia Fabiana - GO',
-    22 : 'Gê Orthog - DF',
+    22 : 'Gê Orthof - DF',
     23 : 'Gervane de Paula - MT',
     24 : 'Grupo EmpreZa - GO/DF',
     25 : 'Grupo Trespe - GO/DF',
@@ -837,6 +837,19 @@ function animacaoLogo() {
 
 (function blockTextoMostra() {
 
+    //tagImgTexto = document.createElement("div");
+    //tagImgTexto.setAttribute("class", "panoramicas");
+    //tagPanoramica1 = document.createElement("img");
+    //tagPanoramica1.setAttribute("src", "https://salaoanapolino.files.wordpress.com/2021/02/panoteste3.jpg")
+    //tagPanoramica2 = document.createElement("img");
+    //tagPanoramica2.setAttribute("src", "https://salaoanapolino.files.wordpress.com/2021/02/panoteste2.jpg")
+    //tagPanoramica3 = document.createElement("img");
+    //tagPanoramica3.setAttribute("src", "https://salaoanapolino.files.wordpress.com/2021/02/panoteste1.jpg")
+    //tagImgTexto.appendChild(tagPanoramica1);
+    //tagImgTexto.appendChild(tagPanoramica2);
+    //tagImgTexto.appendChild(tagPanoramica3);
+    //document.getElementsByClassName("texto-mostra")[0].appendChild(tagImgTexto);
+
     qtdeTagsTextoPT = texto.pt.length;
     qtdeTagsTextoEN = texto.pt.length;
 
@@ -1287,10 +1300,39 @@ if (clientDesktop && location.hash === '') {
 }
 var modeChangedAlerted = false;
 
+// Panoramicas em Texto
+var panoramicaToShow = 1;
+
+//panoramicas();
+function panoramicas() {
+
+    // Reading image height
+    heightOfPanoramica = document.querySelector(".panoramicas img:nth-child(1)").height;
+    document.querySelector(".panoramicas img:nth-child(2)").style.marginTop = - heightOfPanoramica + "px";
+    document.querySelector(".panoramicas img:nth-child(3)").style.marginTop = - heightOfPanoramica + "px";
+
+    // Hide actual img
+    if (panoramicaToShow == 1) {
+        document.querySelector(".panoramicas img:nth-child(3)").style.opacity = 0;
+    } else {
+        document.querySelector(".panoramicas img:nth-child(" + (panoramicaToShow - 1) + ")").style.opacity = 0;
+    }
+    document.querySelector(".panoramicas img:nth-child(" + panoramicaToShow + ")").style.opacity = 1;
+
+    if (panoramicaToShow == 3) {
+        panoramicaToShow = 1;
+    } else {
+        panoramicaToShow++;
+    }
+}
+
+
 // Checking if Window Width Changes
 // To Reload the page and set the right variables to the screen size
 setInterval(function(){ checkBrowserChangesToAlert();}, 10000);
 function checkBrowserChangesToAlert() {
+
+    //panoramicas();
 
     if (!modeChangedAlerted) {
 

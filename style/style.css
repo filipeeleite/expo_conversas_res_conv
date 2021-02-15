@@ -52,6 +52,10 @@ html {
         margin: -9px 0px -4px 0px;
     }
 
+    .menu-option div:hover {
+        cursor: pointer;
+    }
+
     h1, h2, h3, p {
         color: var(--bright-ref);
     }
@@ -165,6 +169,9 @@ ol {
 
 #selecaoDiv #selecaoDivInnerHTML {
     margin-left: var(--large-margin);
+}
+.divOptionArtist:hover {
+    cursor: pointer;
 }
 
 .divOptionArtist img {

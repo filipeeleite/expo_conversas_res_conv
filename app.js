@@ -280,7 +280,7 @@ narrativa = {
     },
     artista_17 : {
         pt : [
-            "Nasceu em Goiânia, GO, em 1963. Vive e trabalhar em Goiânia, GO.",
+            "Nasceu em Goiânia, GO, em 1963. Vive e trabalha em Goiânia, GO.",
             "Enauro de Castro desenvolveu uma trajetória bastante diversificada. Durante a década de 1980 trilhou muitos dos caminhos pictóricos pertinentes à época, demonstrando virtuosa habilidade para com as técnicas de representação. De fato, suas pinturas, fossem retratos de forte carga psicológica ou fossem abstrações, prezavam sempre pelo esmero e refinamento, pela densidade dos temas e pelo cromatismo ambicioso. Sua pesquisa é extensa.", 
             "Os problemas que afetam sua cidade natal, a capital goiana, são o principal tema de sua obra, sempre aberta e permeável aos processos investigativos, apresentando o sertão como território de contradições, territórios contidos no próprio espaço urbano.",
             "Criou grandes planos transparentes com plásticos coloridos; investigou a monocromia utilizando-se das propriedades do branco em objetos de precária geometria, depois incorporou a cal e confrontou-a com vidro, alumínio, ferro, água e papel, fazendo convergir em sua obra materiais de naturezas opostas."
@@ -354,7 +354,7 @@ narrativa = {
     },
     artista_23 : {
         pt : [
-            "Nasceu em Cuibá, MT, em 1961. Vive e trabalha em Cuibá, MT.",
+            "Nasceu em Cuiabá, MT, em 1961. Vive e trabalha em Cuiabá, MT.",
             "A heterogeneidade das obras de Gervane de Paula é grande e por isso é extremamente contemporânea em dois sentidos amplos: o primeiro é em relação ao suporte. Não há mais limites para a sua forma de expressão artística, pois trabalha com… “qualquer coisa”. Podem ser troncos de madeira, placas de alumínio, anotações e recados escritos, restos de animais, borracha, plástico, jornais, papelão, ferro, ou qualquer outro produto industrializado que lhe desperte interesse para compor uma obra ou uma instalação. Em suas prospecções urbanas e rurais – quando recolhe o material para as suas obras - o imaginário do artista não tem limites.",
             "Por outro lado, sua produção dialoga de forma satírica ou dramática e transita entre a crítica e a ironia, a ficção e o real, o possível e o impossível, sem o menor problema. Desnuda temas que estão em debate hoje, não só na sociedade brasileira, mas também mundial. Sua obra, em geral é autobiográfica – pois é muito antenado em seu tempo/momento histórico – e, dessa forma, consegue transformar em arte todo o seu sentimento ao viver cotidianamente neste “mundo animal”. Exatamente por isso, sua arte é provocativa, contundente, política, inovadora e propositiva. ",
             "(Fonte – texto do Prof. Dr. Laudenir Antônio Gonçalves sobre o artista)"

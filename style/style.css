@@ -458,6 +458,9 @@ footer h6 {
         overflow-y: scroll;
         background-color: var(--color-primary);
     }
+    .bottom-bar {
+        width: 623px;
+    }
 
     .mainMenu {
         background-color: var(--bright-ref);

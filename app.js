@@ -31,7 +31,7 @@ artistas = {
     27 : 'João Angelini - DF',
     28 : 'Joardo Filho - GO',
     29 : 'Jonas Barros - MT',
-    30 : 'Leonam Fleyry - GO',
+    30 : 'Leonam Fleury - GO',
     31 : 'Luciana Paiva - DF',
     32 : 'Luiz Mauro - GO',
     33 : 'Luiz Olivieri - DF',
@@ -39,7 +39,7 @@ artistas = {
     35 : 'Matias Mesquita - DF',
     36 : 'Miguel Penha - MT',
     37 : 'Pedro Gandra - DF',
-    38 : 'Pitágoras - Lopes - GO',
+    38 : 'Pitágoras Lopes - GO',
     39 : 'Ralph Gehre - DF',
     40 : 'Raquel Nava - DF',
     41 : 'Rei Souza - GO',
@@ -702,12 +702,12 @@ narrativa = {
     },
     artista_49 : {
         pt : [
-            'Nasceu no Rio de Janeiro, RJ, em 1952. Vive e trabalha em Brasília.',
+            'Nasceu no Rio de Janeiro, RJ, em 1952. Vive e trabalha em Brasília - DF.',
             'A "animaverbivocovisualidade" é um fenômeno de linguagem que estrutura e dá contorno aos trabalhos de Wagner Barja. A comunhão entre palavra e imagem resultam em sonoridade, outro elemento partícipe na concepção de suas obras.',
             'Sempre envolvido com investigação e pesquisa da arte, Barja busca desconstruir, com humor e ironia, o linear e o estabelecido. Seu lema é ousar nas poéticas visuais.'
         ],
         en : [
-            "Nasceu no Rio de Janeiro, RJ, em 1947. Vive e trabalha em Brasília.",
+            "Nasceu no Rio de Janeiro, RJ, em 1947. Vive e trabalha em Brasília - DF.",
             'The "animaverbivocovisuality" is a phenomenon of language that structures and shapes the works of Wagner Barja. The communion between word and image results in sonority, another element that participates in the conception of his works.',
             "Always involved in research and art research, Barja seeks to deconstruct, with humor and irony, the linear and the established. His motto is to dare in visual poetics."
         ],

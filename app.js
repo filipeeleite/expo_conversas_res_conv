@@ -3,7 +3,7 @@
 // 0) Base Data - Structuring App :::::::::::::::::::::::::
 artistas = {
     1 : 'Adir Sodré - MT',
-    2 : 'Adriana Vignolli - DF',
+    2 : 'Adriana Vignoli - DF',
     3 : 'André Santangelo - DF',
     4 : 'Andrea Campos - DF',
     5 : 'Anna Behatriz - GO',
@@ -702,7 +702,7 @@ narrativa = {
     },
     artista_49 : {
         pt : [
-            'Nasceu no Rio de Janeiro, RJ, em 1947. Vive e trabalha em Brasília.',
+            'Nasceu no Rio de Janeiro, RJ, em 1952. Vive e trabalha em Brasília.',
             'A "animaverbivocovisualidade" é um fenômeno de linguagem que estrutura e dá contorno aos trabalhos de Wagner Barja. A comunhão entre palavra e imagem resultam em sonoridade, outro elemento partícipe na concepção de suas obras.',
             'Sempre envolvido com investigação e pesquisa da arte, Barja busca desconstruir, com humor e ironia, o linear e o estabelecido. Seu lema é ousar nas poéticas visuais.'
         ],

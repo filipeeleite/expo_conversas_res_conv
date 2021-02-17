@@ -5,7 +5,8 @@
     --color-primary-dark: #2f4624;
     --color-linhas: #d48a00;
 
-    --menuItemHeight: 55px;
+    /* --menuItemHeight: 55px; */
+    --menuItemHeight: 60px;
 
     --margin: 1rem;
     --large-margin: calc(4 * var(--margin));
@@ -170,15 +171,21 @@ ol {
 #selecaoDiv #selecaoDivInnerHTML {
     margin-left: var(--large-margin);
 }
+.divOptionArtist {
+    border-top: 1px solid var(--color-primary-bright);
+    /* border-bottom: 1px solid var(--color-primary-bright); */
+}
+
+
 .divOptionArtist:hover {
     cursor: pointer;
 }
 
 .divOptionArtist img {
-    height: 44px;
-    width: 44px;
+    height: 42px;
+    width: 42px;
     border-radius: 46px;
-    border: 1.5px solid var(--bright-ref);
+    border: 1px solid var(--bright-ref);
     opacity: .7;
 
     margin-left: var(--large-margin);

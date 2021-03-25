@@ -837,19 +837,130 @@ function animacaoLogo() {
 
 (function blockTextoMostra() {
 
-    //tagImgTexto = document.createElement("div");
-    //tagImgTexto.setAttribute("class", "panoramicas");
-    //tagPanoramica1 = document.createElement("img");
-    //tagPanoramica1.setAttribute("src", "https://salaoanapolino.files.wordpress.com/2021/02/panoteste3.jpg")
-    //tagPanoramica2 = document.createElement("img");
-    //tagPanoramica2.setAttribute("src", "https://salaoanapolino.files.wordpress.com/2021/02/panoteste2.jpg")
-    //tagPanoramica3 = document.createElement("img");
-    //tagPanoramica3.setAttribute("src", "https://salaoanapolino.files.wordpress.com/2021/02/panoteste1.jpg")
-    //tagImgTexto.appendChild(tagPanoramica1);
-    //tagImgTexto.appendChild(tagPanoramica2);
-    //tagImgTexto.appendChild(tagPanoramica3);
-    //document.getElementsByClassName("texto-mostra")[0].appendChild(tagImgTexto);
+    // Panoramicas Area
+    tagDivPanoramicas = document.createElement("div");
+    tagDivPanoramicas.setAttribute("class", "panoramicas");
 
+    tagPanoramica1 = document.createElement("img");
+    tagPanoramica1.setAttribute("src", "/images/shots/Pano1.png");
+    tagPanoramica1.setAttribute("alt", "Panorâmica 1");
+    tagPanoramica1.setAttribute("id", "Pano1");
+
+    tagPanoramica2 = document.createElement("img");
+    tagPanoramica2.setAttribute("src", "/images/shots/Pano2.png");
+    tagPanoramica2.setAttribute("alt", "Panorâmica 2");
+    tagPanoramica2.setAttribute("id", "Pano2");
+    
+    tagPanoramica3 = document.createElement("img");
+    tagPanoramica3.setAttribute("src", "/images/shots/Pano3.png");
+    tagPanoramica3.setAttribute("alt", "Panorâmica 3");
+    tagPanoramica3.setAttribute("id", "Pano3");
+    
+    tagPanoramica4 = document.createElement("img");
+    tagPanoramica4.setAttribute("src", "/images/shots/Pano4.png");
+    tagPanoramica4.setAttribute("alt", "Panorâmica 4");
+    tagPanoramica4.setAttribute("id", "Pano4");
+    
+    tagPanoramica5 = document.createElement("img");
+    tagPanoramica5.setAttribute("src", "/images/shots/Pano5.png");
+    tagPanoramica5.setAttribute("alt", "Panorâmica 5");
+    tagPanoramica5.setAttribute("id", "Pano5");
+    
+    tagPanoramica6 = document.createElement("img");
+    tagPanoramica6.setAttribute("src", "/images/shots/Pano6.png");
+    tagPanoramica6.setAttribute("alt", "Panorâmica 6");
+    tagPanoramica6.setAttribute("id", "Pano6");
+    
+    tagPanoramica7 = document.createElement("img");
+    tagPanoramica7.setAttribute("src", "/images/shots/Pano7.png");
+    tagPanoramica7.setAttribute("alt", "Panorâmica 7");
+    tagPanoramica7.setAttribute("id", "Pano7");
+    
+    tagPanoramica8 = document.createElement("img");
+    tagPanoramica8.setAttribute("src", "/images/shots/Pano8.png");
+    tagPanoramica8.setAttribute("alt", "Panorâmica 8");
+    tagPanoramica8.setAttribute("id", "Pano8");
+    
+    tagPanoramica9 = document.createElement("img");
+    tagPanoramica9.setAttribute("src", "/images/shots/Pano9.png");
+    tagPanoramica9.setAttribute("alt", "Panorâmica 9");
+    tagPanoramica9.setAttribute("id", "Pano9");
+    
+    tagPanoramica10 = document.createElement("img");
+    tagPanoramica10.setAttribute("src", "/images/shots/Pano10.png");
+    tagPanoramica10.setAttribute("alt", "Panorâmica 10");
+    tagPanoramica10.setAttribute("id", "Pano10");
+    
+    tagPanoramica11 = document.createElement("img");
+    tagPanoramica11.setAttribute("src", "/images/shots/Pano11.png");
+    tagPanoramica11.setAttribute("alt", "Panorâmica 11");
+    tagPanoramica11.setAttribute("id", "Pano11");
+    
+    tagPanoramica12 = document.createElement("img");
+    tagPanoramica12.setAttribute("src", "/images/shots/Pano12.png");
+    tagPanoramica12.setAttribute("alt", "Panorâmica 12");
+    tagPanoramica12.setAttribute("id", "Pano12");
+    
+    tagPanoramica13 = document.createElement("img");
+    tagPanoramica13.setAttribute("src", "/images/shots/Pano13.png");
+    tagPanoramica13.setAttribute("alt", "Panorâmica 13");
+    tagPanoramica13.setAttribute("id", "Pano13");
+    
+    tagPanoramica14 = document.createElement("img");
+    tagPanoramica14.setAttribute("src", "/images/shots/Pano14.png");
+    tagPanoramica14.setAttribute("alt", "Panorâmica 14");
+    tagPanoramica14.setAttribute("id", "Pano14");
+    
+    tagPanoramica15 = document.createElement("img");
+    tagPanoramica15.setAttribute("src", "/images/shots/Pano15.png");
+    tagPanoramica15.setAttribute("alt", "Panorâmica 15");
+    tagPanoramica15.setAttribute("id", "Pano15");
+
+    tagDivPanoramicas.appendChild(tagPanoramica1);
+    tagDivPanoramicas.appendChild(tagPanoramica2);
+    tagDivPanoramicas.appendChild(tagPanoramica3);
+    tagDivPanoramicas.appendChild(tagPanoramica4);
+    tagDivPanoramicas.appendChild(tagPanoramica5);
+    tagDivPanoramicas.appendChild(tagPanoramica6);
+    tagDivPanoramicas.appendChild(tagPanoramica7);
+    tagDivPanoramicas.appendChild(tagPanoramica8);
+    tagDivPanoramicas.appendChild(tagPanoramica9);
+    tagDivPanoramicas.appendChild(tagPanoramica10);
+    tagDivPanoramicas.appendChild(tagPanoramica11);
+    tagDivPanoramicas.appendChild(tagPanoramica12);
+    tagDivPanoramicas.appendChild(tagPanoramica13);
+    tagDivPanoramicas.appendChild(tagPanoramica14);
+    tagDivPanoramicas.appendChild(tagPanoramica15);
+
+    document.getElementsByClassName("texto-mostra")[0].appendChild(tagDivPanoramicas);
+
+    // Control Panoramica Area
+    tagControlPanoramica = document.createElement('div');
+    tagControlPanoramica.setAttribute('class', 'controlPanoramica');
+
+    tagButtonControlPanoramicaA = document.createElement('button');
+    tagButtonControlPanoramicaA.innerHTML = '<';
+    tagButtonControlPanoramicaA.setAttribute('onclick', 'changePanoramica(true)');
+    
+    tagButtonControlPanoramicaB = document.createElement('button');
+    tagButtonControlPanoramicaB.innerHTML = '>';
+    tagButtonControlPanoramicaB.setAttribute('onclick', 'changePanoramica()');
+
+    tagCreditPanoramicasPT = document.createElement('p');
+    tagCreditPanoramicasPT.innerHTML = 'Foto: Cae Design';
+    tagCreditPanoramicasPT.setAttribute('class', 'creditPanoramicas pt');
+    tagCreditPanoramicasEN = document.createElement('p');
+    tagCreditPanoramicasEN.innerHTML = 'Photo: Cae Design';
+    tagCreditPanoramicasEN.setAttribute('class', 'creditPanoramicas en');
+
+    tagControlPanoramica.appendChild(tagButtonControlPanoramicaA);
+    tagControlPanoramica.appendChild(tagButtonControlPanoramicaB);
+    tagControlPanoramica.appendChild(tagCreditPanoramicasPT);
+    tagControlPanoramica.appendChild(tagCreditPanoramicasEN);
+
+    document.getElementsByClassName("texto-mostra")[0].appendChild(tagControlPanoramica);
+
+    // Text Area
     qtdeTagsTextoPT = texto.pt.length;
     qtdeTagsTextoEN = texto.pt.length;
 
@@ -881,6 +992,51 @@ function animacaoLogo() {
 
 }());
 
+// Panoramicas
+autoPano = true;
+// Change Panoramica
+function changePanoramica(back) {
+    if (autoPano) {
+        clearInterval(setIntervalAnimateSlideshowPanoramicas);
+    }
+    animateSlideshowPanoramicas(back);
+}
+
+// Panoramicas 
+panoShowing = 1;
+var setIntervalAnimateSlideshowPanoramicas = setInterval(animateSlideshowPanoramicas, 8000);
+function animateSlideshowPanoramicas(back) {
+
+    // counter
+    // <---
+    if (back) {
+        if (panoShowing === 1) {
+            panoShowing = 15;
+        } else {
+            panoShowing = panoShowing - 1;
+        }
+    
+    // --->
+    } else {
+        if (panoShowing === 15) {
+            panoShowing = 1;
+        } else {
+            panoShowing = panoShowing + 1;
+        }
+    }
+
+
+    // Reseting all
+    for(let i = 1; i <= 15; i++) {
+        document.getElementById('Pano' + i).style.opacity = 0;
+        document.getElementById('Pano' + i).style.zIndex = i;
+    }
+
+    // Set
+    document.getElementById('Pano' + panoShowing).style.opacity = 1;
+    // consoleLog('Set : ' + panoShowing);
+}
+
 (function constructorSelecaoDivArtistas() {
     for (let i = 1; i < 52; i++) {
 
@@ -893,7 +1049,6 @@ function animacaoLogo() {
         artistImageOption = document.createElement("img");
         srcImg = 'images/avatars/lowres/artista_' + i + '.jpg';
         artistImageOption.setAttribute("src", srcImg);
-
 
         // Each Artist Name
         artistNameOption = document.createElement("p");
@@ -910,14 +1065,14 @@ function animacaoLogo() {
 
     let id_artista = 1;
 
-    // 0) Se ainda não existir o nó, vai construir
+    // Se ainda não existir o nó, vai construir
     while (id_artista <= 51) {
 
-        // 1) <div> do artista
+        // <div>
         divArtista = document.createElement("div");
         divArtista.setAttribute("id", 'artista_' + id_artista);
 
-        // 2) Name of the artist
+        // Name of the artist
         divNameArtist = document.createElement("div");
         divNameArtist.setAttribute("class", "nameArtist");
         divNameArtist.setAttribute("style", "display:flex");
@@ -926,22 +1081,16 @@ function animacaoLogo() {
         divNameArtist.appendChild(nameArtist);
         divArtista.appendChild(divNameArtist);
 
-        // 3) Image of the artist
-        //var srcImg = 'images/avatars/artista_' + iD_artistaSelecionado + '.jpg';
-        //console.log("Construindo :: src Carregado: " + srcImg);
-        imgArtista = document.createElement("img");
-
+        // Image of the artist
         //<img id="imgArtista_51" src="" alt="">
+        imgArtista = document.createElement("img");
         imgArtista.setAttribute("id", 'imgArtista_' + id_artista);
-        //imgArtista.src =  "";// srcImg
         divArtista.appendChild(imgArtista);
         
-        // 3) Parágrafos
+        // Parágrafos
         // Sempre PT vai ser a referência - EN mesma quantidade de parágrafos
         quantidadeParagrafosPT = narrativa['artista_' + id_artista].pt.length; // [p1, p2, p3]
         quantidadeParagrafosEN = narrativa['artista_' + id_artista].en.length; // [p1, p2, p3]
-
-        //var innerContent; // O que vai ser impresso em cada <p>''</p>
         
         for (let p = 0; p < quantidadeParagrafosPT; p++) {
 
@@ -992,19 +1141,8 @@ function animacaoLogo() {
 
         }
 
-/*
-        <audio controls>
-            <source src="content/Sleep Away.mp3" type="audio/mp3">
-            <!--Versão .ogg-->
-            <!--<source src="" type="audio/ogg"> Versão .ogg-->
-        Seu navegador não suporta elemento de áudio. Compatível em Chrome 4.0, Explorer 9.0, Firefox 3.5, Safari 4.0, Opera 10.5;
-        </audio>
-    </div>
-*/
-
         // 5) Construção de fato
         document.getElementsByClassName("sections")[0].appendChild(divArtista);
-
 
         id_artista++;
 
@@ -1012,7 +1150,7 @@ function animacaoLogo() {
 
 }());
 
-// 1) Initializing Variables ::::::::::::::::::::::::::::::
+// 1) Initializing Variables
 var pageLoaded = false;
 var logoPlayState = false;
 var menuArtistsIsOpen = false;
@@ -1205,8 +1343,6 @@ function changeToArtist(artistSelected) {
         document.getElementsByClassName("loading-animation")[0].style.display = 'none';
         document.getElementsByClassName("sections")[0].style.opacity = 1;
     }
-
-
 
 }
 

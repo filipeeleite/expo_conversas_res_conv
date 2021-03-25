@@ -229,22 +229,77 @@ ol {
 }
 
 /* TEXTO MOSTRA */
-.panoramicas {
-    width: 100%;
-    /* height: 384px; */
+:root {
+    --width-panoramica: 320px;
+    --margin-bottom-panoramica: -213.5px;
 }
+@media screen and (min-width: 500px) {
+    :root {
+        --width-panoramica: 480px;
+        --margin-bottom-panoramica: -320.25px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    :root {
+        --width-panoramica: 620px;
+        --margin-bottom-panoramica: -413.65px;
+    }
+}
+
+
+.panoramicas {
+    width: var(--width-panoramica);
+    height: calc(-1 * var(--margin-bottom-panoramica));
+    
+    /* Container! */
+    margin: 0 auto;
+}
+
 .panoramicas img {
     width: 100%;
     display: block;
-    /* height: 384px; */
-    margin-bottom: 0;
+    position: relative;
 
-    opacity: 0;
-    transition: opacity 1s ease;
+    margin-top: 0;
+    margin-bottom: var(--margin-bottom-panoramica);
+
+    transition: all 1s ease;
 }
 
-.panoramicas img:nth-child(1) {
-    margin-top: 0;
+.panoramicas :nth-child(15) {
+    margin-bottom: 0px;
+}
+
+.controlPanoramica {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 100;
+
+    margin-top: -15px;
+    
+    margin-left: var(--large-margin);
+    margin-right: var(--large-margin);
+
+    opacity: .8;
+}
+.controlPanoramica button {
+    height: 40px;
+    width: 35px;
+    margin-right: 5px;
+    
+    color: white;
+    border: none;
+    background-color: var(--color-primary-bright);
+
+    border-radius: 3px;
+}
+.controlPanoramica button:hover {
+    background-color: var(--color-linhas);
+}
+.creditPanoramicas {
+    margin: auto 0 auto auto;
+    font-size: 10px;
 }
 
 .texto-mostra {
@@ -503,5 +558,12 @@ footer h6 {
     .sections img,
     .curador img {
         max-width: 240px;
+    }
+
+    /* Last <p> .pt .en */
+    /* Fix Collapsing with audio controls bellow */
+    #artista_43 :nth-child(9),
+    #artista_43 :nth-child(10) {
+        margin-bottom: 120px;
     }
 }

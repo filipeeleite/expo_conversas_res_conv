@@ -947,10 +947,10 @@ function animacaoLogo() {
     tagButtonControlPanoramicaB.setAttribute('onclick', 'changePanoramica()');
 
     tagCreditPanoramicasPT = document.createElement('p');
-    tagCreditPanoramicasPT.innerHTML = 'Foto: Cae Design';
+    tagCreditPanoramicasPT.innerHTML = 'Foto: Cauê Moreno';
     tagCreditPanoramicasPT.setAttribute('class', 'creditPanoramicas pt');
     tagCreditPanoramicasEN = document.createElement('p');
-    tagCreditPanoramicasEN.innerHTML = 'Photo: Cae Design';
+    tagCreditPanoramicasEN.innerHTML = 'Photo: Cauê Moreno';
     tagCreditPanoramicasEN.setAttribute('class', 'creditPanoramicas en');
 
     tagControlPanoramica.appendChild(tagButtonControlPanoramicaA);

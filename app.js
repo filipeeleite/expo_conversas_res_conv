@@ -1229,6 +1229,7 @@ function changeLang() {
                 menuItemE = 'Serviço';
                 menuItemF = 'Ficha técnica';
                 menuItemG = 'Catálogo';
+                menuItemH = 'Formulário Opinião';
                 backButton = 'Menu principal';
                 selecaoDivInnerHTML = 'Selecionar Artista...';
             } else {
@@ -1239,6 +1240,7 @@ function changeLang() {
                 menuItemE = 'Service';
                 menuItemF = 'Technical Info';
                 menuItemG = 'Catalogue';
+                menuItemH = 'Public Opinion Form';
                 backButton = 'Main menu';
                 selecaoDivInnerHTML = 'Select an Artist...';
             }
@@ -1249,6 +1251,7 @@ function changeLang() {
             document.body.querySelector(".menu-option:nth-child(5) p").innerHTML = menuItemE;
             document.body.querySelector(".menu-option:nth-child(6) p").innerHTML = menuItemF;
             document.body.querySelector(".menu-option:nth-child(7) p").innerHTML = menuItemG;
+            document.body.querySelector(".menu-option a").innerHTML = menuItemH;
 
             document.getElementById("backButton").innerHTML = backButton;
             document.getElementById("selecaoDivInnerHTML").innerHTML = selecaoDivInnerHTML;

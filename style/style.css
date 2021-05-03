@@ -36,8 +36,15 @@ html {
     .ficha-tecnica { font-size: 1.4rem; margin-top: 0 }
     .name { font-size: 1.2rem; margin-top: -4px}
 
-    .menu-option p { font-size: 2rem; font-weight: 500; }
-    .menu-option p { text-align: center; }
+    .menu-option p,
+    .menu-option a {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .menu-option p,
+    .menu-option a {
+        text-align: center;
+    }
     select       { font-size: 2.3rem; font-weight: 700; }
 
     p      { font-size: 1.8rem; }
@@ -57,7 +64,11 @@ html {
         cursor: pointer;
     }
 
-    h1, h2, h3, p {
+    a {
+        text-decoration: none;
+    }
+
+    h1, h2, h3, p, a {
         color: var(--bright-ref);
     }
     h2 {
@@ -429,6 +440,7 @@ footer h6 {
 }
 .footer-container {
     margin: var(--large-margin);
+    margin: 30px;;
 }
 .footer-container img {
     height: 48px;
@@ -442,6 +454,7 @@ footer h6 {
 
 .apresentacao img,
 .realizacao img,
+.apoio img,
 .patrocinio img {
     margin-left: auto;
     margin-right: auto;
@@ -455,6 +468,7 @@ footer h6 {
 /* Espacamento entre grupo de logos */
 .apresentacao,
 .realizacao,
+.apoio,
 .patrocinio {
     display: flex;
     flex-wrap: wrap;
@@ -522,7 +536,8 @@ footer h6 {
         background-color: var(--color-primary);
         border-bottom: 2px solid var(--bright-ref);
     }
-    .mainMenu p {
+    .mainMenu p,
+    .mainMenu a {
         color: var(--bright-ref);
         font-size: 1.1rem;
     }
